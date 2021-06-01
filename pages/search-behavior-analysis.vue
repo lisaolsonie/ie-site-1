@@ -252,7 +252,7 @@
     </div>
     </div>
 </div>
-  <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/250% repeat">
+  <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12">
         <div ref="anime" class="lg:hidden absolute top-8 right-20 h-4 w-4 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
         <div class="relative">
