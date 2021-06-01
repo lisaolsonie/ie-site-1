@@ -60,7 +60,7 @@ export default {
 body {
   /* @apply bg-gray-100; */
   font-family: "Avenir";
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 50rem);
   overflow: hidden;
   width: 100%;
 }
