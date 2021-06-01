@@ -168,7 +168,7 @@
                 </g>
             </svg>
 
-            <img class="pt-6 xl:p-8 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos" rel="preload">
+            <img class="pt-6 p-2 xl:p-8 w-full filter-dark" src="/images/foodretail-logos.svg" alt="Food and Retail Brand Logos" rel="preload">
 
             <div ref="anime" class="xl:hidden absolute bottom-2 -right-2 w-5 h-4 rounded-sm bg-blue-500 z-behind anime"></div>
 
