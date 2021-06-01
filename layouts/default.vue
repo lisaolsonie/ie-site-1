@@ -6,7 +6,7 @@
 
     <Header ref="header" />
     <Nuxt class="flex-1" />
-    <footer class="z-2 w-screen absolute xs:bottom-14 bottom-0 xl:w-5/12 xl:ml-32">
+    <footer class="z-2 w-screen absolute bottom-0 xl:w-5/12 xl:ml-32">
       <p class="text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
     <Menu />
@@ -65,12 +65,5 @@ body {
   /* @apply bg-gray-100; */
   font-family: "Avenir";
   height: 100%;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
 }
 </style>
