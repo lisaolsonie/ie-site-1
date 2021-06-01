@@ -1,12 +1,12 @@
 <template>
 <div class="fade-in">
-    <div class="lg:flex xl:mt-16">
+    <div class="lg:flex">
         <div class="flex-grow px-6 lg:ml-16 xl:ml-32">
             <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-5xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement and bring brands into digital harmony.</h1>
             <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl xl:text-4xl">Evolve Responsively.</h4>
         </div>
         <div class="relative md:my-12">
-            <svg ref="logo" class="w-screen lg:h-full md:h-100 lg:w-100 xl:mr-40 xl:mt-8 logo" width="100%" height="750px" viewBox="0 0 711 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg ref="logo" class="w-screen lg:h-full md:h-100 lg:w-100 xl:mr-40 logo" width="100%" height="750px" viewBox="0 0 711 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Group 2</title>
                 <defs>
                     <filter id="filter-1">
