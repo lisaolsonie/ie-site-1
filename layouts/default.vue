@@ -18,10 +18,6 @@ export default {
   transition: "default"
 }
 
-html {
-  overflow: hidden;
-}
-
 .page-enter-active,
 .page-leave-active {
   transition-property: opacity;
