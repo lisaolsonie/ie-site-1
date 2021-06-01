@@ -1,7 +1,7 @@
 <template>
 <div class="fade-in">
     <img
-    class="w-screen absolute hidden lg:block -top-12 z-behind opacity-75 lg:top-8 xl:-top-4"
+    class="w-screen absolute hidden lg:block -top-12 z-behind opacity-75 lg:top-0"
     src="/images/bracket-bg.svg"
     alt="Background Image" 
   />
