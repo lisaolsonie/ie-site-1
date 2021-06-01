@@ -18,10 +18,6 @@ export default {
   transition: "default"
 }
 
-html {
-  height: -webkit-fill-available;
-}
-
 .page-enter-active,
 .page-leave-active {
   transition-property: opacity;
@@ -64,7 +60,6 @@ html {
 body {
   /* @apply bg-gray-100; */
   font-family: "Avenir";
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 95vh;
 }
 </style>
