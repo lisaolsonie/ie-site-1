@@ -214,7 +214,7 @@
   <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
   <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
-    <div class="relative z-1 py-8 mt-12 lg:my-20">
+    <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20">
         <div class="relative">
             <svg class="lg:hidden absolute top-4 left-14 anime" width="22px" height="29px" viewBox="0 0 22 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -375,7 +375,7 @@
                 </g>
             </svg>
         </div>
-      <div class="relative md:flex xl:mt-12 xl:mx-40 xl:pt-24">
+      <div class="relative md:flex xl:mx-40 xl:pt-24">
 
         <div class="relative xl:inline-block mx-8 md:ml-8 lg:mx-0 lg:ml-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mt-16">
 
