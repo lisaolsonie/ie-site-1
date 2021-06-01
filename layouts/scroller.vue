@@ -55,5 +55,6 @@ body {
   /* @apply bg-gray-100; */
   background-color: #f8f8f8;
   font-family: "Avenir";
+  overflow: scroll;
 }
 </style>

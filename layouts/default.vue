@@ -61,5 +61,6 @@ body {
   /* @apply bg-gray-100; */
   font-family: "Avenir";
   height: 100%;
+  overflow: hidden;
 }
 </style>
