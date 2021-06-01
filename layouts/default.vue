@@ -18,6 +18,10 @@ export default {
   transition: "default"
 }
 
+html {
+  overflow: hidden;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition-property: opacity;
@@ -60,6 +64,13 @@ export default {
 body {
   /* @apply bg-gray-100; */
   font-family: "Avenir";
-  height: 95vh;
+  height: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 </style>

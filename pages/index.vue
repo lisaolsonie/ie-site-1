@@ -166,6 +166,7 @@ import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 gsap.registerPlugin(MotionPathPlugin);
 
 export default {
+  layout: "default",
     mounted() {
         // gsap.set('.logo', { scale: 0.7 });
         gsap.timeline().from('.logo', { opacity: 0 })
@@ -297,47 +298,6 @@ export default {
                 alignOrigin: [1, 1],
             }
         })
-        // gsap.to('.squig3', {
-        // duration: 5, 
-        // repeat: 1,
-        // // repeatDelay: 3,
-        // // yoyo: true,
-        // ease: "bounce",
-        // motionPath:{
-        //     path: ".left-path",
-        //     align: ".left-path",
-        //     autoRotate: true,
-        //     alignOrigin: [1, 1]
-        // }
-        // });
-        // gsap.to('.squig', {
-        // duration: 5, 
-        // repeat: 1,
-        // delay: 3,
-        // // repeatDelay: 3,
-        // // yoyo: true,
-        // ease: "bounce",
-        // motionPath:{
-        //     path: ".bottom-path",
-        //     align: ".bottom-path",
-        //     autoRotate: true,
-        //     alignOrigin: [1, 1]
-        // }
-        // });
-        // gsap.to('.squig2', {
-        // duration: 5,
-        // repeat: 1,
-        // delay: 6,
-        // // repeatDelay: 4,
-        // // yoyo: true,
-        // ease: "power1.inOut",
-        // motionPath:{
-        //     path: ".right-path",
-        //     align: ".right-path",
-        //     autoRotate: true,
-        //     alignOrigin: [1, 1]
-        // }
-        // });
     }
 }
 
