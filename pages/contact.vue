@@ -71,10 +71,8 @@
       <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-96 right-44 con13" src="images/left-bubble.png" alt="">
       <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14" style="mix-blend-mode: multiply; top: 23.5rem; right: 12rem;"></div>
     </div>
+      <p class="md:hidden text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
   </div>
-    <footer class="md:hidden">
-      <p class="text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
-    </footer>
 </div>
 </template>
 

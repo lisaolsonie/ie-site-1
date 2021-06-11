@@ -71,10 +71,8 @@
       <img ref="car16" class="hidden xl:block absolute h-8 w-8 top-98 right-48 car16" src="images/world.png" alt="">
       <div ref="car17" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 car17" style="mix-blend-mode: multiply; top: 27.2rem; right: 11.5rem;"></div>
     </div>
+      <p class="md:hidden text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
   </div>
-    <footer class="md:hidden">
-      <p class="text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
-    </footer>
 </div>
 </template>
 
