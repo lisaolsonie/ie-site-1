@@ -88,13 +88,11 @@ export default {
       // .from('.con4', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
       gsap.fromTo('.con2', {
         rotation: -80, 
-        // height: -200,
         y: -200,
       },
       {
         rotation: 0,
         y: 0,
-        // height: 200,
         yoyo: true,
         duration: 2,
         immediateRender:false

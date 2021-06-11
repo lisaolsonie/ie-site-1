@@ -114,6 +114,6 @@ export default {
   }
 
   .screenHeightCalc {
-     height: calc(100vh - 12rem);
+     height: calc(100vh - 40rem);
   }
 </style>
