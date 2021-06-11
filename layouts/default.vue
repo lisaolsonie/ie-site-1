@@ -6,7 +6,7 @@
 
     <Header ref="header" />
     <Nuxt class="flex-1" />
-    <footer class="z-2 w-screen absolute bottom-0 xl:w-5/12 xl:ml-32">
+    <footer class="z-2 w-screen absolute bottom-12 md:bottom-0 xl:w-5/12 xl:ml-32">
       <p class="text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
     <Menu />
