@@ -212,9 +212,6 @@
         </div>
     </div>
   </div>
-  <!-- #efefef url(//ideaevolver.com/wp-content/themes/idea-evolver/assets-img/service-background-pattern.svg) center -5px/100% repeat -->
-  <!-- style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat" -->
-  <!-- class="bg-stripes bg-repeat bg-center bg-gray-200" -->
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
     <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20">
         <div class="relative">
@@ -262,7 +259,7 @@
                                 </g>
                                 <path d="M15.3409091,239.777344 C15.3409091,239.777344 24.4589829,256.342151 29.9300947,258.181785 C35.4012064,260.022769 150.291879,258.181785 150.291879,258.181785 L166.704545,239.777344 L15.3409091,239.777344 Z" id="Fill-9" fill="#DBDBDB"></path>
                             </g>
-                            <g id="Group-34" transform="translate(164.000000, 0.000000)">
+                            <g ref="mfirst" class="mfirst" id="Group-34" transform="translate(164.000000, 0.000000)">
                                 <path d="M3.2785991,136 C1.46751219,136 0,134.61956 0,132.917187 L0,3.08281349 C0,1.38043972 1.46751219,0 3.2785991,0 L151.721401,0 C153.53189,0 155,1.38043972 155,3.08281349 L155,132.917187 C155,134.61956 153.53189,136 151.721401,136 L3.2785991,136 Z" id="Fill-16" stroke="#F8F8F8" fill="#FFFFFF"></path>
                                 <path d="M155,21 L0,21 L0,3.91770973 C0,1.75376958 1.71756757,0 3.83550193,0 L151.164498,0 C153.283031,0 155,1.75376958 155,3.91770973 L155,21 Z" id="Fill-17" fill="#4F77FF"></path>
                                 <path d="M140,17 C136.685484,17 134,14.3130338 134,11 C134,7.68696621 136.685484,5 140,5 C143.314516,5 146,7.68696621 146,11 C146,14.3130338 143.314516,17 140,17 Z" id="Fill-18" fill="#FFFFFF"></path>
@@ -285,7 +282,7 @@
                                 <path d="M8,7 L16,7 C16.5522847,7 17,6.55228475 17,6 C17,5.44771525 16.5522847,5 16,5 L8,5 C7.44771525,5 7,5.44771525 7,6 C7,6.55228475 7.44771525,7 8,7 Z" id="Fill-23" fill="#F8F8F8"></path>
                                 <path d="M8,14 L16,14 C16.5522847,14 17,13.5522847 17,13 C17,12.4477153 16.5522847,12 16,12 L8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 Z" id="Fill-23" fill="#F8F8F8"></path>
                             </g>
-                            <g id="Group-6" transform="translate(164.000000, 144.000000)">
+                            <g ref="msecond" class="msecond" id="Group-6" transform="translate(164.000000, 144.000000)">
                                 <g id="Group-10">
                                     <g id="Mask-2">
                                         <mask id="mask-6" fill="white">
@@ -327,7 +324,7 @@
                                 <path d="M52.5,11 L64.5,11 C65.3284271,11 66,10.3284271 66,9.5 C66,8.67157288 65.3284271,8 64.5,8 L52.5,8 C51.6715729,8 51,8.67157288 51,9.5 C51,10.3284271 51.6715729,11 52.5,11 Z" id="Fill-23" fill="#CECECE"></path>
                                 <path d="M44.0524785,10.0471501 C44.1147923,10.0217267 44.2070277,10.0257836 44.2586356,10.056481 L45.5337349,10.8120164 L46.737187,10.0284882 C46.7857753,9.99684416 46.8774617,9.99062354 46.9419715,10.0145594 C47.0064814,10.0386305 47.0191089,10.0837977 46.9702461,10.1154417 L45.6556173,10.9714537 C45.6287154,10.9888985 45.5869898,10.9994466 45.5422447,10.9999875 C45.4977741,11.0003932 45.455225,10.990927 45.4264014,10.9740231 L44.0338118,10.1485733 C44.011851,10.1355911 44.0008706,10.1199043 44.0000471,10.1042175 C43.9989491,10.0829863 44.0170667,10.061755 44.0524785,10.0471501 Z" id="Fill-28" fill="#CECECE" transform="translate(45.500000, 10.500000) rotate(-90.000000) translate(-45.500000, -10.500000) "></path>
                             </g>
-                            <g id="Group-6" transform="translate(0.000000, 88.000000)">
+                            <g ref="mthird" class="mthird" id="Group-6" transform="translate(0.000000, 88.000000)">
                                 <path d="M4.16187292,107 C1.86332996,107 0,104.942712 0,102.404908 L0,4.59509202 C0,2.05728834 1.86332996,0 4.16187292,0 L149.838127,0 C152.13667,0 154,2.05728834 154,4.59509202 L154,102.404908 C154,104.942712 152.13667,107 149.838127,107 L4.16187292,107 Z" id="Fill-1" fill="#FFFFFF"></path>
                                 <path d="M10.0881435,100 C7.83032025,100 6,98.1583056 6,95.8877638 L6,66.1122362 C6,63.8411069 7.83032025,62 10.0881435,62 L68.9118565,62 C71.1696797,62 73,63.8411069 73,66.1122362 L73,95.8877638 C73,98.1583056 71.1696797,100 68.9118565,100 L10.0881435,100 Z" id="Fill-7" fill="#CECECE"></path>
                                 <path d="M10.0881435,100 C7.83032025,100 6,98.1583056 6,95.8877638 L6,66.1122362 C6,63.8411069 7.83032025,62 10.0881435,62 L68.9118565,62 C71.1696797,62 73,63.8411069 73,66.1122362 L73,95.8877638 C73,98.1583056 71.1696797,100 68.9118565,100 L10.0881435,100 Z" id="Fill-7" fill="#D1D1D1"></path>
@@ -630,6 +627,61 @@ export default {
         .from('.icon9', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
         .from('.icon10', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
         .from('.icon11', { opacity: 0, scale: 0, duration: .2, ease: 'ease' })
+
+        gsap.fromTo('.mfirst', {
+            autoAlpha: 0, 
+            opacity: .7,
+            scale: .2,
+            }, {
+            scrollTrigger: {
+            trigger: 'mfirst',
+            once: true,
+            start: "center bottom",
+            },
+            duration: 1.3,
+            delay: .2,
+            autoAlpha: 1, 
+            scale: 1,
+            opacity: 1,
+            yoyo: true,
+            ease: "expo",
+        });
+        gsap.fromTo('.msecond', {
+            autoAlpha: 0, 
+            opacity: .7,
+            scale: .2,
+            }, {
+            scrollTrigger: {
+            trigger: 'msecond',
+            once: true,
+            start: "center bottom",
+            },
+            duration: 1.3,
+            delay: .2,
+            autoAlpha: 1, 
+            scale: 1,
+            opacity: 1,
+            yoyo: true,
+            ease: "expo",
+        });
+        gsap.fromTo('.mthird', {
+            autoAlpha: 0, 
+            opacity: .7,
+            scale: .2,
+            }, {
+            scrollTrigger: {
+            trigger: '.mthird',
+            once: true,
+            start: "center bottom",
+            },
+            duration: 1.3,
+            delay: .2,
+            autoAlpha: 1, 
+            scale: 1,
+            opacity: 1,
+            yoyo: true,
+            ease: "expo",
+        });
     }
 };
 </script>
