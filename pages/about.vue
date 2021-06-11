@@ -5,7 +5,7 @@
     src="/images/bracket-bg.svg"
     alt="Background Image" 
   />
-  <div class="relative w-screen screenHeightCalc" style="mix-blend-mode: multiply;">
+  <div class="relative w-screen md:screenHeightCalc" style="mix-blend-mode: multiply;">
     <svg class="hidden xl:block absolute -bottom-14 z-1 right-1/3" width="438px" height="400px" viewBox="0 0 438 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="IE_desktop_About" transform="translate(-890.000000, -601.000000)" fill="#4BBFE1">

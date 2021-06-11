@@ -28,7 +28,7 @@ module.exports = {
         'autorows': 'repeat(auto-fill, minmax(250px, 1fr))'
       },
       colors: {
-        'ie-purple': '#4f4e76'
+        'ie-purple': '#4e348e'
       }
     },
     screens: {
@@ -89,6 +89,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      98: '26rem',
       100: '35rem',
       108: '40rem',
     },

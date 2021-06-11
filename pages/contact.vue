@@ -1,12 +1,7 @@
 <template>
 <div class="fade-in">
-    <img
-    class="w-screen absolute hidden lg:block -top-12 z-behind opacity-75 lg:top-0"
-    src="/images/bracket-bg.svg"
-    alt="Background Image" 
-  />
   <div class="flex initial h-screen">
-    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1 xl:w-2/4" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Contact" transform="translate(-118.000000, -116.000000)">
@@ -18,7 +13,7 @@
               </g>
           </g>
       </svg>
-      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent md:w-3/5 xl:w-100">
+      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent">
         <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">
           Contact Us
         </h1>
@@ -30,33 +25,108 @@
         <p class="text-xl text-gray-600">215-420-9053</p>
         <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
         <div class="flex mt-12">
-          <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
-          <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link" rel="preload"></a>
-          <a href="https://www.instagram.com/idea_evolver/"><img src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
+          <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
+          <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link" rel="preload"></a>
+          <a href="https://www.instagram.com/idea_evolver/"><img class="xl:w-9 xl:h-9" src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
         </div>
       </div>
 
     </div>
-      <svg class="w-screen hidden xl:block absolute bottom-0 z-2" width="100%" height="320px" viewBox="0 0 451 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="mix-blend-mode: multiply;">
-          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="IE_desktop_Contact" transform="translate(-843.000000, -693.000000)">
-                  <g id="Big-icon" transform="translate(843.000000, 693.000000)">
-                      <path d="M85.3255915,129.20523 C116.554598,129.547573 135.236685,122.003491 136.143807,94.7746568 L136.211503,87.6543292 C158.069486,54.9417363 215.400031,62.297947 227.426661,60.5444802 C239.416541,62.560967 296.874741,56.463495 318.111858,89.6478539 L318.044162,96.770269 C318.438732,124.011628 336.975756,131.962765 368.204762,132.305108 C395.97355,132.609878 418.647751,137.701194 418.862443,114.979187 L418.9959,100.734356 C419.162238,83.2748371 414.257199,67.2619279 406.120173,55.1755319 C406.124041,55.1734444 387.527057,21.9431613 342.335324,7.49584748 C330.387995,3.67579484 318.123463,1.85135439 305.824116,1.71566946 L227.987568,0.861898133 L150.15102,0.00812680464 C137.851674,-0.127558125 125.556195,1.43177484 113.537303,4.98880747 C68.0844567,18.4404027 48.8666066,51.2573686 48.8666066,51.2573686 C40.5071513,63.1642431 35.3023169,79.0665169 35.137913,96.5260362 L35.0044557,110.770866 C34.7897635,133.492873 57.5568039,128.90046 85.3255915,129.20523 L35.137913,66.5" id="Fill-3" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
-                      <path d="M112.351259,139 L347.243312,139 C356.223806,139 364.302789,144.45843 367.654069,152.790188 L438.848718,329.790188 C443.382872,341.062738 437.920322,353.876603 426.647773,358.410757 C424.037941,359.460508 421.251002,360 418.437961,360 L33.8277489,360 C21.6774844,360 11.8277489,350.150264 11.8277489,338 C11.8277489,334.926805 12.4716179,331.887701 13.717863,329.078538 L92.2413727,152.078538 C95.7692196,144.126411 103.651717,139 112.351259,139 Z" id="Rectangle" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
-                      <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="227" cy="159.5" rx="77" ry="76.5"></ellipse>
+    <div class="w-2/4 scrollerHeightScreen items-center py-28 pr-40 py-12 relative">
+      <svg class="hidden xl:block" width="auto" height="auto" viewBox="0 0 661 434" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+          <title>Big icon</title>
+          <defs>
+              <path d="M143.185102,318 L520.879895,318 C522.058457,318 523.210919,318.347095 524.193453,318.997967 L634.391714,391.997967 C637.154261,393.827995 637.910216,397.551012 636.080188,400.313558 C634.968849,401.991198 633.090505,403 631.078156,403 L21.6429025,403 C18.329194,403 15.6429025,400.313708 15.6429025,397 C15.6429025,394.893389 16.7476901,392.941096 18.5536044,391.856437 L140.095804,318.856437 C141.028832,318.296047 142.096718,318 143.185102,318 Z" id="path-1"></path>
+              <filter x="-2.7%" y="-31.2%" width="106.7%" height="185.9%" filterUnits="objectBoundingBox" id="filter-2">
+                  <feOffset dx="3" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                  <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                  <feColorMatrix values="0 0 0 0 0.937254902   0 0 0 0 0.937254902   0 0 0 0 0.937254902  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+              </filter>
+          </defs>
+          <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="IE_desktop_Contact" transform="translate(-936.000000, -345.000000)">
+                  <g id="Big-icon" transform="translate(937.000000, 345.000000)">
+                      <g ref="con1" class="con1" id="Rectangle">
+                          <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                          <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                      </g>
+                      <path ref="con2" class="con2" d="M186.325591,129.20523 C217.554598,129.547573 236.236685,122.003491 237.143807,94.7746568 L237.211503,87.6543292 C259.069486,54.9417363 316.400031,62.297947 328.426661,60.5444802 C340.416541,62.560967 397.874741,56.463495 419.111858,89.6478539 L419.044162,96.770269 C419.438732,124.011628 437.975756,131.962765 469.204762,132.305108 C496.97355,132.609878 519.647751,137.701194 519.862443,114.979187 L519.9959,100.734356 C520.162238,83.2748371 515.257199,67.2619279 507.120173,55.1755319 C507.124041,55.1734444 488.527057,21.9431613 443.335324,7.49584748 C431.387995,3.67579484 419.123463,1.85135439 406.824116,1.71566946 L328.987568,0.861898133 L251.15102,0.00812680464 C238.851674,-0.127558125 226.556195,1.43177484 214.537303,4.98880747 C169.084457,18.4404027 149.866607,51.2573686 149.866607,51.2573686 C141.507151,63.1642431 136.302317,79.0665169 136.137913,96.5260362 L136.004456,110.770866 C135.789764,133.492873 158.556804,128.90046 186.325591,129.20523 L136.137913,66.5" id="Fill-3" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
+                      <path ref="con3" class="con3" d="M213.351259,139 L448.243312,139 C457.223806,139 465.302789,144.45843 468.654069,152.790188 L539.848718,329.790188 C544.382872,341.062738 538.920322,353.876603 527.647773,358.410757 C525.037941,359.460508 522.251002,360 519.437961,360 L134.827749,360 C122.677484,360 112.827749,350.150264 112.827749,338 C112.827749,334.926805 113.471618,331.887701 114.717863,329.078538 L193.241373,152.078538 C196.76922,144.126411 204.651717,139 213.351259,139 Z" id="Rectangle" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
+                      <ellipse ref="con4" class="con4" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="328" cy="159.5" rx="77" ry="76.5"></ellipse>
                   </g>
               </g>
           </g>
       </svg>
+      <!-- LEFT SIDE OF LOGO -->
+      <img ref="con5" class="hidden xl:block absolute h-4 w-6 top-20 left-20 con5" src="images/email.png" alt="">
+      <img ref="con6" class="hidden xl:block absolute h-10 w-10 top-52 left-4 con6" src="images/bubble.png" alt="">
+      <div ref="con7" class="hidden xl:block absolute h-2 w-2 top-72 left-20 rounded-full bg-blue-500 con7" style="mix-blend-mode: multiply"></div>
+      <img ref="con8" class="hidden xl:block absolute h-8 w-12 top-96 left-2 con8" src="images/email.png" alt="">
+
+      <!-- RIGHT SIDE OF LOGO  -->
+      <img ref="con9" class="hidden xl:block absolute h-8 w-12 top-24 right-48 con9" src="images/email.png" alt="">
+      <img ref="con10" class="hidden xl:block absolute h-8 w-8 top-52 right-36 con10" src="images/left-bubble.png" alt="">
+      <div ref="con11" class="hidden xl:block absolute h-2 w-2 top-72 right-60 rounded-full bg-blue-500 con11" style="mix-blend-mode: multiply"></div>
+      <img ref="con12" class="hidden xl:block absolute h-4 w-6 right-32 con12" src="images/email.png" alt="" style="top: 20rem">
+      <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-96 right-44 con13" src="images/left-bubble.png" alt="">
+      <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14" style="mix-blend-mode: multiply; top: 23.5rem; right: 12rem;"></div>
+    </div>
   </div>
 </div>
 </template>
 
 <script>
+import gsap from 'gsap';
 export default {
   layout: "default",
+
+  mounted() {
+    
+      // .from('.con1', { opacity: 0, scale: 0, rotationY: 260, duration: .3, ease:'ease' })
+      // .fromTo('.con2', { height: 0 }, { height: 100, duration: .3, ease:'ease' })
+      // .from('.con3', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
+      // .from('.con4', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
+      gsap.fromTo('.con2', {
+        rotation: -80, 
+        // height: -200,
+        y: -200,
+      },
+      {
+        rotation: 0,
+        y: 0,
+        // height: 200,
+        yoyo: true,
+        duration: 2,
+        immediateRender:false
+      })
+      gsap.fromTo('.con4', {
+        opacity: 1,
+        y:  200,
+      },
+      {
+        rotation: 0,
+        y: 0,
+        yoyo: true,
+        duration: 2,
+        immediateRender:false
+      })
+      gsap.timeline()
+      .from('.con14', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
+      .from('.con7', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+      .from('.con10', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+      .from('.con11', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
+      .from('.con6', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
+      .from('.con5', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
+      .from('.con13', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
+      .from('.con8', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+      .from('.con12', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
+      .from('.con9', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+  }
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+  .scrollerHeightScreen {
+    height: calc(100vh - 12rem);
+  }
 </style>

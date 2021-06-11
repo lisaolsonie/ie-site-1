@@ -2,8 +2,8 @@
 <div class="fade-in">
     <div class="lg:flex">
         <div class="flex-grow px-6 lg:ml-16 xl:ml-32">
-            <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-5xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement and bring brands into digital harmony.</h1>
-            <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl xl:text-4xl">Evolve Responsively.</h4>
+            <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement and bring brands into digital harmony.</h1>
+            <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl">Evolve Responsively.</h4>
         </div>
         <div class="relative md:my-12">
             <svg ref="logo" class="w-screen lg:h-full md:h-100 lg:w-100 xl:mr-40 logo" width="100%" height="750px" viewBox="0 0 711 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -88,15 +88,15 @@
                                     <g id="Clip-2" transform="translate(110.224042, 90.260154) rotate(-110.000000) translate(-110.224042, -90.260154) "></g>
                                     <path ref="high-bottom-path" class="high-bottom-path" d="M166.767737,172.926824 C159.265231,183.863981 144.524019,186.674967 133.842009,179.212365 C83.048435,143.678325 51.486926,84.9998849 49.397849,22.2425066 C48.9610648,9.00750206 59.179204,-2.21654453 72.2218416,-2.84037897 C85.2722266,-3.45635171 96.2015056,6.76614112 96.6460884,20.0010944 C98.2315139,67.806861 122.295785,112.521289 161.017969,139.589044 C171.692079,147.067523 174.270243,161.989666 166.767737,172.926824 Z" id="Fill-1" fill-opacity="0.25" fill="#C5C5C5" mask="url(#mask-11)" transform="translate(110.224110, 90.260164) rotate(-110.000000) translate(-110.224110, -90.260164) "></path>
                                 </g>
-                                <ellipse ref="squigL1" class="squigL1" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="329.437674" cy="203.103165" rx="21.288" ry="21.3052805"></ellipse>
-                                <ellipse ref="squigL2" class="squigL2" id="Oval" fill="#EBEBEB" opacity="0.418694202" style="mix-blend-mode: multiply;" cx="317.437674" cy="210.306555" rx="21.288" ry="21.3052805"></ellipse>
-                                <ellipse ref="squigL3" class="squigL3" id="Oval" fill="#EBEBEB" opacity="0.257491635" style="mix-blend-mode: multiply;" cx="305.437674" cy="217.509945" rx="21.288" ry="21.3052805"></ellipse>
-                                <ellipse ref="squigR2" class="squigR2" id="Oval" fill="#EBEBEB" opacity="0.4" style="mix-blend-mode: multiply;" cx="205.837674" cy="403.597924" rx="22.488" ry="22.5062546"></ellipse>
-                                <ellipse ref="squigR1" class="squigR1" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="208.237674" cy="379.586625" rx="22.488" ry="22.5062546"></ellipse>
-                                <ellipse ref="squigB1" class="squigB1" id="Oval" fill="#EBEBEB" opacity="0.51156064" style="mix-blend-mode: multiply;" cx="537.036926" cy="636.50678" rx="22.4872521" ry="22.5055061"></ellipse>
-                                <ellipse ref="squigB2" class="squigB2" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="551.436926" cy="629.303391" rx="22.4872521" ry="22.5055061"></ellipse>
-                                <ellipse ref="squigB3" class="squigB3" id="Oval" fill="#EBEBEB" opacity="0.31" style="mix-blend-mode: multiply;" cx="345.036926" cy="631.704521" rx="22.4872521" ry="22.5055061"></ellipse>
-                                <ellipse ref="squigB4" class="squigB4" id="Oval" fill="#EBEBEB" opacity="0.5" style="mix-blend-mode: multiply;" cx="377.313073" cy="571.681359" rx="23.5633987" ry="22.5105932"></ellipse>
+                                <ellipse ref="squigL1 circ" class="squigL1 circ" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="329.437674" cy="203.103165" rx="21.288" ry="21.3052805"></ellipse>
+                                <!-- <ellipse ref="squigL2 circ" class="squigL2 circ" id="Oval" fill="#EBEBEB" opacity="0.418694202" style="mix-blend-mode: multiply;" cx="317.437674" cy="210.306555" rx="21.288" ry="21.3052805"></ellipse> -->
+                                <!-- <ellipse ref="squigL3 circ" class="squigL3 circ" id="Oval" fill="#EBEBEB" opacity="0.257491635" style="mix-blend-mode: multiply;" cx="305.437674" cy="217.509945" rx="21.288" ry="21.3052805"></ellipse> -->
+                                <!-- <ellipse ref="squigR2 circ" class="squigR2 circ" id="Oval" fill="#EBEBEB" opacity="0.4" style="mix-blend-mode: multiply;" cx="205.837674" cy="403.597924" rx="22.488" ry="22.5062546"></ellipse> -->
+                                <ellipse ref="squigR1 circ" class="squigR1 circ" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="208.237674" cy="379.586625" rx="22.488" ry="22.5062546"></ellipse>
+                                <ellipse ref="squigB1 circ" class="squigB1 circ" id="Oval" fill="#EBEBEB" opacity="0.51156064" style="mix-blend-mode: multiply;" cx="537.036926" cy="636.50678" rx="22.4872521" ry="22.5055061"></ellipse>
+                                <!-- <ellipse ref="squigB2 circ" class="squigB2 circ" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="551.436926" cy="629.303391" rx="22.4872521" ry="22.5055061"></ellipse> -->
+                                <ellipse ref="squigB3 circ" class="squigB3 circ" id="Oval" fill="#EBEBEB" opacity="0.31" style="mix-blend-mode: multiply;" cx="345.036926" cy="631.704521" rx="22.4872521" ry="22.5055061"></ellipse>
+                                <!-- <ellipse ref="squigB4 circ" class="squigB4 circ" id="Oval" fill="#EBEBEB" opacity="0.5" style="mix-blend-mode: multiply;" cx="377.313073" cy="571.681359" rx="23.5633987" ry="22.5105932"></ellipse> -->
                             </g>
                             <g id="Rectangle">
                                 <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
@@ -159,7 +159,7 @@
 </template>
 
 <script>
-import gsap from 'gsap';
+import gsap, { TimelineMax } from 'gsap';
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 
@@ -169,7 +169,8 @@ export default {
   layout: "default",
     mounted() {
         // gsap.set('.logo', { scale: 0.7 });
-        gsap.timeline().from('.logo', { opacity: 0 })
+        let tl = new TimelineMax({onComplete:function(){tl.play("ballAnimation")}})
+            .from('.logo', { opacity: 0 })
             .from('.sba1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
             .from('.sba2', { opacity: 0, scale: 0, duration: .4, ease:'back' })
             .from('.sd1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
@@ -177,127 +178,129 @@ export default {
             .from('.sem1', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
             .from('.sem2', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
             .from('.sem3', { opacity: 0, scale: 0, duration: .3, ease:'back' })
-        gsap.from('.squigL1', {
-            delay: 3,
-            duration: 3,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: '.left-path',
-                align: '.left-path',
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            },
-        })
-        gsap.from('.squigL2', {
-            delay: 3,
-            duration: 7,
-            ease: 'ease',
-            repeat: -1,
-            repeatDelay: 3,
-            motionPath: {
-                path: '.left-path',
-                align: '.left-path',
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            },
-        })
-        gsap.from('.squigL3', {
-            delay: 3,
-            duration: 4,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: '.left-path',
-                align: '.left-path',
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
-        gsap.from('.squigB1', {
-            delay: 3,
-            duration: 3,
-            repeat: -1,
-            ease: 'ease',
-            motionPath: {
-                path: '.bottom-path',
-                align: '.bottom-path',
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
-        gsap.from('.squigB1', {
-            delay: 3,
-            duration: 6,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: '.bottom-path',
-                align: '.bottom-path',
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
-        gsap.from('.squigB2', {
-            delay: 3,
-            duration: 5,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: ".right-path",
-                align: ".right-path",
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
-        gsap.from('.squigB3', {
-            delay: 3,
-            duration: 3,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: ".bottom-path",
-                align: ".bottom-path",
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
-        gsap.from('.squigB4', {
-            delay: 3,
-            duration: 4,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: ".bottom-path",
-                align: ".bottom-path",
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
-        gsap.from('.squigR1', {
-            delay: 3,
-            duration: 7,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: '.right-path',
-                align: '.right-path',
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
-        gsap.from('.squigR2', {
-            delay: 3,
-            duration: 2,
-            ease: 'ease',
-            repeat: -1,
-            motionPath: {
-                path: ".right-path",
-                align: ".right-path",
-                autoRotate: true,
-                alignOrigin: [1, 1],
-            }
-        })
+            .addLabel('ballAnimation')
+            .from('.squigL1', {
+                duration: 2.5,
+                ease: 'none',
+                motionPath: {
+                    path: '.left-path',
+                    align: '.left-path',
+                    autoRotate: true,
+                    alignOrigin: [1, 1],
+                },
+            })
+            .from('.squigB3', {
+                duration: 2.5,
+                ease: 'ease',
+                yoyo: true,
+                reverse: true,
+                motionPath: {
+                    path: ".high-bottom-path",
+                    align: ".high-bottom-path",
+                    autoRotate: true,
+                    alignOrigin: [.1, .1],
+                }
+            }, "-=1.6")
+            .from('.squigB1', {
+                duration: 2.5,
+                ease: 'none',
+                motionPath: {
+                    path: '.bottom-path',
+                    align: '.bottom-path',
+                    autoRotate: true,
+                    alignOrigin: [1, 1],
+                }
+            }, "-=2.6")
+
+            .from('.squigR1', {
+                ease: 'none',
+                duration: 2.5,
+                motionPath: {
+                    path: '.right-path',
+                    align: '.right-path',
+                    autoRotate: true,
+                    alignOrigin: [1, 1],
+                }
+            }, "-=2")
+
+        // gsap.from('.squigL2', {
+        //     delay: 3,
+        //     duration: 7,
+        //     ease: 'ease',
+        //     repeat: -1,
+        //     repeatDelay: 3,
+        //     motionPath: {
+        //         path: '.left-path',
+        //         align: '.left-path',
+        //         autoRotate: true,
+        //         alignOrigin: [1, 1],
+        //     },
+        // })
+        // gsap.from('.squigL3', {
+        //     delay: 3,
+        //     duration: 4,
+        //     ease: 'ease',
+        //     repeat: -1,
+        //     motionPath: {
+        //         path: '.left-path',
+        //         align: '.left-path',
+        //         autoRotate: true,
+        //         alignOrigin: [1, 1],
+        //     }
+        // })
+            // .from('.squigB1', {
+            //     opacity: 1,
+            //     // delay: 3,
+            //     duration: 2.5,
+            //     // ease: 'ease',
+            //     // repeat: -1,
+            //     yoyo: true,
+            //     motionPath: {
+            //         path: '.bottom-path',
+            //         align: '.bottom-path',
+            //         autoRotate: true,
+            //         alignOrigin: [1, 1],
+            //     }
+            // }, "-=.8")
+        // gsap.from('.squigB2', {
+        //     delay: 3,
+        //     duration: 5,
+        //     ease: 'ease',
+        //     repeat: -1,
+        //     motionPath: {
+        //         path: ".right-path",
+        //         align: ".right-path",
+        //         autoRotate: true,
+        //         alignOrigin: [1, 1],
+        //     }
+        // })
+        // gsap.from('.squigB4', {
+        //     delay: 3,
+        //     duration: 4,
+        //     ease: 'ease',
+        //     repeat: -1,
+        //     motionPath: {
+        //         path: ".bottom-path",
+        //         align: ".bottom-path",
+        //         autoRotate: true,
+        //         alignOrigin: [1, 1],
+        //     }
+        // })
+
+        // .from('.squigR2', {
+        //     opacity: 1,
+        //     // delay: 3,
+        //     duration: 2,
+        //     ease: 'ease',
+        //     // repeat: -1,
+        //     yoyo: true,
+        //     motionPath: {
+        //         path: ".right-path",
+        //         align: ".right-path",
+        //         autoRotate: true,
+        //         alignOrigin: [1, 1],
+        //     }
+        // })
     }
 }
 

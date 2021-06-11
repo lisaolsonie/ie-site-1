@@ -2,7 +2,7 @@
   <header id="header" class="w-full py-6 lg:py-12 z-40">
     <div
       id="header-container"
-      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-32"
+      class="flex justify-between items-center mx-6 md:mx-16 xl:mx-40"
     >
       <div id="header-logo">
         <nuxt-link to="/">
@@ -13,7 +13,7 @@
         <ul class="flex">
           <li
             id="search-behavior-analysis"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 hover:border-b border-blue-500"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 hover:border-b border-blue-500"
           >
             <nuxt-link to="/search-behavior-analysis">
               Search Behavior Analysis
@@ -21,7 +21,7 @@
           </li>
           <li
             id="software-development"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 sd"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sd"
           >
             <nuxt-link to="/software-development">
               Software Development
@@ -29,7 +29,7 @@
           </li>
           <li
             id="search-experience-marketing"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 sem"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sem"
           >
             <nuxt-link to="/search-experience-marketing">
               Search Experience Marketing
@@ -37,19 +37,19 @@
           </li>
           <li
             id="about"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 ab"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 ab"
           >
             <nuxt-link to="/about">About</nuxt-link>
           </li>
           <li
             id="careers"
-            class="mr-12 text-gray-700 hover:text-gray-500 transition ease-in duration-150 car"
+            class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 car"
           >
             <nuxt-link to="/careers">Careers</nuxt-link>
           </li>
           <li
             id="contact"
-            class="mr-0 text-gray-700 hover:text-gray-500 transition ease-in duration-150 con"
+            class="mr-0 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 con"
           >
             <nuxt-link to="/contact">Contact</nuxt-link>
           </li>
