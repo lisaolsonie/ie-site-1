@@ -155,6 +155,9 @@
         </div>
         <h1 class="block lg:hidden text-xl leading-normal tracking-wide text-ie-purple text-center md:text-2xl">Evolve Responsively.</h1>
     </div>
+    <footer class="md:hidden">
+      <p class="text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+    </footer>
 </div>
 </template>
 
