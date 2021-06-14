@@ -126,6 +126,7 @@ export default {
 
 <style scoped>
 body {
-  overflow-y: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 </style>

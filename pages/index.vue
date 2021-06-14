@@ -345,6 +345,7 @@ export default {
     }
 }
 body {
-  overflow-y: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 </style>
