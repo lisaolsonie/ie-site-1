@@ -1,5 +1,5 @@
 <template>
-<div class="fade-in overflow-hidden">
+<div class="fade-in  lg:screenHeight overflow-hidden">
   <div class="md:flex">
     <div class="relative justify-items-center z-1 xl:w-2/4" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
@@ -25,7 +25,7 @@
           <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">careers@ideaevolver.com</a>.
         </p>
       </div>
-      <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+      <p class="md:hidden absolute bottom-0 text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
     <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">
@@ -113,5 +113,8 @@ export default {
 body {
   height: 100%;
   overflow: hidden;
+}
+.screenHeight {
+  height: calc(100vh - 12rem);
 }
 </style>
