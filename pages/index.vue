@@ -317,11 +317,7 @@ export default {
 .menu-link img {
   transition: .3s;
 }
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
+
 @media (max-width: 541px) and (max-height: 825px) {
     svg {
       height: 300px;

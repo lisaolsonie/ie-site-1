@@ -1,6 +1,6 @@
 <template>
-<div class="fade-in screenHeight md:h-screen overflow-hidden">
-  <div class="md:flex md:initial career-content">
+<div class="fade-in overflow-hidden">
+  <div class="md:flex">
     <div class="relative justify-items-center z-1 xl:w-2/4" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -28,7 +28,7 @@
       <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
-    <div class="w-2/4 scrollerHeightScreen items-center py-28 pr-40 relative">
+    <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">
       <!-- MAIN LOGO  -->
       <svg class="hidden xl:block" width="auto" height="auto" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
@@ -110,15 +110,6 @@ export default {
 </script>
 
 <style scoped>
-  .career-content {
-    min-height: calc(100vh - 100px);
-  }
-
-@media (min-width: 640px) {
-  .screenHeight {
-    height: calc(100vh - 100px);
-  }
-}
 body {
   height: 100%;
   overflow: hidden;
