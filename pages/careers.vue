@@ -1,6 +1,6 @@
 <template>
 <div class="fade-in screenHeight md:h-screen overflow-hidden">
-  <div class="md:flex initial career-content">
+  <div class="md:flex md:initial career-content">
     <div class="relative justify-items-center z-1 xl:w-2/4" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -118,5 +118,8 @@ export default {
   .screenHeight {
     height: calc(100vh - 100px);
   }
+}
+body {
+  overflow-y: hidden;
 }
 </style>
