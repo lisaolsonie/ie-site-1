@@ -28,7 +28,7 @@
       <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
-    <div class="w-2/4 scrollerHeightScreen items-center py-28 pr-40 py-12 relative">
+    <div class="w-2/4 scrollerHeightScreen items-center pr-40 relative">
       <!-- MAIN LOGO  -->
       <svg class="hidden xl:block" width="auto" height="auto" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
@@ -113,10 +113,4 @@ export default {
   .scrollerHeightScreen {
     height: calc(100vh - 12rem);
   }
-
-@media screen and (max-width:640px) {
-  body {
-      overflow: hidden;
-  }
-}
 </style>
