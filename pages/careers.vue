@@ -113,4 +113,10 @@ export default {
   .scrollerHeightScreen {
     height: calc(100vh - 12rem);
   }
+
+@media screen and (max-width:640px) {
+  body {
+      overflow: hidden;
+  }
+}
 </style>
