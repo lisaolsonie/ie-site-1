@@ -1,6 +1,6 @@
 <template>
 <div class="fade-in">
-  <div class="relative w-screen md:screenHeightCalc">
+  <div class="relative w-screen screenHeightCalc">
     <div class="relative justify-items-center z-1 xl:pt-6" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 104 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -453,7 +453,9 @@ export default {
     filter: opacity(.3);
 }
 
-.screenHeightCalc {
-    height: calc(100vh - 9rem);
+@media (min-width: 640px) {
+    .screenHeightCalc {
+        height: calc(100vh - 9rem);
+    }
 }
 </style>
