@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    class="relative h-screen flex flex-col overflow-hidden"
+    class="relative overflow-hidden"
   >
 
     <Header ref="header" />
