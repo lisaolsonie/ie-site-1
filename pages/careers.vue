@@ -1,6 +1,6 @@
 <template>
-<div class="fade-in">
-  <div class="flex initial h-full overflow-y-hidden overflow-x-hidden overflow-hidden">
+<div class="fade-in h-screen">
+  <div class="flex initial">
     <div class="relative justify-items-center z-1 xl:w-2/4" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -25,6 +25,7 @@
           <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">careers@ideaevolver.com</a>.
         </p>
       </div>
+      <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
     <div class="w-2/4 scrollerHeightScreen items-center py-28 pr-40 py-12 relative">
@@ -71,7 +72,6 @@
       <img ref="car16" class="hidden xl:block absolute h-8 w-8 top-98 right-48 car16" src="images/world.png" alt="">
       <div ref="car17" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 car17" style="mix-blend-mode: multiply; top: 27.2rem; right: 11.5rem;"></div>
     </div>
-      <p class="md:hidden text-gray-600 text-xs text-center xl:text-left p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
   </div>
 </div>
 </template>
