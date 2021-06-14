@@ -17,10 +17,10 @@
         <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">
           Careers
         </h1>
-        <p class="mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
+        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
           We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.
         </p>
-        <p class="mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
+        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
           View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or contact us at
           <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">careers@ideaevolver.com</a>.
         </p>
