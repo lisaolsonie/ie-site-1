@@ -25,7 +25,7 @@
           <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">careers@ideaevolver.com</a>.
         </p>
       </div>
-      <p class="md:hidden absolute bottom-0 text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+      <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
     <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">

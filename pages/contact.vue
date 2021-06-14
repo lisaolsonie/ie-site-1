@@ -30,7 +30,7 @@
           <a href="https://www.instagram.com/idea_evolver/"><img class="xl:w-9 xl:h-9" src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
         </div>
       </div>
-      <p class="md:hidden absolute bottom-0 text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
+      <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
     <div class="hidden xl:block w-2/4 items-center md:py-28 pr-40 relative">
