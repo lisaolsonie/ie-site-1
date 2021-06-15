@@ -30,7 +30,7 @@
     </div>
     <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">
       <!-- MAIN LOGO  -->
-      <svg class="hidden xl:block" width="auto" height="auto" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg width="608px" height="417px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
           <defs>
               <path d="M132.942751,320 L484.203958,320 C485.220391,320 486.220163,320.258219 487.10947,320.750428 L584.674687,374.750428 C587.573945,376.355098 588.623417,380.006253 587.018747,382.905512 C585.961906,384.814973 583.951596,386 581.769175,386 L25.3340556,386 C22.0203471,386 19.3340556,383.313708 19.3340556,380 C19.3340556,377.730509 20.6145594,375.655239 22.6429766,374.637343 L130.251672,320.637343 C131.086832,320.218244 132.008334,320 132.942751,320 Z" id="path-1"></path>
@@ -42,13 +42,15 @@
           </defs>
           <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_desktop_Careers" transform="translate(-1014.000000, -361.000000)">
-                  <g id="BigIcon-" transform="translate(1011.000000, 361.000000)">
-                      <path d="M303,155 L310,155 C312.761424,155 315,157.238576 315,160 L315,512 C315,514.761424 312.761424,517 310,517 L303,517 C300.238576,517 298,514.761424 298,512 L298,160 C298,157.238576 300.238576,155 303,155 Z" id="Rectangle" fill="#D85CB8" style="mix-blend-mode: multiply;" transform="translate(306.500000, 336.000000) scale(-1, 1) rotate(270.000000) translate(-306.500000, -336.000000) "></path>
-                      <rect ref="car1" class="car1" id="Rectangle" fill="#DF5FBE" style="mix-blend-mode: multiply;" x="125" y="68" width="362" height="242" rx="10"></rect>
-                      <ellipse ref="car2" class="car2" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="306.5" cy="73" rx="73.5" ry="73"></ellipse>
-                      <g ref="car3" class="car3" id="Rectangle">
-                          <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                          <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                  <g id="Group-3" transform="translate(935.000000, 315.000000)">
+                      <g id="BigIcon-" transform="translate(76.000000, 46.000000)">
+                          <rect ref="car1" class="car1" id="Rectangle" fill="#DF5FBE" style="mix-blend-mode: multiply;" x="125" y="68" width="362" height="242" rx="10"></rect>
+                          <ellipse ref="car2" class="car2" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="306.5" cy="73" rx="73.5" ry="73"></ellipse>
+                          <g ref="car3" class="car3" id="Rectangle">
+                              <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                              <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                          </g>
+                          <path d="M303,155 L310,155 C312.761424,155 315,157.238576 315,160 L315,512 C315,514.761424 312.761424,517 310,517 L303,517 C300.238576,517 298,514.761424 298,512 L298,160 C298,157.238576 300.238576,155 303,155 Z" id="Rectangle" fill="#D85CB8" style="mix-blend-mode: multiply;" transform="translate(306.500000, 336.000000) scale(-1, 1) rotate(270.000000) translate(-306.500000, -336.000000) "></path>
                       </g>
                   </g>
               </g>
@@ -84,9 +86,20 @@ export default {
 
   mounted() {
     gsap.timeline()
-      .from('.car1', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
-      .from('.car2', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
-      .from('.car3', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
+      .fromTo('.car2', {
+        opacity: 1,
+        y:  200,
+      },
+      {
+        rotation: 0,
+        y: 0,
+        yoyo: true,
+        duration: 1,
+        immediateRender:false
+      })
+      
+      .from('.car1', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' }, '-=.4')
+      .from('.car3', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' })
       .from('.car14', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car21', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car15', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })

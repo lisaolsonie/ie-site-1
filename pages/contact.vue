@@ -47,11 +47,11 @@
           <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_desktop_Contact" transform="translate(-936.000000, -345.000000)">
                   <g id="Big-icon" transform="translate(937.000000, 345.000000)">
-                      <g ref="con1" class="con1" id="Rectangle">
+                      <g id="Rectangle">
                           <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                           <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                       </g>
-                      <path ref="con2" class="con2" d="M186.325591,129.20523 C217.554598,129.547573 236.236685,122.003491 237.143807,94.7746568 L237.211503,87.6543292 C259.069486,54.9417363 316.400031,62.297947 328.426661,60.5444802 C340.416541,62.560967 397.874741,56.463495 419.111858,89.6478539 L419.044162,96.770269 C419.438732,124.011628 437.975756,131.962765 469.204762,132.305108 C496.97355,132.609878 519.647751,137.701194 519.862443,114.979187 L519.9959,100.734356 C520.162238,83.2748371 515.257199,67.2619279 507.120173,55.1755319 C507.124041,55.1734444 488.527057,21.9431613 443.335324,7.49584748 C431.387995,3.67579484 419.123463,1.85135439 406.824116,1.71566946 L328.987568,0.861898133 L251.15102,0.00812680464 C238.851674,-0.127558125 226.556195,1.43177484 214.537303,4.98880747 C169.084457,18.4404027 149.866607,51.2573686 149.866607,51.2573686 C141.507151,63.1642431 136.302317,79.0665169 136.137913,96.5260362 L136.004456,110.770866 C135.789764,133.492873 158.556804,128.90046 186.325591,129.20523 L136.137913,66.5" id="Fill-3" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
+                      <path ref="wiggle" class="wiggle" d="M186.325591,129.20523 C217.554598,129.547573 236.236685,122.003491 237.143807,94.7746568 L237.211503,87.6543292 C259.069486,54.9417363 316.400031,62.297947 328.426661,60.5444802 C340.416541,62.560967 397.874741,56.463495 419.111858,89.6478539 L419.044162,96.770269 C419.438732,124.011628 437.975756,131.962765 469.204762,132.305108 C496.97355,132.609878 519.647751,137.701194 519.862443,114.979187 L519.9959,100.734356 C520.162238,83.2748371 515.257199,67.2619279 507.120173,55.1755319 C507.124041,55.1734444 488.527057,21.9431613 443.335324,7.49584748 C431.387995,3.67579484 419.123463,1.85135439 406.824116,1.71566946 L328.987568,0.861898133 L251.15102,0.00812680464 C238.851674,-0.127558125 226.556195,1.43177484 214.537303,4.98880747 C169.084457,18.4404027 149.866607,51.2573686 149.866607,51.2573686 C141.507151,63.1642431 136.302317,79.0665169 136.137913,96.5260362 L136.004456,110.770866 C135.789764,133.492873 158.556804,128.90046 186.325591,129.20523 L136.137913,66.5" id="Fill-3" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
                       <path ref="con3" class="con3" d="M213.351259,139 L448.243312,139 C457.223806,139 465.302789,144.45843 468.654069,152.790188 L539.848718,329.790188 C544.382872,341.062738 538.920322,353.876603 527.647773,358.410757 C525.037941,359.460508 522.251002,360 519.437961,360 L134.827749,360 C122.677484,360 112.827749,350.150264 112.827749,338 C112.827749,334.926805 113.471618,331.887701 114.717863,329.078538 L193.241373,152.078538 C196.76922,144.126411 204.651717,139 213.351259,139 Z" id="Rectangle" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
                       <ellipse ref="con4" class="con4" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="328" cy="159.5" rx="77" ry="76.5"></ellipse>
                   </g>
@@ -77,37 +77,37 @@
 </template>
 
 <script>
-import gsap from 'gsap';
+import { gsap, Elastic } from 'gsap';
+
 export default {
   layout: "default",
 
   mounted() {
-    
-      // .from('.con1', { opacity: 0, scale: 0, rotationY: 260, duration: .3, ease:'ease' })
-      // .fromTo('.con2', { height: 0 }, { height: 100, duration: .3, ease:'ease' })
-      // .from('.con3', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
-      // .from('.con4', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
-      gsap.fromTo('.con2', {
-        rotation: -80, 
-        y: -200,
-      },
-      {
-        rotation: 0,
-        y: 0,
-        yoyo: true,
+      // gsap.from('.con2', {
+      //   duration: 2,
+      //   rotation: '+=20',
+      //   x: '+=20',
+      //   transformOrigin: '50% -50%',
+      //   yoyo: true,
+      //   repeat: -1,
+      // });
+      // gsap.set('.con2', { rotation: 0 });
+      // gsap.fromTo('.con4', {
+      //   opacity: 1,
+      //   y:  200,
+      // },
+      // {
+      //   rotation: 0,
+      //   y: 0,
+      //   yoyo: true,
+      //   duration: 2,
+      //   immediateRender:false
+      // })
+      gsap.from('.con3', {
+        scale: .7,
+        ease: 'bounce',
         duration: 2,
-        immediateRender:false
-      })
-      gsap.fromTo('.con4', {
-        opacity: 1,
-        y:  200,
-      },
-      {
-        rotation: 0,
-        y: 0,
-        yoyo: true,
-        duration: 2,
-        immediateRender:false
+        transformOrigin: 'top center',
       })
       gsap.timeline()
       .from('.con14', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
@@ -132,5 +132,35 @@ body {
 
 .screenHeight {
   height: calc(100vh - 12rem);
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  5% { transform: rotate(0deg); }
+  10% { transform: rotate(-5deg); }
+  15% { transform: rotate(5deg); }
+  20% { transform: rotate(-5deg); }
+  25% { transform: rotate(5deg); }
+  30% { transform: rotate(-5deg); }
+  35% { transform: rotate(5deg); }
+  40% { transform: rotate(-5deg); }
+  45% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  55% { transform: rotate(5deg); }
+  60% { transform: rotate(-5deg); }
+  65% { transform: rotate(5deg); }
+  70% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+  80% { transform: rotate(-5deg); }
+  85% { transform: rotate(5deg); }
+  90% { transform: rotate(-5deg); }
+  95% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+  transform-origin: top center;
+  display: inline-block;
+  animation: wiggle 2s;
 }
 </style>
