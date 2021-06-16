@@ -38,10 +38,8 @@
             About
             </h1>
             <p class="mx-12 mr-10 text-base leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">
-            We minimize the guesswork associated with feature planning and requirements gathering by starting with audience
-            and user research. Our quality and development processes are governed by our ISO 13485 compliant Quality
-            Management System (QMS). Building on a scalable infrastructure, we implement the right languages and
-            frameworks so your applications are reliable, fast and intuitive.
+                Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes
+                in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
             </p>
             <button ref="scrollArrow" class="scrollArrow" id="scrollArrow">
                 <svg class="w-screen md:w-20 lg:m-0 xl:w-10 arrowdown md:w-full xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
