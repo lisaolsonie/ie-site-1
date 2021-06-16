@@ -50,7 +50,7 @@
                               <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                               <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                           </g>
-                          <path d="M303,155 L310,155 C312.761424,155 315,157.238576 315,160 L315,512 C315,514.761424 312.761424,517 310,517 L303,517 C300.238576,517 298,514.761424 298,512 L298,160 C298,157.238576 300.238576,155 303,155 Z" id="Rectangle" fill="#D85CB8" style="mix-blend-mode: multiply;" transform="translate(306.500000, 336.000000) scale(-1, 1) rotate(270.000000) translate(-306.500000, -336.000000) "></path>
+                          <path ref="bottomBar" class="bottomBar" d="M303,155 L310,155 C312.761424,155 315,157.238576 315,160 L315,512 C315,514.761424 312.761424,517 310,517 L303,517 C300.238576,517 298,514.761424 298,512 L298,160 C298,157.238576 300.238576,155 303,155 Z" id="Rectangle" fill="#D85CB8" style="mix-blend-mode: multiply;" transform="translate(306.500000, 336.000000) scale(-1, 1) rotate(270.000000) translate(-306.500000, -336.000000) "></path>
                       </g>
                   </g>
               </g>
@@ -98,6 +98,7 @@ export default {
         immediateRender:false
       })
       
+      .from('.bottomBar', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' }, '-=.4')
       .from('.car1', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' }, '-=.4')
       .from('.car3', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' })
       .from('.car14', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })

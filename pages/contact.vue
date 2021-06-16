@@ -105,7 +105,7 @@ export default {
       // })
       gsap.from('.con3', {
         scale: .7,
-        ease: 'bounce',
+        ease: 'ease',
         duration: 2,
         transformOrigin: 'top center',
       })
