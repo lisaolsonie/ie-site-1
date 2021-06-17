@@ -13,7 +13,7 @@
               </g>
           </g>
       </svg>
-      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent">
+      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-24 md:pb-0">
         <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">
           Careers
         </h1>

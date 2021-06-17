@@ -24,7 +24,7 @@
         </p>
         <p class="text-xl text-gray-600">215-420-9053</p>
         <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
-        <div class="flex mt-12">
+        <div class="flex mt-12 pb-24 md:pb-0">
           <a class="text-black" href="https://www.facebook.com/IdeaEvolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/facebook.svg" alt="Idea Evolver Facebook Link" rel="preload"></a>
           <a href="https://www.linkedin.com/company/idea-evolver/"><img class="mr-8 xl:w-9 xl:h-9" src="/images/linkedin.svg" alt="Idea Evolver LinkedIn Link" rel="preload"></a>
           <a href="https://www.instagram.com/idea_evolver/"><img class="xl:w-9 xl:h-9" src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
