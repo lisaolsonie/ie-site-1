@@ -234,10 +234,10 @@
                                     <g id="Clip-2" transform="translate(110.224042, 90.260154) rotate(-110.000000) translate(-110.224042, -90.260154) "></g>
                                     <path d="M166.767737,172.926824 C159.265231,183.863981 144.524019,186.674967 133.842009,179.212365 C83.048435,143.678325 51.486926,84.9998849 49.397849,22.2425066 C48.9610648,9.00750206 59.179204,-2.21654453 72.2218416,-2.84037897 C85.2722266,-3.45635171 96.2015056,6.76614112 96.6460884,20.0010944 C98.2315139,67.806861 122.295785,112.521289 161.017969,139.589044 C171.692079,147.067523 174.270243,161.989666 166.767737,172.926824 Z" id="Fill-1" fill-opacity="0.25" fill="#C5C5C5" mask="url(#mask-11)" transform="translate(110.224110, 90.260164) rotate(-110.000000) translate(-110.224110, -90.260164) "></path>
                                 </g>
-                                <ellipse ref="ballRight" class="ballRight" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="329.437674" cy="203.103165" rx="21.288" ry="21.3052805"></ellipse>
-                                <ellipse ref="ballBottom" class="ballBottom"  id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="551.436926" cy="629.303391" rx="22.4872521" ry="22.5055061"></ellipse>
-                                <ellipse ref="ballBottomH" class="ballBottomH" id="Oval" fill="#EBEBEB" opacity="0.31" style="mix-blend-mode: multiply;" cx="345.036926" cy="631.704521" rx="22.4872521" ry="22.5055061"></ellipse>
-                                <ellipse ref="ballLeft" class="ballLeft"  id="Oval" fill="#EBEBEB" opacity="0.5" style="mix-blend-mode: multiply;" cx="377.313073" cy="571.681359" rx="23.5633987" ry="22.5105932"></ellipse>
+                                <ellipse ref="ballRight" class="ballRight round" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="329.437674" cy="203.103165" rx="21.288" ry="21.3052805"></ellipse>
+                                <ellipse ref="ballBottom" class="ballBottom round"  id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="551.436926" cy="629.303391" rx="22.4872521" ry="22.5055061"></ellipse>
+                                <ellipse ref="ballBottomH" class="ballBottomH round" id="Oval" fill="#EBEBEB" opacity="0.31" style="mix-blend-mode: multiply;" cx="345.036926" cy="631.704521" rx="22.4872521" ry="22.5055061"></ellipse>
+                                <ellipse ref="ballLeft" class="ballLeft round"  id="Oval" fill="#EBEBEB" opacity="0.5" style="mix-blend-mode: multiply;" cx="377.313073" cy="571.681359" rx="23.5633987" ry="22.5105932"></ellipse>
                             </g>
                             <g id="Rectangle">
                                 <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
@@ -307,8 +307,18 @@ gsap.registerPlugin(MotionPathPlugin);
 export default {
   layout: "default",
     mounted() {
-        // gsap.set('.logo', { scale: 0.7 });
-        // gsap.from('.logo', { opacity: 0 })
+        gsap.set('ballBottomH', { opacity: 0 })
+        gsap.set('ballBottom', { opacity: 0 })
+        gsap.set('ballRight', { opacity: 0 })
+
+        gsap.from('.sba1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
+        gsap.from('.sba2', { opacity: 0, scale: 0, duration: .4, ease:'back', delay: .4 })
+        gsap.from('.sba3', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%", delay: .8 })
+        gsap.from('.sba4', { opacity: 0, scale: 0, duration: .4, ease:'back', delay: 1.2 })
+        gsap.from('.sba5', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%", delay: 1.6 })
+        gsap.from('.sba6', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%", delay:  2})
+        gsap.from('.sba7', { opacity: 0, scale: 0, duration: .3, ease:'back', delay: 2.4 })
+        gsap.from('.sba8', { opacity: 0, scale: 0, duration: .3, ease:'back', delay: 2.8 })
 
         let tl = new TimelineMax({
             onComplete:function() {
@@ -316,18 +326,12 @@ export default {
             }
         })
 
-        .from('.sba1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        .from('.sba2', { opacity: 0, scale: 0, duration: .4, ease:'back' })
-        .from('.sba3', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        .from('.sba4', { opacity: 0, scale: 0, duration: .4, ease:'back' })
-        .from('.sba5', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        .from('.sba6', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        .from('.sba7', { opacity: 0, scale: 0, duration: .3, ease:'back' })
-        .from('.sba8', { opacity: 0, scale: 0, duration: .3, ease:'back' })
-
         .addLabel('ballAnimation')
+        .set('.ballBottomH', { opacity: 0, ease: 'fadeIn' })
+        .set('.ballBottom', { opacity: 0, ease: 'fadeIn' })
+        .set('.ballRight', { opacity: 0, ease: 'fadeIn' })
         .to('.ballLeft', {
-                autoAlpha: 0,
+                opacity: 1,
                 duration: 1,
                 ease: 'none',
                 motionPath: {
@@ -337,12 +341,13 @@ export default {
                     alignOrigin: [.5, .5],
                 },
             })
+            .set('.ballLeft', { opacity: 0, ease: 'fadeOut' })
             .to('.ballBottomH', {
-                autoAlpha: 0,
+                opacity: 1,
                 duration: 1,
                 repeat: 2,
                 yoyo: true,
-                ease: 'none',
+                ease: 'fade',
                 motionPath: {
                     path: '.bottomH-path',
                     align: '.bottomH-path',
@@ -350,12 +355,13 @@ export default {
                     alignOrigin: [.5, .5],
                 },
             })
+            .set('.ballBottomH', { opacity: 0, ease: 'fadeOut' })
             .to('.ballBottom', {
-                autoAlpha: 0,
-                duration: 1,
+                opacity: 1,
+                duration: .85,
                 repeat: 2,
                 yoyo: true,
-                ease: 'none',
+                ease: 'fade',
                 motionPath: {
                     path: '.bottom-path',
                     align: '.bottom-path',
@@ -363,17 +369,19 @@ export default {
                     alignOrigin: [.5, .5],
                 },
             }, '-=2.5')
+            .set('.ballBottom', { opacity: 0, ease: 'fadeOut' })
             .from('.ballRight', {
+                opacity: 1,
                 duration: 1,
                 ease: 'none',
-                yoyo: true,
                 motionPath: {
                     path: '.right-path',
                     align: '.right-path',
                     autoRotate: true,
                     alignOrigin: [.5, .5],
                 },
-            }, '-=.1')
+            }, '-=.03')
+            .set('.ballRight', { opacity: 0, ease: 'fadeOut' })
     }
 }
 
@@ -430,5 +438,9 @@ body {
 .left-path path {
   stroke-width: 2;
   stroke: gray;
+}
+
+.round {
+    opacity: 0,
 }
 </style>
