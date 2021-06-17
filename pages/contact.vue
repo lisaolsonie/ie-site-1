@@ -47,7 +47,7 @@
           <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_desktop_Contact" transform="translate(-936.000000, -345.000000)">
                   <g id="Big-icon" transform="translate(937.000000, 345.000000)">
-                      <g id="Rectangle">
+                      <g ref="car3" class="car3" id="Rectangle">
                           <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                           <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                       </g>
@@ -90,6 +90,7 @@ export default {
         transformOrigin: 'top center',
       })
       gsap.timeline()
+      .from('.car3', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' })
       .from('.con14', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
       .from('.con7', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
       .from('.con10', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
