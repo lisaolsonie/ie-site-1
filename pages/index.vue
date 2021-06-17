@@ -134,7 +134,13 @@
                             <text id="Promotion" opacity="0.35" font-family="Avenir-Book, Avenir" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
                                 <tspan x="656.324" y="630">Promotion</tspan>
                             </text>
-                            <!-- <path ref="left-path" class="left-path" d="M370.170856,569.5 C459.396599,628.594466 528.905434,567.516645 528.524989,567.367838" stroke="black" id="Path-4"></path> -->
+                            <text id="Measure" opacity="0.35" transform="translate(448.789899, 590.301537) rotate(-2.000000) translate(-448.789899, -590.301537) " font-family="Avenir-Medium, Avenir" font-size="16" font-weight="400" fill="#484848">
+                                <tspan x="425.677899" y="662.301537">Measure</tspan>
+                            </text>
+                            <path d="M301,577.920253 C363.706173,593.450573 408.530382,601.724263 435.472627,602.741324 C554.715566,607.242705 635.558024,552.995597 678,440" id="Path-3"></path>
+                            <text id="Optimize" opacity="0.35" transform="translate(457.738320, 618.506852) rotate(-3.000000) translate(-457.738320, -618.506852)" font-family="Avenir-Medium, Avenir" font-size="16" font-weight="400" fill="#484848">
+                                <tspan x="424.42632" y="600.006852">Optimize</tspan>
+                            </text>
                             <path ref="bottom-path" class="bottom-path" d="M322.591194,618.506852 C435.133976,681.925151 518.804912,658.652605 591.69187,603" id="Path-5"></path>
                             <path ref="right-path" class="right-path" d="M567,204.695909 C673.565381,263.131982 693.972448,355.541483 681.613557,460.871061" id="Path-6"></path>
                             <path ref="left-path" class="left-path" d="M332,204.695909 C235.815261,253.389912 198.344368,338.305159 206.720965,451.504249" id="Path-7"></path>

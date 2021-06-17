@@ -83,26 +83,6 @@ export default {
   layout: "default",
 
   mounted() {
-      // gsap.from('.con2', {
-      //   duration: 2,
-      //   rotation: '+=20',
-      //   x: '+=20',
-      //   transformOrigin: '50% -50%',
-      //   yoyo: true,
-      //   repeat: -1,
-      // });
-      // gsap.set('.con2', { rotation: 0 });
-      // gsap.fromTo('.con4', {
-      //   opacity: 1,
-      //   y:  200,
-      // },
-      // {
-      //   rotation: 0,
-      //   y: 0,
-      //   yoyo: true,
-      //   duration: 2,
-      //   immediateRender:false
-      // })
       gsap.from('.con3', {
         scale: .7,
         ease: 'ease',
