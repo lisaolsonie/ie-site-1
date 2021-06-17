@@ -200,7 +200,7 @@ export default {
                 duration: 1,
                 repeat: 2,
                 yoyo: true,
-                ease: 'fade',
+                ease: 'ease',
                 motionPath: {
                     path: '.bottomH-path',
                     align: '.bottomH-path',
@@ -214,7 +214,7 @@ export default {
                 duration: .85,
                 repeat: 2,
                 yoyo: true,
-                ease: 'fade',
+                ease: 'ease',
                 motionPath: {
                     path: '.bottom-path',
                     align: '.bottom-path',
@@ -233,7 +233,7 @@ export default {
                     autoRotate: true,
                     alignOrigin: [.5, .5],
                 },
-            }, '-=.03')
+            }, '-=.06')
             .set('.ballRight', { opacity: 0, ease: 'fadeOut' })
     }
 }
