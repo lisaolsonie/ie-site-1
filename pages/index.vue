@@ -152,7 +152,7 @@
                 </g>
             </svg> -->
 
-            <svg width="711px" height="550px" viewBox="0 0 711 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="w-screen lg:h-full md:h-100 lg:w-100 xl:mr-40 logo" width="100%" height="550px" viewBox="0 0 711 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Circle Chart</title>
                 <defs>
                     <filter id="filter-1">
@@ -253,22 +253,22 @@
                             </g>
                             <g id="Promotion-icon" style="mix-blend-mode: multiply;" transform="translate(642.000000, 475.000000)">
                                 <g id="Icon-3" transform="translate(0.398656, 0.000000)">
-                                    <rect id="Rectangle" fill="#4F77FF" x="41.1976418" y="0" width="37.764505" height="108" rx="6"></rect>
-                                    <rect id="Rectangle" fill="#4F77FF" x="0" y="23.2615385" width="37.764505" height="84.7384615" rx="6"></rect>
-                                    <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="77.6246273" cy="55.7307692" rx="22.6944382" ry="22.5"></ellipse>
+                                    <rect ref="sba6" class="sba6" id="Rectangle" fill="#4F77FF" x="41.1976418" y="0" width="37.764505" height="108" rx="6"></rect>
+                                    <rect ref="sba7" class="sba7" id="Rectangle" fill="#4F77FF" x="0" y="23.2615385" width="37.764505" height="84.7384615" rx="6"></rect>
+                                    <ellipse ref="sba8" class="sba8" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="77.6246273" cy="55.7307692" rx="22.6944382" ry="22.5"></ellipse>
                                 </g>
                             </g>
                             <g id="Porduct-Icon-" transform="translate(173.000000, 472.000000)">
                                 <g id="Icon-2" transform="translate(0.368017, -0.002663)">
-                                    <rect id="Rectangle" fill="#966CE0" x="23.560825" y="0" width="84.1458035" height="108.664612" rx="6"></rect>
-                                    <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="22.7193669" cy="53.4964242" rx="22.7193669" ry="21.7329223"></ellipse>
-                                    <rect id="Rectangle" fill="#B594F0" x="52.1703982" y="86.9316893" width="28.6095732" height="5.01528976"></rect>
+                                    <rect ref="sba3" class="sba3" id="Rectangle" fill="#966CE0" x="23.560825" y="0" width="84.1458035" height="108.664612" rx="6"></rect>
+                                    <ellipse ref="sba4" class="sba4" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="22.7193669" cy="53.4964242" rx="22.7193669" ry="21.7329223"></ellipse>
+                                    <rect ref="sba5" class="sba5" id="Rectangle" fill="#B594F0" x="52.1703982" y="86.9316893" width="28.6095732" height="5.01528976"></rect>
                                 </g>
                             </g>
                             <g id="Audience-icon" transform="translate(455.000000, 183.500000) scale(1, -1) translate(-455.000000, -183.500000) translate(398.000000, 125.000000)">
                                 <g id="Icon-1" transform="translate(0.380825, 0.065875)">
-                                    <path d="M60.5500515,5.56024928 L108.997661,85.4970688 C110.142679,87.3863087 109.539369,89.8460612 107.650129,90.99108 C107.024962,91.3699776 106.307914,91.5703086 105.576889,91.5703086 L7.21356153,91.5703086 C5.00442253,91.5703086 3.21356153,89.7794476 3.21356153,87.5703086 C3.21356153,86.8211777 3.42393163,86.0871018 3.8207141,85.4516802 L53.7364327,5.51486065 C54.9065188,3.64104276 57.3740906,3.07055548 59.2479085,4.24064164 C59.7793076,4.57246828 60.2253337,5.02447667 60.5500515,5.56024928 Z" id="Rectangle" fill="#65D8B4"></path>
-                                    <ellipse id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="55.8954415" cy="92.4707452" rx="22.4107953" ry="22.5905729"></ellipse>
+                                    <path ref="sba1" class="sba1" d="M60.5500515,5.56024928 L108.997661,85.4970688 C110.142679,87.3863087 109.539369,89.8460612 107.650129,90.99108 C107.024962,91.3699776 106.307914,91.5703086 105.576889,91.5703086 L7.21356153,91.5703086 C5.00442253,91.5703086 3.21356153,89.7794476 3.21356153,87.5703086 C3.21356153,86.8211777 3.42393163,86.0871018 3.8207141,85.4516802 L53.7364327,5.51486065 C54.9065188,3.64104276 57.3740906,3.07055548 59.2479085,4.24064164 C59.7793076,4.57246828 60.2253337,5.02447667 60.5500515,5.56024928 Z" id="Rectangle" fill="#65D8B4"></path>
+                                    <ellipse ref="sba2" class="sba2" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="55.8954415" cy="92.4707452" rx="22.4107953" ry="22.5905729"></ellipse>
                                 </g>
                             </g>
                             <text id="Audience" opacity="0.35" font-family="Avenir-Book, Avenir" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
@@ -309,17 +309,23 @@ export default {
     mounted() {
         // gsap.set('.logo', { scale: 0.7 });
         // gsap.from('.logo', { opacity: 0 })
-        // gsap.from('.sba1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        // gsap.from('.sba2', { opacity: 0, scale: 0, duration: .4, ease:'back' })
-        // gsap.from('.sd1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        // gsap.from('.sd2', { opacity: 0, scale: 0, duration: .4, ease:'back' })
-        // gsap.from('.sem1', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        // gsap.from('.sem2', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
-        // gsap.from('.sem3', { opacity: 0, scale: 0, duration: .3, ease:'back' });
 
-        let tl = new TimelineMax({onComplete:function(){tl.play("ballAnimation")}});
+        let tl = new TimelineMax({
+            onComplete:function() {
+                tl.play("ballAnimation")
+            }
+        })
 
-        tl.addLabel('ballAnimation')
+        .from('.sba1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
+        .from('.sba2', { opacity: 0, scale: 0, duration: .4, ease:'back' })
+        .from('.sba3', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
+        .from('.sba4', { opacity: 0, scale: 0, duration: .4, ease:'back' })
+        .from('.sba5', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
+        .from('.sba6', { opacity: 0, scale: 0, duration: .3, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
+        .from('.sba7', { opacity: 0, scale: 0, duration: .3, ease:'back' })
+        .from('.sba8', { opacity: 0, scale: 0, duration: .3, ease:'back' })
+
+        .addLabel('ballAnimation')
         .to('.ballLeft', {
                 autoAlpha: 0,
                 duration: 1,
@@ -367,7 +373,7 @@ export default {
                     autoRotate: true,
                     alignOrigin: [.5, .5],
                 },
-            })
+            }, '-=.1')
     }
 }
 
