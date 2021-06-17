@@ -186,7 +186,7 @@ export default {
         .to('.ballLeft', {
                 opacity: 1,
                 duration: 1,
-                ease: 'none',
+                ease: 'ease',
                 motionPath: {
                     path: '.left-path',
                     align: '.left-path',
@@ -222,11 +222,12 @@ export default {
                     alignOrigin: [.5, .5],
                 },
             }, '-=2.5')
+            .delay(.4)
             .set('.ballBottom', { opacity: 0, ease: 'fadeOut' })
             .from('.ballRight', {
                 opacity: 1,
                 duration: 1,
-                ease: 'none',
+                ease: 'ease',
                 motionPath: {
                     path: '.right-path',
                     align: '.right-path',
