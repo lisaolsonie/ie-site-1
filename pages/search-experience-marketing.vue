@@ -14,7 +14,7 @@
             </g>
         </svg>
         <div class="flex">
-            <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-32 xl:bg-transparent lg:w-2/4 xl:w-2/5">
+            <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
                 <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl">
                 Search Experience Marketing
                 </h1>

@@ -14,7 +14,7 @@
           </g>
       </svg>
       <div class="flex">
-        <div class="md:mx-20 lg:ml-20 lg:mt-20 xl:ml-32 xl:mt-0 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
+        <div class="md:mx-20 lg:ml-20 lg:mt-20 xl:ml-40 xl:mt-0 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
             <h1 class="mx-12 mb-4 text-3xl tracking-wide leading-normal text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl">
             Custom Software Development
             </h1>

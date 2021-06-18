@@ -33,7 +33,7 @@
                 </g>
             </g>
         </svg>
-        <div class="relative lg:ml-20 xl:ml-32 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-0">
+        <div class="relative lg:ml-20 xl:ml-40 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-0">
             <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose text-ie-purple mb-4 mx-12 lg:mx-0 ">
             About
             </h1>

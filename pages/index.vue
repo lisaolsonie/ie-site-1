@@ -62,7 +62,7 @@
                                             <use xlink:href="#path-2"></use>
                                         </mask>
                                         <g id="Clip-8"></g>
-                                        <path d="M30.3427989,12.1089117 C10.494051,49.6802778 0,92.117702 0,134.84754 L0,134.84754 C0,197.259045 22.2623796,257.773612 62.6644759,305.22705 L62.6644759,305.22705 C70.8048612,314.786717 85.1367365,315.941374 94.6938187,307.798787 L94.6938187,307.798787 C104.243405,299.663698 105.397751,285.320449 97.2648612,275.760782 L97.2648612,275.760782 C63.8488045,236.524909 45.4392408,186.469742 45.4392408,134.84754 L45.4392408,134.84754 C45.4392408,99.4880179 54.1118244,64.3909185 70.5125269,33.3501171 L70.5125269,33.3501171 C76.3816997,22.2534055 72.1391048,8.50248039 61.0453938,2.6392179 L61.0453938,2.6392179 C57.6573144,0.847248928 54.0293711,1.13686838e-13 50.4464023,1.13686838e-13 L50.4464023,1.13686838e-13 C42.2985212,1.13686838e-13 34.4204873,4.40119576 30.3427989,12.1089117" id="Fill-7" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                                        <path d="M30.3427989,12.1089117 C10.494051,49.6802778 0,92.117702 0,134.84754 L0,134.84754 C0,197.259045 22.2623796,257.773612 62.6644759,305.22705 L62.6644759,305.22705 C70.8048612,314.786717 85.1367365,315.941374 94.6938187,307.798787 L94.6938187,307.798787 C104.243405,299.663698 105.397751,285.320449 97.2648612,275.760782 L97.2648612,275.760782 C63.8488045,236.524909 45.4392408,186.469742 45.4392408,134.84754 L45.4392408,134.84754 C45.4392408,99.4880179 54.1118244,64.3909185 70.5125269,33.3501171 L70.5125269,33.3501171 C76.3816997,22.2534055 72.1391048,8.50248039 61.0453938,2.6392179 L61.0453938,2.6392179 C57.6573144,0.847248928 54.0293711,1.13686838e-13 50.4464023,1.13686838e-13 L50.4464023,1.13686838e-13 C42.2985212,1.13686838e-13 34.4204873,4.40119576 30.3427989,12.1089117" id="Fill-7" fill="#C5C5C5" opacity="1" mask="url(#mask-3)"></path>
                                     </g>
                                 </g>
                                 <g filter="url(#filter-5)" id="bar" opacity="0.254882812">
@@ -79,19 +79,19 @@
                                         <use xlink:href="#path-8"></use>
                                     </mask>
                                     <g id="Clip-8"></g>
-                                    <path d="M29.7588895,11.9979494 C10.3152181,49.0581405 0.0353314448,90.9181847 0.0353314448,133.066664 L0.0353314448,133.066664 C0.0353314448,194.629033 21.8433768,254.320273 61.4209405,301.128085 L61.4209405,301.128085 C69.3951955,310.557689 83.4345836,311.696637 92.7966232,303.664834 L92.7966232,303.664834 C102.15132,295.640426 103.282108,281.492323 95.3151955,272.062719 L95.3151955,272.062719 C62.5810992,233.360667 44.5472408,183.986523 44.5472408,133.066664 L44.5472408,133.066664 C44.5472408,98.1882242 53.0428329,63.5686364 69.1088272,32.9501588 L69.1088272,32.9501588 C74.858221,22.0044229 70.7022096,8.4405852 59.8349008,2.65709499 L59.8349008,2.65709499 C56.515966,0.889506548 52.9620623,0.0537848166 49.4522153,0.0537848166 L49.4522153,0.0537848166 C41.4706176,0.0537848166 33.7533598,4.39510036 29.7588895,11.9979494" id="Fill-7" fill="#C5C5C5" opacity="0.25" mask="url(#mask-9)"></path>
+                                    <path d="M29.7588895,11.9979494 C10.3152181,49.0581405 0.0353314448,90.9181847 0.0353314448,133.066664 L0.0353314448,133.066664 C0.0353314448,194.629033 21.8433768,254.320273 61.4209405,301.128085 L61.4209405,301.128085 C69.3951955,310.557689 83.4345836,311.696637 92.7966232,303.664834 L92.7966232,303.664834 C102.15132,295.640426 103.282108,281.492323 95.3151955,272.062719 L95.3151955,272.062719 C62.5810992,233.360667 44.5472408,183.986523 44.5472408,133.066664 L44.5472408,133.066664 C44.5472408,98.1882242 53.0428329,63.5686364 69.1088272,32.9501588 L69.1088272,32.9501588 C74.858221,22.0044229 70.7022096,8.4405852 59.8349008,2.65709499 L59.8349008,2.65709499 C56.515966,0.889506548 52.9620623,0.0537848166 49.4522153,0.0537848166 L49.4522153,0.0537848166 C41.4706176,0.0537848166 33.7533598,4.39510036 29.7588895,11.9979494" id="Fill-7" fill="#C5C5C5" opacity="0.15" mask="url(#mask-3)"></path>
                                 </g>
                                 <g id="bar" style="mix-blend-mode: multiply;" transform="translate(450.832897, 568.829436) rotate(-312.000000) translate(-450.832897, -568.829436) translate(340.832897, 478.329436)">
                                     <mask id="mask-11" fill="white">
                                         <use xlink:href="#path-10"></use>
                                     </mask>
                                     <g id="Clip-2" transform="translate(110.224042, 90.260154) rotate(-110.000000) translate(-110.224042, -90.260154) "></g>
-                                    <path d="M166.767737,172.926824 C159.265231,183.863981 144.524019,186.674967 133.842009,179.212365 C83.048435,143.678325 51.486926,84.9998849 49.397849,22.2425066 C48.9610648,9.00750206 59.179204,-2.21654453 72.2218416,-2.84037897 C85.2722266,-3.45635171 96.2015056,6.76614112 96.6460884,20.0010944 C98.2315139,67.806861 122.295785,112.521289 161.017969,139.589044 C171.692079,147.067523 174.270243,161.989666 166.767737,172.926824 Z" id="Fill-1" fill-opacity="0.25" fill="#C5C5C5" mask="url(#mask-11)" transform="translate(110.224110, 90.260164) rotate(-110.000000) translate(-110.224110, -90.260164) "></path>
+                                    <path d="M166.767737,172.926824 C159.265231,183.863981 144.524019,186.674967 133.842009,179.212365 C83.048435,143.678325 51.486926,84.9998849 49.397849,22.2425066 C48.9610648,9.00750206 59.179204,-2.21654453 72.2218416,-2.84037897 C85.2722266,-3.45635171 96.2015056,6.76614112 96.6460884,20.0010944 C98.2315139,67.806861 122.295785,112.521289 161.017969,139.589044 C171.692079,147.067523 174.270243,161.989666 166.767737,172.926824 Z" id="Fill-1" fill-opacity="0.15" fill="#C5C5C5" mask="url(#mask-11)" transform="translate(110.224110, 90.260164) rotate(-110.000000) translate(-110.224110, -90.260164) "></path>
                                 </g>
-                                <ellipse ref="ballRight" class="ballRight round" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="329.437674" cy="203.103165" rx="21.288" ry="21.3052805"></ellipse>
+                                <!-- <ellipse ref="ballRight" class="ballRight round" id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="329.437674" cy="203.103165" rx="21.288" ry="21.3052805"></ellipse>
                                 <ellipse ref="ballBottom" class="ballBottom round"  id="Oval" fill="#EBEBEB" opacity="0.55" style="mix-blend-mode: multiply;" cx="551.436926" cy="629.303391" rx="22.4872521" ry="22.5055061"></ellipse>
                                 <ellipse ref="ballBottomH" class="ballBottomH round" id="Oval" fill="#EBEBEB" opacity="0.31" style="mix-blend-mode: multiply;" cx="345.036926" cy="631.704521" rx="22.4872521" ry="22.5055061"></ellipse>
-                                <ellipse ref="ballLeft" class="ballLeft round"  id="Oval" fill="#EBEBEB" opacity="0.5" style="mix-blend-mode: multiply;" cx="377.313073" cy="571.681359" rx="23.5633987" ry="22.5105932"></ellipse>
+                                <ellipse ref="ballLeft" class="ballLeft round"  id="Oval" fill="#EBEBEB" opacity="0.5" style="mix-blend-mode: multiply;" cx="377.313073" cy="571.681359" rx="23.5633987" ry="22.5105932"></ellipse> -->
                             </g>
                             <g id="Rectangle">
                                 <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
@@ -112,7 +112,7 @@
                                     <ellipse ref="sba8" class="sba8" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="77.6246273" cy="55.7307692" rx="22.6944382" ry="22.5"></ellipse>
                                 </g>
                             </g>
-                            <g id="Porduct-Icon-" transform="translate(173.000000, 472.000000)">
+                            <g id="Product-Icon-" transform="translate(173.000000, 472.000000)">
                                 <g id="Icon-2" transform="translate(0.368017, -0.002663)">
                                     <rect ref="sba3" class="sba3" id="Rectangle" fill="#966CE0" x="23.560825" y="0" width="84.1458035" height="108.664612" rx="6"></rect>
                                     <ellipse ref="sba4" class="sba4" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="22.7193669" cy="53.4964242" rx="22.7193669" ry="21.7329223"></ellipse>
@@ -166,9 +166,9 @@ gsap.registerPlugin(MotionPathPlugin);
 export default {
   layout: "default",
     mounted() {
-        gsap.set('ballBottomH', { opacity: 0 })
-        gsap.set('ballBottom', { opacity: 0 })
-        gsap.set('ballRight', { opacity: 0 })
+        // gsap.set('ballBottomH', { opacity: 0 })
+        // gsap.set('ballBottom', { opacity: 0 })
+        // gsap.set('ballRight', { opacity: 0 })
 
         gsap.from('.sba1', { opacity: 0, scale: 0, duration: .4, rotation: 245, ease:'back', transformOrigin:"50% 50%" })
         gsap.from('.sba2', { opacity: 0, scale: 0, duration: .4, ease:'back', delay: .4 })
@@ -179,69 +179,69 @@ export default {
         gsap.from('.sba7', { opacity: 0, scale: 0, duration: .3, ease:'back', delay: 2.4 })
         gsap.from('.sba8', { opacity: 0, scale: 0, duration: .3, ease:'back', delay: 2.8 })
 
-        let tl = new TimelineMax({
-            onComplete:function() {
-                tl.play("ballAnimation")
-            }
-        })
+        // let tl = new TimelineMax({
+        //     onComplete:function() {
+        //         tl.play("ballAnimation")
+        //     }
+        // })
 
-        .addLabel('ballAnimation')
-        .set('.ballBottomH', { opacity: 0, ease: 'fadeIn' })
-        .set('.ballBottom', { opacity: 0, ease: 'fadeIn' })
-        .set('.ballRight', { opacity: 0, ease: 'fadeIn' })
-        .to('.ballLeft', {
-                opacity: 1,
-                duration: 1,
-                ease: 'ease',
-                motionPath: {
-                    path: '.left-path',
-                    align: '.left-path',
-                    autoRotate: true,
-                    alignOrigin: [.5, .5],
-                },
-            })
-            .set('.ballLeft', { opacity: 0, ease: 'fadeOut' })
-            .to('.ballBottomH', {
-                opacity: 1,
-                duration: 1,
-                repeat: 2,
-                yoyo: true,
-                ease: 'ease',
-                motionPath: {
-                    path: '.bottomH-path',
-                    align: '.bottomH-path',
-                    autoRotate: true,
-                    alignOrigin: [.5, .5],
-                },
-            })
-            .set('.ballBottomH', { opacity: 0, ease: 'fadeOut' })
-            .to('.ballBottom', {
-                opacity: 1,
-                duration: .85,
-                repeat: 2,
-                yoyo: true,
-                ease: 'ease',
-                motionPath: {
-                    path: '.bottom-path',
-                    align: '.bottom-path',
-                    autoRotate: true,
-                    alignOrigin: [.5, .5],
-                },
-            }, '-=2.5')
-            .delay(.4)
-            .set('.ballBottom', { opacity: 0, ease: 'fadeOut' })
-            .from('.ballRight', {
-                opacity: 1,
-                duration: 1,
-                ease: 'ease',
-                motionPath: {
-                    path: '.right-path',
-                    align: '.right-path',
-                    autoRotate: true,
-                    alignOrigin: [.5, .5],
-                },
-            }, '-=.06')
-            .set('.ballRight', { opacity: 0, ease: 'fadeOut' })
+        // .addLabel('ballAnimation')
+        // .set('.ballBottomH', { opacity: 0, ease: 'fadeIn' })
+        // .set('.ballBottom', { opacity: 0, ease: 'fadeIn' })
+        // .set('.ballRight', { opacity: 0, ease: 'fadeIn' })
+        // .to('.ballLeft', {
+        //         opacity: 1,
+        //         duration: 1,
+        //         ease: 'ease',
+        //         motionPath: {
+        //             path: '.left-path',
+        //             align: '.left-path',
+        //             autoRotate: true,
+        //             alignOrigin: [.5, .5],
+        //         },
+        //     })
+        //     .set('.ballLeft', { opacity: 0, ease: 'fadeOut' })
+        //     .to('.ballBottomH', {
+        //         opacity: 1,
+        //         duration: 1,
+        //         repeat: 2,
+        //         yoyo: true,
+        //         ease: 'ease',
+        //         motionPath: {
+        //             path: '.bottomH-path',
+        //             align: '.bottomH-path',
+        //             autoRotate: true,
+        //             alignOrigin: [.5, .5],
+        //         },
+        //     })
+        //     .set('.ballBottomH', { opacity: 0, ease: 'fadeOut' })
+        //     .to('.ballBottom', {
+        //         opacity: 1,
+        //         duration: .85,
+        //         repeat: 2,
+        //         yoyo: true,
+        //         ease: 'ease',
+        //         motionPath: {
+        //             path: '.bottom-path',
+        //             align: '.bottom-path',
+        //             autoRotate: true,
+        //             alignOrigin: [.5, .5],
+        //         },
+        //     }, '-=2.5')
+        //     .delay(.4)
+        //     .set('.ballBottom', { opacity: 0, ease: 'fadeOut' })
+        //     .from('.ballRight', {
+        //         opacity: 1,
+        //         duration: 1,
+        //         ease: 'ease',
+        //         motionPath: {
+        //             path: '.right-path',
+        //             align: '.right-path',
+        //             autoRotate: true,
+        //             alignOrigin: [.5, .5],
+        //         },
+        //     }, '-=.06')
+        //     .set('.ballRight', { opacity: 0, ease: 'fadeOut' })
     }
 }
 

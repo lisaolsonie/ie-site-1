@@ -1,7 +1,7 @@
 <template>
 <div class="fade-in  screenHeight overflow-hidden">
   <div class="md:flex">
-    <div class="relative justify-items-center z-1 xl:w-2/4" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Careers" transform="translate(-134.000000, -116.000000)">
@@ -20,9 +20,13 @@
         <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
           We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.
         </p>
-        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
+        <p class="hidden md:block mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
           View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or contact us at
           <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">careers@ideaevolver.com</a>.
+        </p>
+        <p class="md:hidden mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
+          View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or
+          <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">contact us</a>.
         </p>
       </div>
       <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
@@ -30,7 +34,7 @@
     </div>
     <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">
       <!-- MAIN LOGO  -->
-      <svg width="608px" height="417px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg width="100%" height="417px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
           <defs>
               <path d="M132.942751,320 L484.203958,320 C485.220391,320 486.220163,320.258219 487.10947,320.750428 L584.674687,374.750428 C587.573945,376.355098 588.623417,380.006253 587.018747,382.905512 C585.961906,384.814973 583.951596,386 581.769175,386 L25.3340556,386 C22.0203471,386 19.3340556,383.313708 19.3340556,380 C19.3340556,377.730509 20.6145594,375.655239 22.6429766,374.637343 L130.251672,320.637343 C131.086832,320.218244 132.008334,320 132.942751,320 Z" id="path-1"></path>
