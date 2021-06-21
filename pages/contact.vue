@@ -86,18 +86,18 @@
           </g>
       </svg>
       <!-- LEFT SIDE OF LOGO -->
-      <img ref="con5" class="hidden xl:block absolute h-4 w-6 top-20 left-20 con5" src="images/email.png" alt="">
-      <img ref="con6" class="hidden xl:block absolute h-10 w-10 top-52 left-4 con6" src="images/bubble.png" alt="">
-      <div ref="con7" class="hidden xl:block absolute h-2 w-2 top-72 left-20 rounded-full bg-blue-500 con7" style="mix-blend-mode: multiply"></div>
-      <img ref="con8" class="hidden xl:block absolute h-8 w-12 top-96 left-2 con8" src="images/email.png" alt="">
+      <img ref="con5" class="hidden xl:block absolute h-4 w-6 top-20 left-20 con5" src="images/email.png" alt="Email Logo">
+      <img ref="con6" class="hidden xl:block absolute h-10 w-10 top-52 left-4 con6" src="images/bubble.png" alt="Chat Bubble Logo">
+      <div ref="con7" class="hidden xl:block absolute h-2 w-2 top-72 left-20 rounded-full bg-blue-500 con7" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="con8" class="hidden xl:block absolute h-8 w-12 top-96 left-2 con8" src="images/email.png" alt="Email Logo">
 
       <!-- RIGHT SIDE OF LOGO  -->
-      <img ref="con9" class="hidden xl:block absolute h-8 w-12 top-24 right-48 con9" src="images/email.png" alt="">
-      <img ref="con10" class="hidden xl:block absolute h-8 w-8 top-52 right-36 con10" src="images/left-bubble.png" alt="">
-      <div ref="con11" class="hidden xl:block absolute h-2 w-2 top-72 right-60 rounded-full bg-blue-500 con11" style="mix-blend-mode: multiply"></div>
-      <img ref="con12" class="hidden xl:block absolute h-4 w-6 right-32 con12" src="images/email.png" alt="" style="top: 20rem">
-      <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-96 right-44 con13" src="images/left-bubble.png" alt="">
-      <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14" style="mix-blend-mode: multiply; top: 23.5rem; right: 12rem;"></div>
+      <img ref="con9" class="hidden xl:block absolute h-8 w-12 top-24 right-48 con9" src="images/email.png" alt="Email Logo">
+      <img ref="con10" class="hidden xl:block absolute h-8 w-8 top-52 right-36 con10" src="images/left-bubble.png" alt="Chat Bubble Logo">
+      <div ref="con11" class="hidden xl:block absolute h-2 w-2 top-72 right-60 rounded-full bg-blue-500 con11" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="con12" class="hidden xl:block absolute h-4 w-6 right-32 con12" src="images/email.png" alt="Email Logo" style="top: 20rem">
+      <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-96 right-44 con13" src="images/left-bubble.png" alt="Chat Bubble Logo">
+      <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14" style="mix-blend-mode: multiply; top: 23.5rem; right: 12rem;" alt="Circle"></div>
     </div>
   </div>
 </div>
