@@ -248,7 +248,7 @@
           </p>
           <p class="pt-4 lg:text-lg">
             Clients appreciate our harmonious blend of regulatory rigor, scalable development practices, and engaging design patterns.
-            Our ISO 13485 aligned Quality Management System (QMS) guides our regulated technology practices to ensure safe and successful
+            Our ISO 13485 certified Quality Management System (QMS) guides our regulated technology practices to ensure safe and successful
             product launches under any safety classification. We build medical device software on modern technology stacks designed for security,
             scalability, fast responses, and best in class user design. The validated tools and infrastructure we offer beneath your custom
             software layer facilitates a fast and cost-efficient program.
