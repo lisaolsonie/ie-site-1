@@ -129,10 +129,10 @@ export default {
 
 <style scoped>
 body {
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 5rem);
   overflow: hidden;
 }
 .screenHeight {
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 5rem);
 }
 </style>

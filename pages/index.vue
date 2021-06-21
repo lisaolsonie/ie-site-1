@@ -280,13 +280,13 @@ export default {
       height: 200px;
     }
 }
-.screenHeight {
-    height: calc(100vh - 12rem);
-}
 
 body {
-  height: 100%;
+  height: calc(100vh - 5rem);
   overflow: hidden;
+}
+.screenHeight {
+  height: calc(100vh - 5rem);
 }
 
 .left-path {
