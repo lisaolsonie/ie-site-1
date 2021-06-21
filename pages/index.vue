@@ -288,6 +288,9 @@ export default {
     }
 }
 
+.screenHeight {
+    height: calc(100vh - 12rem);
+}
 
 .left-path {
   overflow: visible;
