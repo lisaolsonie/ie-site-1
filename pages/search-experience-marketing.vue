@@ -376,7 +376,7 @@
         </div>
       <div class="relative md:flex xl:mx-40 xl:pt-24">
 
-        <div class="relative xl:inline-block mx-8 md:ml-8 lg:mx-0 lg:ml-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mt-16">
+        <div class="relative xl:inline-block mx-8 md:ml-8 lg:mx-0 lg:ml-8 xl:mx-0 xl:mt-16 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 md:h-1/6 lg:mt-16">
 
             <svg class="hidden lg:block absolute right-40 -top-8 z-behind anime" width="51px" height="50px" viewBox="0 0 51 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -450,7 +450,7 @@
             </g>
         </g>
         </svg>
-        <div class="relative mx-8 lg:mr-8 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
+        <div class="relative mx-8 lg:mr-8 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 md:h-1/6">
             <div ref="anime" class="lg:hidden absolute left-9 -top-5 w-6 h-6 bg-blue-500 rounded-full z-behind anime" style=""></div>
             <div ref="anime" class="lg:hidden absolute -top-4 left-12 w-16 h-4 rounded-t-xl anime" style="background-color: #4F77FF; mix-blend-mode: multiply;"></div>
 
@@ -695,5 +695,20 @@ export default {
     .screenHeightCalc {
         height: calc(100vh - 9rem);
     }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .screenHeightCalc {
+    height: 50%;
+  }
+  .scrollArrow {
+      width: 100%;
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .content {
+    height: calc(100vh - 10rem);
+  }
 }
 </style>

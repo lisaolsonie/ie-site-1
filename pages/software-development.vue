@@ -36,7 +36,7 @@
                 </svg>
             </button>
         </div>
-        <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:w-3/5 xl:m-auto lg:mr-16" width="924px" height="584px" viewBox="0 0 924 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:w-3/5 xl:m-auto lg:mr-16 large-icon" width="924px" height="584px" viewBox="0 0 924 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Software Development Process</title>
             <defs>
                 <polygon id="path-1" points="873.888947 295.169905 537.17257 442.805778 50.7849609 202.486681 375.647357 71.4092541"></polygon>
@@ -163,7 +163,7 @@
           </g>
       </svg>
       <div class="relative md:flex xl:mx-40 xl:pt-24">
-        <div class="relative p-8 mx-8 lg:ml-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6 xl:mr-4">
+        <div class="relative p-8 mx-8 lg:ml-8 lg:mx-4 xl:mx-0 text-gray-600 bg-white lg:mt-0 xl:mt-0 xl:p-14 xl:flex-1 xl:h-1/6 md:h-1/6 xl:mr-4">
 
         <svg class="hidden lg:block absolute top-4 -left-4 z-behind anime" width="57px" height="56px" viewBox="0 0 57 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -210,7 +210,7 @@
         </svg>
           <div class="absolute lg:hidden -bottom-2.5 right-10 w-5 h-6 rounded-md" style="background-color: #966CE0"></div>
         </div>
-        <div class="relative mx-8 lg:mx-8 lg:mt-16 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-16 xl:p-14 xl:flex-1 xl:h-1/6 lg:h-1/6">
+        <div class="relative mx-8 lg:mx-8 lg:mt-16 text-gray-600 bg-white lg:mt-0 p-8 mt-16 xl:mt-16 xl:p-14 xl:flex-1 xl:h-1/6 md:h-1/6">
           <div ref="anime" class="absolute lg:hidden -top-6 left-20 w-10 h-6 rounded-sm anime" style="background-color: #966CE0"></div>
           <div ref="anime" class="absolute lg:hidden -top-3 w-6 h-3 bg-blue-500 rounded-full anime" style="mix-blend-mode: multiply; left: 6.7rem; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
           <div ref="anime" class="absolute lg:hidden -top-1.5 left-56 w-3 h-1.5 bg-blue-500 rounded-full anime" style="mix-blend-mode: multiply; border-bottom-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
@@ -465,5 +465,23 @@ export default {
 
 .iso-cert a{
     color: #A3238E;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .screenHeightCalc {
+    height: 50%;
+  }
+  .scrollArrow {
+      width: 100%;
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .content {
+    height: calc(100vh - 10rem);
+  }
+  .large-icon {
+      width: 60%;
+  }
 }
 </style>

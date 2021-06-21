@@ -453,7 +453,7 @@
         </svg>
         </div>
     <div class="relative md:flex xl:mx-40 xl:pt-24">
-      <div class="relative xl:inline-block mx-8 md:ml-8 xl:mx-0 xl:mt-16 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 lg:mt-16">
+      <div class="relative xl:inline-block mx-8 md:ml-8 xl:mx-0 xl:mt-16 xl:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 md:h-1/6 lg:mt-16">
 
         <svg ref="anime" class="hidden lg:block absolute z-behind -top-8 left-6 anime" width="50px" height="43px" viewBox="0 0 50 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -859,5 +859,20 @@ export default {
     .screenHeightCalc {
         height: calc(100vh - 9rem);
     }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .screenHeightCalc {
+    height: 50%;
+  }
+  .scrollArrow {
+      width: 100%;
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .content {
+    height: calc(100vh - 10rem);
+  }
 }
 </style>
