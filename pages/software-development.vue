@@ -20,7 +20,7 @@
             </h1>
             <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
             We minimize the guesswork associated with feature planning and requirements gathering by starting with user behavior research. Our Quality
-            Management System is aligned with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
+            Management System is certified with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
             frameworks, so your applications are reliable, fast and intuitive.
             </p>
             <button ref="scrollArrow" class="scrollArrow" id="scrollArrow">
