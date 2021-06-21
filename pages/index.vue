@@ -1,6 +1,6 @@
 <template>
-<div class="fade-in h-full md:screenHeight overflow-hidden">
-    <div class="md:flex">
+<div class="fade-in h-full screenHeight overflow-hidden content">
+    <div class="lg:flex">
         <div class="flex-grow px-6 lg:ml-16 xl:ml-32">
             <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement and bring brands into digital harmony.</h1>
             <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl">Evolve Responsively.</h4>
@@ -288,8 +288,22 @@ export default {
     }
 }
 
-.screenHeight {
-    height: calc(100vh - 12rem);
+@media (min-width: 422px) {
+    .screenHeight {
+        height: calc(100vh - 12rem);
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .content {
+    height: calc(100vh - 8rem);
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .content {
+    height: calc(100vh - 10rem);
+  }
 }
 
 .left-path {

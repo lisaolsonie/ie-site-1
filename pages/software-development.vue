@@ -253,6 +253,10 @@
             scalability, fast responses, and best in class user design. The validated tools and infrastructure we offer beneath your custom
             software layer facilitates a fast and cost-efficient program.
           </p>
+        <div class="flex pt-4 iso-cert items-center">
+          <img class="w-20 h-28" src="images/certificate.png" alt="ISO certificate">
+          <a class="pl-4" href="images/ISO.pdf" download>Idea Evolver ISO 13485 Certificate</a>
+        </div>
 
         <svg class="hidden lg:block absolute z-behind bottom-8 -left-4 anime" width="48px" height="39px" viewBox="0 0 48 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -457,5 +461,9 @@ export default {
     .screenHeightCalc {
         height: calc(100vh - 9rem);
     }
+}
+
+.iso-cert a{
+    color: #A3238E;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-<div class="fade-in h-full md:screenHeight overflow-hidden">
+<div class="fade-in h-full screenHeight overflow-hidden">
   <div class="md:flex">
-    <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8 content" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Careers" transform="translate(-134.000000, -116.000000)">
@@ -135,7 +135,21 @@ export default {
     }
 }
 
-.screenHeight {
-  height: calc(100vh - 12rem);
+@media (min-width: 422px) {
+    .screenHeight {
+        height: calc(100vh - 12rem);
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .content {
+    height: calc(100vh - 8rem);
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .content {
+    height: calc(100vh - 10rem);
+  }
 }
 </style>
