@@ -1,5 +1,5 @@
 <template>
-<div class="fade-in h-100 overflow-hidden">
+<div class="fade-in h-full md:screenHeight overflow-hidden">
   <div class="md:flex">
     <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
