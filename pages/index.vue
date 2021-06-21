@@ -282,11 +282,11 @@ export default {
 }
 
 body {
-  height: calc(100vh - 2rem);
+  height: calc(100vh - .5rem);
   overflow: hidden;
 }
 .screenHeight {
-  height: calc(100vh - 2rem);
+  height: calc(100vh - .5rem);
 }
 
 .left-path {
