@@ -1,7 +1,7 @@
 <template>
   <div
     id="app"
-    class="relative overflow-hidden"
+    class="relative overflow-hidden main-content"
   >
 
     <Header ref="header" />
@@ -24,7 +24,12 @@
 
 
 export default {
-  // mounted() {
+  mounted() {
+    let main = document.getElementById('app');
+    console.log(main)
+      main.ontouchend = (e) => {
+      e.preventDefault();
+    };
   //   let cookieBtn = document.getElementById("cookieBtn");
 
   //   gsap.from('.cookieNotice', { opacity: 0, height: 0, ease: 'ease', duration: 1 })
@@ -33,24 +38,13 @@ export default {
   //     gsap.to('.cookieNotice', { height: 0, opacity: 0, ease: 'ease', duration: 1 })
   //   }
   //   cookieBtn.addEventListener("click", cookieGoAway);
-  // }
+  }
 }
 </script>
 
 <style>
 export default {
   transition: "default"
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.scrollbar-hidden::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge add Firefox */
-.scrollbar-hidden {
-  -ms-overflow-style: none;
-  scrollbar-width: none; /* Firefox */
 }
 
 .page-enter-active,
