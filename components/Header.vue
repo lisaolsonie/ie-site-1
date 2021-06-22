@@ -20,26 +20,26 @@
             </nuxt-link>
           </li>
           <li
-            id="software-development"
+            id="medical-device-custom-software-development"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sd"
           >
-            <nuxt-link to="/software-development">
+            <nuxt-link to="/medical-device-custom-software-development">
               Software Development
             </nuxt-link>
           </li>
           <li
-            id="search-experience-marketing"
+            id="search-experience-marketing-optimization"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sem"
           >
-            <nuxt-link to="/search-experience-marketing">
+            <nuxt-link to="/search-experience-marketing-optimization">
               Search Experience Marketing
             </nuxt-link>
           </li>
           <li
-            id="about"
+            id="about-us"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 ab"
           >
-            <nuxt-link to="/about">About</nuxt-link>
+            <nuxt-link to="/about-us">About</nuxt-link>
           </li>
           <li
             id="careers"
@@ -119,15 +119,15 @@ a.nuxt-link-active {
   border-bottom: 5px solid #65D8B4;
 }
 
-#software-development a.nuxt-link-active {
+#medical-device-custom-software-development a.nuxt-link-active {
   border-bottom: 5px solid #966CE0;
 }
 
-#search-experience-marketing a.nuxt-link-active {
+#search-experience-marketing-optimization a.nuxt-link-active {
   border-bottom: 5px solid #4F77FF;
 }
 
-#about a.nuxt-link-active {
+#about-us a.nuxt-link-active {
   border-bottom: 5px solid #4BBFE1;
 }
 
@@ -143,15 +143,15 @@ a.nuxt-link-active {
   background-color: #65D8B4;
 }
 
-#software-development::after {
+#medical-device-custom-software-development::after {
   background-color: #966CE0;
 }
 
-#search-experience-marketing::after {
+#search-experience-marketing-optimization::after {
   background-color: #4F77FF;
 }
 
-#about::after {
+#about-us::after {
   background-color: #4BBFE1;
 }
 

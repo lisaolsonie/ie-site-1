@@ -19,9 +19,9 @@
             Custom Software Development
             </h1>
             <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
-            We minimize the guesswork associated with feature planning and requirements gathering by starting with user behavior research. Our Quality
-            Management System is certified with ISO 13485 and IEC 62304. Building on a scalable infrastructure, we implement the right languages and
-            frameworks, so your applications are reliable, fast and intuitive.
+            We minimize the guesswork associated with feature planning and requirements gathering by starting with user behavior research.
+            Our Quality Management System is ISO 13485 certified and aligns with IEC 62304 international standards. Building on a scalable
+            infrastructure, we implement the right languages and frameworks, so your applications are reliable, fast and intuitive.
             </p>
             <button ref="scrollArrow" class="scrollArrow" id="scrollArrow">
                 <svg class="w-screen md:w-full lg:w-10 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -303,6 +303,17 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
+    head: {
+        title: 'Medical Device & Custom Software Development',
+        meta: [
+          {
+            name: 'Description',
+            content: 'We build medical device software and custom products on modern technology stacks designed for security,\
+            scalability, and experience. Building on a scalable infrastructure, we implement the right languages and frameworks,\
+            so your software applications are reliable, fast, and intuitive.'
+          }
+        ],
+    },
   layout: "scroller",
   mounted() {
 

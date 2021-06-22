@@ -20,11 +20,7 @@
         <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
           We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.
         </p>
-        <p class="hidden md:block mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
-          View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or contact us at
-          <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">careers@ideaevolver.com</a>.
-        </p>
-        <p class="md:hidden mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
+        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
           View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or
           <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">contact us</a>.
         </p>
@@ -86,6 +82,15 @@
 import gsap from 'gsap';
 
 export default {
+    head: {
+        title: 'Careers at Idea Evolver',
+        meta: [
+          {
+            name: 'Description',
+            content: 'We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists. Learn more about current open positions.'
+          }
+        ],
+    },
   layout: "default",
 
   mounted() {

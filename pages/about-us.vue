@@ -207,6 +207,16 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
+    head: {
+        title: 'About Us',
+        meta: [
+          {
+            name: 'Description',
+            content: 'Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software\
+            (SaMD) and digital marketing for food, healthcare, and biotech companies.'
+          }
+        ],
+    },
   layout: "scroller",
     mounted() {
     // SCROLL BUTTON

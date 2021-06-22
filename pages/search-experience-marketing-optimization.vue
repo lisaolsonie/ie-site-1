@@ -546,6 +546,15 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
+    head: {
+        title: 'Search Experience Marketing: Content, SEO, & PPC Services',
+        meta: [
+          {
+            name: 'Description',
+            content: 'Learn more about our Content, SEO, and Paid Search (PPC) services that help you achieve the right outcome with the right audiences.'
+          }
+        ],
+    },
   layout: "scroller",
     mounted() {
     // SCROLL BUTTON

@@ -583,6 +583,16 @@ gsap.registerPlugin(ExpoScaleEase, RoughEase, SlowMo);
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
+    head: {
+        title: 'Search Behavior Analysis',
+        meta: [
+          {
+            name: 'Description',
+            content: 'Search behavior is personal, intentional and precise. Analysis of this dataset provides a\
+            unique window into audience need-states, preferences, and interests.'
+          }
+        ],
+    },
   layout: "scroller",
   mounted() {
     // SCROLL BUTTON

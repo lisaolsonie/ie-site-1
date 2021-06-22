@@ -2,7 +2,7 @@
 <div class="fade-in h-full screenHeight overflow-hidden content">
     <div class="lg:flex">
         <div class="flex-grow px-6 lg:ml-16 xl:ml-32">
-            <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement and bring brands into digital harmony.</h1>
+            <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement to bring brands into digital harmony.</h1>
             <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl">Evolve Responsively.</h4>
         </div>
         <div class="relative">
@@ -164,6 +164,15 @@ import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 gsap.registerPlugin(MotionPathPlugin);
 
 export default {
+  head: {
+    title: 'Idea Evolver: Evolve Responsively',
+    meta: [
+      {
+        name: 'Description',
+        content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
+      }
+    ],
+  },
   layout: "default",
     mounted() {
         // gsap.set('ballBottomH', { opacity: 0 })

@@ -45,15 +45,15 @@
           Search Behavior Analysis
         </nuxt-link>
 
-        <nuxt-link id="software-development" class="mb-8 sd" to="/software-development">
+        <nuxt-link id="software-development" class="mb-8 sd" to="/medical-device-custom-software-development">
           Software Development
         </nuxt-link>
 
-        <nuxt-link id="search-experience-marketing" class="mb-8 sem" to="/search-experience-marketing">
+        <nuxt-link id="search-experience-marketing" class="mb-8 sem" to="/search-experience-marketing-optimization">
           Search Experience Marketing
         </nuxt-link>
 
-        <nuxt-link id="about" class="mb-8 abo" to="/about"> About </nuxt-link>
+        <nuxt-link id="about" class="mb-8 abo" to="/about-us"> About </nuxt-link>
 
         <nuxt-link id="careers" class="mb-8 car" to="/careers"> Careers </nuxt-link>
 
