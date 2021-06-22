@@ -25,11 +25,6 @@
 
 export default {
   mounted() {
-    let main = document.getElementById('app');
-    console.log(main)
-      main.ontouchend = (e) => {
-      e.preventDefault();
-    };
   //   let cookieBtn = document.getElementById("cookieBtn");
 
   //   gsap.from('.cookieNotice', { opacity: 0, height: 0, ease: 'ease', duration: 1 })
