@@ -19,9 +19,10 @@
             Custom Software Development
             </h1>
             <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
-            We minimize the guesswork associated with feature planning and requirements gathering by starting with user behavior research.
-            Our Quality Management System is ISO 13485 certified and aligns with IEC 62304 international standards. Building on a scalable
-            infrastructure, we implement the right languages and frameworks, so your applications are reliable, fast and intuitive.
+                We minimize the guesswork associated with feature planning and requirements gathering by starting with user
+                behavior research. Our Quality Management System is ISO 13485 certified and is compliant with IEC 62304
+                international standards. Building on a scalable infrastructure, we implement the right languages and frameworks,
+                so your applications are reliable, fast and intuitive.
             </p>
             <button ref="scrollArrow" class="scrollArrow" id="scrollArrow">
                 <svg class="w-screen md:w-full lg:w-10 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -296,6 +297,7 @@
 </template>
 
 <script>
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import gsap from 'gsap';
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -316,7 +318,8 @@ export default {
     },
   layout: "scroller",
   mounted() {
-
+    const targetElement = document.querySelector('body');
+    clearAllBodyScrollLocks(targetElement);
     // SCROLL BUTTON
     let scrollArrow = document.getElementById("scrollArrow");
     let rootElement = document.documentElement;
@@ -470,13 +473,14 @@ export default {
 
 @media (min-width: 640px) {
     .screenHeightCalc {
-        height: calc(100vh - 9rem);
+        height: 60%;
     }
 }
 
 .iso-cert a{
     color: #A3238E;
 }
+
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .screenHeightCalc {
@@ -489,10 +493,7 @@ export default {
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .content {
-    height: calc(100vh - 10rem);
-  }
-  .large-icon {
-      width: 60%;
+    height: 50%;
   }
 }
 </style>

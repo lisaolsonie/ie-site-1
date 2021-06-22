@@ -79,6 +79,7 @@
 </template>
 
 <script>
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import gsap from 'gsap';
 
 export default {
@@ -94,6 +95,8 @@ export default {
   layout: "default",
 
   mounted() {
+    const targetElement = document.querySelector('body');
+    disableBodyScroll(targetElement);
     gsap.timeline()
       .fromTo('.car2', {
         opacity: 1,
@@ -136,7 +139,6 @@ export default {
 @media screen and (max-width: 420px) {
     body {
       height: 100%;
-      overflow: hidden;
       position: fixed;
     }
 }

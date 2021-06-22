@@ -157,6 +157,7 @@
 </template>
 
 <script>
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import gsap, { TimelineMax } from 'gsap';
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
@@ -175,6 +176,8 @@ export default {
   },
   layout: "default",
     mounted() {
+        const targetElement = document.querySelector('body');
+        disableBodyScroll(targetElement);
         // gsap.set('ballBottomH', { opacity: 0 })
         // gsap.set('ballBottom', { opacity: 0 })
         // gsap.set('ballRight', { opacity: 0 })
@@ -293,8 +296,6 @@ export default {
 @media screen and (max-width: 420px) {
     body {
       height: 100%;
-      overflow: hidden;
-      position: fixed;
     }
 }
 

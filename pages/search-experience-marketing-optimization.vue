@@ -13,7 +13,7 @@
                 </g>
             </g>
         </svg>
-        <div class="flex">
+        <div class="flex mb-8">
             <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
                 <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl">
                 Search Experience Marketing
@@ -539,6 +539,7 @@
 </template>
 
 <script>
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import gsap from 'gsap';
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -557,6 +558,8 @@ export default {
     },
   layout: "scroller",
     mounted() {
+    const targetElement = document.querySelector('body');
+    clearAllBodyScrollLocks(targetElement);
     // SCROLL BUTTON
     let scrollArrow = document.getElementById("scrollArrow");
     let rootElement = document.documentElement;
@@ -699,12 +702,12 @@ export default {
 .filter-light {
     filter: opacity(.3);
 }
-
+/* 
 @media (min-width: 640px) {
     .screenHeightCalc {
-        height: calc(100vh - 9rem);
+        height: calc(100vh - 1rem);
     }
-}
+} */
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .screenHeightCalc {

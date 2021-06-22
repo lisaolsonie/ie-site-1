@@ -79,6 +79,7 @@
 </template>
 
 <script>
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import { gsap, TimelineMax } from 'gsap';
 
 export default {
@@ -93,6 +94,8 @@ export default {
     },
   layout: "default",
   mounted() {
+    const targetElement = document.querySelector('body');
+    disableBodyScroll(targetElement);
     gsap.set('.wiggle', { transformOrigin: "top center"})
     let tl = new TimelineMax({
       repeat: 10,

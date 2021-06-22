@@ -574,6 +574,7 @@
 </template>
 
 <script>
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import gsap from 'gsap';
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -595,6 +596,8 @@ export default {
     },
   layout: "scroller",
   mounted() {
+    const targetElement = document.querySelector('body');
+    clearAllBodyScrollLocks(targetElement);
     // SCROLL BUTTON
     let scrollArrow = document.getElementById("scrollArrow");
     let rootElement = document.documentElement;
@@ -867,7 +870,7 @@ export default {
 
 @media (min-width: 640px) {
     .screenHeightCalc {
-        height: calc(100vh - 9rem);
+        height: 80%;
     }
 }
 
@@ -882,7 +885,7 @@ export default {
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .content {
-    height: calc(100vh - 10rem);
+    height: 50%;
   }
 }
 </style>

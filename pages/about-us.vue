@@ -42,7 +42,7 @@
                 in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
             </p>
             <button ref="scrollArrow" class="scrollArrow" id="scrollArrow">
-                <svg class="w-screen md:w-20 lg:m-0 xl:w-10 arrowdown md:w-full xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg class="w-screen xl:w-10 arrowdown xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                             <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -200,6 +200,7 @@
 </template>
 
 <script>
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import gsap from 'gsap';
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -219,6 +220,8 @@ export default {
     },
   layout: "scroller",
     mounted() {
+    const targetElement = document.querySelector('body');
+    clearAllBodyScrollLocks(targetElement);
     // SCROLL BUTTON
     let scrollArrow = document.getElementById("scrollArrow");
     let rootElement = document.documentElement;
@@ -268,7 +271,7 @@ export default {
 
 @media (min-width: 640px) {
     .screenHeightCalc {
-        height: calc(100vh - 12rem);
+        height: calc(100vh - 22rem);
     }
 }
 </style>
