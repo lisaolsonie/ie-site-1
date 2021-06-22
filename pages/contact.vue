@@ -87,7 +87,7 @@ export default {
   mounted() {
     gsap.set('.wiggle', { transformOrigin: "top center"})
     let tl = new TimelineMax({
-      repeat: 14,
+      repeat: 10,
     })
     tl.addLabel('ringPhone')
       tl
@@ -103,8 +103,6 @@ export default {
         rotate: 0,
         duration: .1
       })
-      
-
       
       gsap.from('.con14', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
       gsap.from('.con7', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease', delay: .3 })
