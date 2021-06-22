@@ -54,7 +54,7 @@
                               <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                               <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                           </g>
-                        <path ref="con3" class="con3" d="M213.351259,139 L448.243312,139 C457.223806,139 465.302789,144.45843 468.654069,152.790188 L539.848718,329.790188 C544.382872,341.062738 538.920322,353.876603 527.647773,358.410757 C525.037941,359.460508 522.251002,360 519.437961,360 L134.827749,360 C122.677484,360 112.827749,350.150264 112.827749,338 C112.827749,334.926805 113.471618,331.887701 114.717863,329.078538 L193.241373,152.078538 C196.76922,144.126411 204.651717,139 213.351259,139 Z" id="Rectangle" fill="#EFCB57"></path>
+                        <path d="M213.351259,139 L448.243312,139 C457.223806,139 465.302789,144.45843 468.654069,152.790188 L539.848718,329.790188 C544.382872,341.062738 538.920322,353.876603 527.647773,358.410757 C525.037941,359.460508 522.251002,360 519.437961,360 L134.827749,360 C122.677484,360 112.827749,350.150264 112.827749,338 C112.827749,334.926805 113.471618,331.887701 114.717863,329.078538 L193.241373,152.078538 C196.76922,144.126411 204.651717,139 213.351259,139 Z" style="mix-blend-mode: multiply;" id="Rectangle" fill="#EFCB57"></path>
                       </g>
                   </g>
               </g>
@@ -105,23 +105,21 @@ export default {
       })
       
 
-      gsap.timeline()
-      .from('.con14', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
-      .from('.con7', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
-      .from('.con10', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
-      .from('.con11', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
-      .from('.con6', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
-      .from('.con5', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease' })
-      .from('.con13', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
-      .from('.con8', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
-      .from('.con12', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
-      .from('.con9', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
+      
+      gsap.from('.con14', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
+      gsap.from('.con7', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease', delay: .3 })
+      gsap.from('.con10', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease', delay: .7, })
+      gsap.from('.con11', { opacity: 0, scale: 0, duration: .3, ease: 'ease', delay: .2 })
+      gsap.from('.con6', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease', delay: .4 })
+      gsap.from('.con5', { opacity: 0, scale: 0, x: 0, duration: .3, ease: 'ease', delay: 1.1 })
+      gsap.from('.con8', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease', delay: .3 })
+      gsap.from('.con12', { opacity: 0, scale: 0, duration: .3, ease: 'ease', delay: .8 })
+      gsap.from('.con9', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease', delay: 1.1 })
   }
 };
 </script>
 
 <style scoped>
-.con3,
 .con4 {
    mix-blend-mode: multiply;
    opacity: 1,
