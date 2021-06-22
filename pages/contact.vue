@@ -33,33 +33,8 @@
       <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
-    <div class="hidden xl:block w-2/4 items-center md:py-28 pr-40 relative">
-      <!-- <svg class="hidden xl:block" width="auto" height="auto" viewBox="0 0 661 434" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
-          <title>Big icon</title>
-          <defs>
-              <path d="M143.185102,318 L520.879895,318 C522.058457,318 523.210919,318.347095 524.193453,318.997967 L634.391714,391.997967 C637.154261,393.827995 637.910216,397.551012 636.080188,400.313558 C634.968849,401.991198 633.090505,403 631.078156,403 L21.6429025,403 C18.329194,403 15.6429025,400.313708 15.6429025,397 C15.6429025,394.893389 16.7476901,392.941096 18.5536044,391.856437 L140.095804,318.856437 C141.028832,318.296047 142.096718,318 143.185102,318 Z" id="path-1"></path>
-              <filter x="-2.7%" y="-31.2%" width="106.7%" height="185.9%" filterUnits="objectBoundingBox" id="filter-2">
-                  <feOffset dx="3" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-                  <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-                  <feColorMatrix values="0 0 0 0 0.937254902   0 0 0 0 0.937254902   0 0 0 0 0.937254902  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-              </filter>
-          </defs>
-          <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="IE_desktop_Contact" transform="translate(-936.000000, -345.000000)">
-                  <g id="Big-icon" transform="translate(937.000000, 345.000000)">
-                      <g ref="car3" class="car3" id="Rectangle">
-                          <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                          <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                      </g>
-                      <path ref="wiggle" class="wiggle" d="M186.325591,129.20523 C217.554598,129.547573 236.236685,122.003491 237.143807,94.7746568 L237.211503,87.6543292 C259.069486,54.9417363 316.400031,62.297947 328.426661,60.5444802 C340.416541,62.560967 397.874741,56.463495 419.111858,89.6478539 L419.044162,96.770269 C419.438732,124.011628 437.975756,131.962765 469.204762,132.305108 C496.97355,132.609878 519.647751,137.701194 519.862443,114.979187 L519.9959,100.734356 C520.162238,83.2748371 515.257199,67.2619279 507.120173,55.1755319 C507.124041,55.1734444 488.527057,21.9431613 443.335324,7.49584748 C431.387995,3.67579484 419.123463,1.85135439 406.824116,1.71566946 L328.987568,0.861898133 L251.15102,0.00812680464 C238.851674,-0.127558125 226.556195,1.43177484 214.537303,4.98880747 C169.084457,18.4404027 149.866607,51.2573686 149.866607,51.2573686 C141.507151,63.1642431 136.302317,79.0665169 136.137913,96.5260362 L136.004456,110.770866 C135.789764,133.492873 158.556804,128.90046 186.325591,129.20523 L136.137913,66.5" id="Fill-3" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
-                      <path ref="con3" class="con3" d="M213.351259,139 L448.243312,139 C457.223806,139 465.302789,144.45843 468.654069,152.790188 L539.848718,329.790188 C544.382872,341.062738 538.920322,353.876603 527.647773,358.410757 C525.037941,359.460508 522.251002,360 519.437961,360 L134.827749,360 C122.677484,360 112.827749,350.150264 112.827749,338 C112.827749,334.926805 113.471618,331.887701 114.717863,329.078538 L193.241373,152.078538 C196.76922,144.126411 204.651717,139 213.351259,139 Z" id="Rectangle" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
-                      <ellipse ref="con4" class="con4" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="328" cy="159.5" rx="77" ry="76.5"></ellipse>
-                  </g>
-              </g>
-          </g>
-      </svg> -->
-
-           <svg width="100%" height="417px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="hidden xl:block w-3/4 items-center md:py-28 pr-48 relative">
+        <svg width="100%" height="360px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
           <defs>
               <path class="z-behind" d="M143.185102,318 L520.879895,318 C522.058457,318 523.210919,318.347095 524.193453,318.997967 L634.391714,391.997967 C637.154261,393.827995 637.910216,397.551012 636.080188,400.313558 C634.968849,401.991198 633.090505,403 631.078156,403 L21.6429025,403 C18.329194,403 15.6429025,400.313708 15.6429025,397 C15.6429025,394.893389 16.7476901,392.941096 18.5536044,391.856437 L140.095804,318.856437 C141.028832,318.296047 142.096718,318 143.185102,318 Z" id="path-1"></path>
@@ -73,43 +48,63 @@
               <g id="IE_desktop_Careers" transform="translate(-1014.000000, -361.000000)">
                   <g id="Group-3" transform="translate(935.000000, 315.000000)">
                       <g id="BigIcon-" transform="translate(76.000000, 46.000000)">
-                        <path ref="wiggle" class="wiggle" d="M186.325591,129.20523 C217.554598,129.547573 236.236685,122.003491 237.143807,94.7746568 L237.211503,87.6543292 C259.069486,54.9417363 316.400031,62.297947 328.426661,60.5444802 C340.416541,62.560967 397.874741,56.463495 419.111858,89.6478539 L419.044162,96.770269 C419.438732,124.011628 437.975756,131.962765 469.204762,132.305108 C496.97355,132.609878 519.647751,137.701194 519.862443,114.979187 L519.9959,100.734356 C520.162238,83.2748371 515.257199,67.2619279 507.120173,55.1755319 C507.124041,55.1734444 488.527057,21.9431613 443.335324,7.49584748 C431.387995,3.67579484 419.123463,1.85135439 406.824116,1.71566946 L328.987568,0.861898133 L251.15102,0.00812680464 C238.851674,-0.127558125 226.556195,1.43177484 214.537303,4.98880747 C169.084457,18.4404027 149.866607,51.2573686 149.866607,51.2573686 C141.507151,63.1642431 136.302317,79.0665169 136.137913,96.5260362 L136.004456,110.770866 C135.789764,133.492873 158.556804,128.90046 186.325591,129.20523 L136.137913,66.5" id="Fill-3" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
-                        <ellipse ref="con4" class="con4" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="328" cy="159.5" rx="77" ry="76.5"></ellipse>
+                        <path ref="wiggle" class="wiggle" d="M186.325591,129.20523 C217.554598,129.547573 236.236685,122.003491 237.143807,94.7746568 L237.211503,87.6543292 C259.069486,54.9417363 316.400031,62.297947 328.426661,60.5444802 C340.416541,62.560967 397.874741,56.463495 419.111858,89.6478539 L419.044162,96.770269 C419.438732,124.011628 437.975756,131.962765 469.204762,132.305108 C496.97355,132.609878 519.647751,137.701194 519.862443,114.979187 L519.9959,100.734356 C520.162238,83.2748371 515.257199,67.2619279 507.120173,55.1755319 C507.124041,55.1734444 488.527057,21.9431613 443.335324,7.49584748 C431.387995,3.67579484 419.123463,1.85135439 406.824116,1.71566946 L328.987568,0.861898133 L251.15102,0.00812680464 C238.851674,-0.127558125 226.556195,1.43177484 214.537303,4.98880747 C169.084457,18.4404027 149.866607,51.2573686 149.866607,51.2573686 C141.507151,63.1642431 136.302317,79.0665169 136.137913,96.5260362 L136.004456,110.770866 C135.789764,133.492873 158.556804,128.90046 186.325591,129.20523 L136.137913,66.5" id="Fill-3" fill="#EFCB57"></path>
+                        <ellipse ref="con4" class="con4" id="Oval" fill="#4BBFE1" cx="328" cy="159.5" rx="77" ry="76.5"></ellipse>
                           <g ref="car3" class="car3" id="Rectangle">
                               <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                               <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                           </g>
-                        <path ref="con3" class="con3" d="M213.351259,139 L448.243312,139 C457.223806,139 465.302789,144.45843 468.654069,152.790188 L539.848718,329.790188 C544.382872,341.062738 538.920322,353.876603 527.647773,358.410757 C525.037941,359.460508 522.251002,360 519.437961,360 L134.827749,360 C122.677484,360 112.827749,350.150264 112.827749,338 C112.827749,334.926805 113.471618,331.887701 114.717863,329.078538 L193.241373,152.078538 C196.76922,144.126411 204.651717,139 213.351259,139 Z" id="Rectangle" fill="#EFCB57" style="mix-blend-mode: multiply;"></path>
+                        <path ref="con3" class="con3" d="M213.351259,139 L448.243312,139 C457.223806,139 465.302789,144.45843 468.654069,152.790188 L539.848718,329.790188 C544.382872,341.062738 538.920322,353.876603 527.647773,358.410757 C525.037941,359.460508 522.251002,360 519.437961,360 L134.827749,360 C122.677484,360 112.827749,350.150264 112.827749,338 C112.827749,334.926805 113.471618,331.887701 114.717863,329.078538 L193.241373,152.078538 C196.76922,144.126411 204.651717,139 213.351259,139 Z" id="Rectangle" fill="#EFCB57"></path>
                       </g>
                   </g>
               </g>
           </g>
       </svg>
       <!-- LEFT SIDE OF LOGO -->
-      <img ref="con5" class="hidden xl:block absolute h-4 w-6 top-20 left-20 con5" src="images/email.png" alt="Email Logo">
-      <img ref="con6" class="hidden xl:block absolute h-10 w-10 top-52 left-4 con6" src="images/bubble.png" alt="Chat Bubble Logo">
-      <div ref="con7" class="hidden xl:block absolute h-2 w-2 top-72 left-20 rounded-full bg-blue-500 con7" style="mix-blend-mode: multiply" alt="Circle"></div>
-      <img ref="con8" class="hidden xl:block absolute h-8 w-12 top-96 left-2 con8" src="images/email.png" alt="Email Logo">
+      <img ref="con5" class="hidden xl:block absolute h-4 w-6 top-20 left-32 con5" src="images/email.png" alt="Email Logo">
+      <img ref="con6" class="hidden xl:block absolute h-10 w-10 top-52 left-20 con6" src="images/bubble.png" alt="Chat Bubble Logo">
+      <div ref="con7" class="hidden xl:block absolute h-2 w-2 top-72 left-36 rounded-full bg-blue-500 con7" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="con8" class="hidden xl:block absolute h-8 w-12 top-96 left-20 con8" src="images/email.png" alt="Email Logo">
 
       <!-- RIGHT SIDE OF LOGO  -->
-      <img ref="con9" class="hidden xl:block absolute h-8 w-12 top-24 right-48 con9" src="images/email.png" alt="Email Logo">
-      <img ref="con10" class="hidden xl:block absolute h-8 w-8 top-52 right-36 con10" src="images/left-bubble.png" alt="Chat Bubble Logo">
-      <div ref="con11" class="hidden xl:block absolute h-2 w-2 top-72 right-60 rounded-full bg-blue-500 con11" style="mix-blend-mode: multiply" alt="Circle"></div>
-      <img ref="con12" class="hidden xl:block absolute h-4 w-6 right-32 con12" src="images/email.png" alt="Email Logo" style="top: 20rem">
-      <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-96 right-44 con13" src="images/left-bubble.png" alt="Chat Bubble Logo">
-      <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14" style="mix-blend-mode: multiply; top: 23.5rem; right: 12rem;" alt="Circle"></div>
+      <img ref="con9" class="hidden xl:block absolute h-8 w-12 top-24 right-72 con9" src="images/email.png" alt="Email Logo">
+      <img ref="con10" class="hidden xl:block absolute h-8 w-8 top-52 right-60 con10" src="images/left-bubble.png" alt="Chat Bubble Logo">
+      <div ref="con11" class="hidden xl:block absolute h-2 w-2 top-72 right-72 rounded-full bg-blue-500 con11" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="con12" class="hidden xl:block absolute h-4 w-6 right-60 con12" src="images/email.png" alt="Email Logo" style="top: 20rem">
+      <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-96 right-64 con13" src="images/left-bubble.png" alt="Chat Bubble Logo">
+      <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14" style="mix-blend-mode: multiply; top: 23.5rem; right: 17rem;" alt="Circle"></div>
     </div>
   </div>
 </div>
 </template>
 
 <script>
-import { gsap, Elastic } from 'gsap';
+import { gsap, TimelineMax } from 'gsap';
 
 export default {
   layout: "default",
 
   mounted() {
+    gsap.set('.wiggle', { transformOrigin: "top center"})
+    let tl = new TimelineMax({
+      repeat: 14,
+    })
+    tl.addLabel('ringPhone')
+      tl
+      .fromTo('.wiggle', {
+        rotate: -5,
+      }, {
+        rotate: 0,
+        duration: .1
+      })
+      tl.fromTo('.wiggle', {
+        rotate: 5,
+      }, {
+        rotate: 0,
+        duration: .1
+      })
+      
+
       gsap.timeline()
       .from('.con14', { opacity: 0, scale: 0, duration: .3, ease: 'ease' })
       .from('.con7', { opacity: 0, scale: 0, x: 0, duration: .3, ease:'ease' })
@@ -126,6 +121,12 @@ export default {
 </script>
 
 <style scoped>
+.con3,
+.con4 {
+   mix-blend-mode: multiply;
+   opacity: 1,
+}
+
 @media screen and (max-width: 420px) {
     body {
       height: 100%;
@@ -150,7 +151,7 @@ export default {
         height: calc(100vh - 12rem);
     }
 }
-
+/* 
 @keyframes wiggle {
   0% { transform: rotate(0deg); }
   5% { transform: rotate(0deg); }
@@ -173,11 +174,5 @@ export default {
   90% { transform: rotate(-5deg); }
   95% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
-}
-
-.wiggle {
-  transform-origin: top center;
-  display: inline-block;
-  animation: wiggle 2s;
-}
+} */
 </style>
