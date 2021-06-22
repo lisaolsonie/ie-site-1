@@ -84,7 +84,6 @@ export default {
 body {
   /* @apply bg-gray-100; */
   font-family: "Avenir";
-  /* overflow: hidden; */
   height: 100%;
 }
 </style>
