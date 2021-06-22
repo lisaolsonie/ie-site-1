@@ -294,6 +294,7 @@ export default {
     body {
       height: 100%;
       overflow: hidden;
+      position: fixed;
     }
 }
 
