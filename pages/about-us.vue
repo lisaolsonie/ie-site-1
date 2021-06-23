@@ -41,8 +41,8 @@
                 Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes
                 in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
             </p>
-            <button ref="scrollArrow" class="scrollArrow" id="scrollArrow">
-                <svg class="w-screen xl:w-10 arrowdown xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
+                <svg class="arrowdown xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                             <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
@@ -91,7 +91,7 @@
       </svg>
 
       <div class="relative md:flex xl:mt-12 xl:mx-40 xl:pt-24">
-        <div class="relative xl:inline-block mx-8 lg:mx-0 lg:mt-16 lg:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 xl:h-1/6 md:w-2/4">
+        <div class="relative xl:inline-block mx-8 lg:mx-0 lg:mt-16 lg:mr-4 text-gray-600 bg-white p-8 xl:p-14 xl:flex-1 md:h-1/6 md:w-2/4">
             <!-- mobile  -->
             <img width="20px" height="20px" ref="anime" src="/images/cross_icon.png" class="xl:hidden absolute right-6 -bottom-4 anime" alt="Blue Cross" rel="preload">
             <img ref="anime" width="20px" height="18px" src="/images/heart_icon.png" class="xl:hidden absolute -bottom-4 z-behind anime" alt="Pink Heart" rel="preload">
@@ -269,9 +269,15 @@ export default {
     filter: opacity(.3);
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1024px) {
     .screenHeightCalc {
-        height: calc(100vh - 22rem);
+        height: calc(100vh - 20rem);
+    }
+}
+
+@media (min-width: 350px) and (max-width: 1023px) {
+    .screenHeightCalc {
+        height: 50%;
     }
 }
 </style>

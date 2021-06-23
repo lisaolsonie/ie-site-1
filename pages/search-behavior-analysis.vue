@@ -23,8 +23,8 @@
             intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by
             delivering targeted content and/or technology at micro-moments that make all the difference.
             </p>
-            <button ref="scrollArrow" class="scrollArrow" id="scrollArrow">
-                <svg class="w-screen md:w-full lg:w-10 animate-bounceslow filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
+                <svg class="animate-bounceslow filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
                             <g id="Scrolll-arrow" transform="translate(50.000000, 250.000000)">
