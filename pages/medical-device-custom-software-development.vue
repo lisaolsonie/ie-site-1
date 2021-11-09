@@ -420,7 +420,7 @@
       "
     >
       <div class="relative">
-        <div class="relative py-8 mt-12 z-1 lg:mt-0 lg:mb-20">
+        <div class="relative py-8 mt-12 z-1 lg:mt-0 lg:mb-20 xl:mx-16">
           <svg
             class="w-screen lg:h-72 lg:w-100 lg:m-auto md:w-screen lg:hidden"
             width="100%"

@@ -82,6 +82,9 @@ export default {
 </script>
 
 <style>
+  a {
+    font-family: "Inter Medium";
+  }
   .nuxt-link {
     display: inline-block;
   }

@@ -90,6 +90,10 @@ export default {
 </script>
 
 <style>
+ul li {
+  font-family: "Inter Medium";
+}
+
 ul > li::after {
   content: '';
   display: block;

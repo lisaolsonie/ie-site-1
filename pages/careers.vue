@@ -25,7 +25,7 @@
     </div>
     <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">
       <!-- MAIN LOGO  -->
-      <svg width="100%" height="417px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg class="xl:w-4/5" width="100%" height="417px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
           <defs>
               <path d="M132.942751,320 L484.203958,320 C485.220391,320 486.220163,320.258219 487.10947,320.750428 L584.674687,374.750428 C587.573945,376.355098 588.623417,380.006253 587.018747,382.905512 C585.961906,384.814973 583.951596,386 581.769175,386 L25.3340556,386 C22.0203471,386 19.3340556,383.313708 19.3340556,380 C19.3340556,377.730509 20.6145594,375.655239 22.6429766,374.637343 L130.251672,320.637343 C131.086832,320.218244 132.008334,320 132.942751,320 Z" id="path-1"></path>

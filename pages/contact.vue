@@ -27,8 +27,8 @@
       <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
-    <div class="hidden xl:block w-3/4 items-center md:py-28 pr-48 relative">
-        <svg width="100%" height="360px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="hidden xl:block w-3/4 items-center md:pt-28 pr-48 relative">
+        <svg width="100%" height="310px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
           <defs>
               <path class="z-behind" d="M143.185102,318 L520.879895,318 C522.058457,318 523.210919,318.347095 524.193453,318.997967 L634.391714,391.997967 C637.154261,393.827995 637.910216,397.551012 636.080188,400.313558 C634.968849,401.991198 633.090505,403 631.078156,403 L21.6429025,403 C18.329194,403 15.6429025,400.313708 15.6429025,397 C15.6429025,394.893389 16.7476901,392.941096 18.5536044,391.856437 L140.095804,318.856437 C141.028832,318.296047 142.096718,318 143.185102,318 Z" id="path-1"></path>

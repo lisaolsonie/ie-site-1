@@ -3,7 +3,7 @@
     <div class="lg:flex lg:h-4/5 lg:items-center lg:justify-center lg:mx-16">
         <div class="flex-grow px-6 lg:pl-6 lg:ml-16 xl:ml-32 phone-content">
             <h1 class="mt-2 text-2xl leading-7 md:leading-normal tracking-wide text-center md:text-left md:text-4xl md:px-12 md:my-8 lg:px-0 lg:text-5xl lg:w-6/7 lg:leading-tight lg:mb-12 xl:text-5xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight font-headers font-black text-gray-600">An audience - first software and digital marketing company.</h1>
-            <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl">Evolve Responsively.</h4>
+            <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl text-gray-700">Evolve Responsively.</h4>
         </div>
         <div class="relative">
             <svg class="w-screen lg:h-full md:h-100 lg:w-100 xl:mr-40 logo" width="100%" height="550px" viewBox="0 0 711 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

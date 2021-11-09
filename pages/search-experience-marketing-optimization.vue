@@ -30,7 +30,7 @@
                     </svg>
                 </button>
             </div>
-            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:m-auto lg:mr-16 lg:w-2/5" width="776px" height="731px" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-32 xl:m-auto lg:w-2/5" width="776px" height="" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>SEM graphic</title>
                 <defs>
                     <polygon id="path-1" points="0 0 327 0 327 290.082031 0 290.082031"></polygon>
@@ -207,7 +207,7 @@
     </div>
   </div>
   <section class="relative z-1" style="background: #efefef url('/images/background-pattern.svg') center -5px/100% repeat">
-    <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20">
+    <div class="relative z-1 py-8 mt-12 lg:mt-0 lg:mb-20 xl:mx-16">
         <div class="relative">
             <svg class="lg:hidden absolute top-4 left-14 anime" width="22px" height="29px" viewBox="0 0 22 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
