@@ -61,13 +61,13 @@
       <div ref="car10" class="hidden xl:block absolute h-4 w-4 left-12 rounded-full bg-blue-500 car10" style="mix-blend-mode: multiply; top: 25rem" alt="Circle"></div>
 
       <!-- RIGHT SIDE OF LOGO  -->
-      <img ref="car11" class="hidden xl:block absolute h-10 w-10 top-24 right-72 car11" src="images/world.png" alt="Globe">
-      <div ref="car12" class="hidden xl:block absolute h-2 w-2 top-36 right-48 rounded-full bg-blue-500 car12" style="mix-blend-mode: multiply" alt="Circle"></div>
-      <img ref="car13" class="hidden xl:block absolute h-8 w-8 top-52 right-36 car13" src="images/thumbsup.png" alt="Thumbs Up">
-      <div ref="car14" class="hidden xl:block absolute h-4 w-4 top-72 right-60 rounded-full bg-blue-500 car14" style="mix-blend-mode: multiply" alt="Circle"></div>
-      <img ref="car15" class="hidden xl:block absolute h-10 w-10 right-36 car15" src="images/airpods.png" alt="Airpods" style="top: 21rem">
-      <img ref="car16" class="hidden xl:block absolute h-8 w-8 top-98 right-48 car16" src="images/world.png" alt="Globe">
-      <div ref="car17" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 car17" style="mix-blend-mode: multiply; top: 27.2rem; right: 11.5rem;" alt="Circle"></div>
+      <img ref="car11" class="hidden xl:block absolute h-10 w-10 top-24 right-96 car11" src="images/world.png" alt="Globe">
+      <div ref="car12" class="hidden xl:block absolute h-2 w-2 top-36 right-72 rounded-full bg-blue-500 car12" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="car13" class="hidden xl:block absolute h-8 w-8 top-52 right-60 car13" src="images/thumbsup.png" alt="Thumbs Up">
+      <div ref="car14" class="hidden xl:block absolute h-4 w-4 top-72 right-72 rounded-full bg-blue-500 car14" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="car15" class="hidden xl:block absolute h-10 w-10 right-72 car15" src="images/airpods.png" alt="Airpods" style="top: 21rem">
+      <img ref="car16" class="hidden xl:block absolute h-8 w-8 top-98 right-60 car16" src="images/world.png" alt="Globe">
+      <div ref="car17" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 car17 right-96" style="mix-blend-mode: multiply; top: 27.2rem; right: 11.5rem;" alt="Circle"></div>
     </div>
   </div>
 </div>
