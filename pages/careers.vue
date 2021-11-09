@@ -1,6 +1,6 @@
 <template>
 <div class="fade-in h-full screenHeight overflow-hidden">
-  <div class="md:flex">
+  <div class="md:flex xl:mx-16">
     <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8 content" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden svg-small" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -127,6 +127,10 @@ export default {
 </script>
 
 <style scoped>
+h1, h4 {
+  font-family: "Inter SemiBold";
+}
+
 @media screen and (max-width: 420px) {
     body {
       height: 100%;

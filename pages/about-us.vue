@@ -33,7 +33,7 @@
                 </g>
             </g>
         </svg>
-        <div class="relative lg:ml-20 xl:ml-40 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-0">
+        <div class="relative lg:ml-20 xl:ml-40 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-16">
             <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose mb-4 mx-12 lg:mx-0 font-black text-gray-600">About</h1>
             <p class="mx-12 mr-10 text-base lg:text-lg leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
             </p>
@@ -252,6 +252,9 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+    font-family: "Inter SemiBold";
+}
 .filter-dark {
     filter: brightness(.6);
 }

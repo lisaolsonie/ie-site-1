@@ -1,6 +1,6 @@
 <template>
   <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5 text-gray-700" id="contact-form" @submit.prevent="sendEmail" ref="form">
-    <h2 class="text-2xl text-left pb-2 text-gray-700">Contact Us</h2>
+    <h4 class="pb-2 text-xl md:text-2xl lg:text-3xl text-gray-700">Contact Us</h4>
     <svg
       width="62px"
       height="3px"
@@ -293,6 +293,9 @@ export default {
 </script>
 
 <style scoped>
+h4 {
+  font-family: "Inter SemiBold";
+}
   .container {
   display: block;
   position: relative;

@@ -125,20 +125,20 @@
                                     <ellipse ref="sba2" class="sba2" id="Oval" fill="#4BBFE1" style="mix-blend-mode: multiply;" cx="55.8954415" cy="92.4707452" rx="22.4107953" ry="22.5905729"></ellipse>
                                 </g>
                             </g>
-                            <text id="Audience" opacity="0.35" font-family="Avenir-Book, Avenir" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
+                            <text id="Audience" opacity="0.35" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
                                 <tspan x="421.556" y="290">Audience</tspan>
                             </text>
-                            <text id="Product" opacity="0.35" font-family="Avenir-Book, Avenir" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
+                            <text id="Product" opacity="0.35" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
                                 <tspan x="199.304" y="630">Product</tspan>
                             </text>
-                            <text id="Promotion" opacity="0.35" font-family="Avenir-Book, Avenir" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
+                            <text id="Promotion" opacity="0.35" font-size="16" font-weight="normal" line-spacing="30" fill="#484848">
                                 <tspan x="656.324" y="630">Promotion</tspan>
                             </text>
-                            <text id="Measure" opacity="0.35" transform="translate(448.789899, 590.301537) rotate(-2.000000) translate(-448.789899, -590.301537) " font-family="Avenir-Medium, Avenir" font-size="16" font-weight="400" fill="#484848">
+                            <text id="Measure" opacity="0.35" transform="translate(448.789899, 590.301537) rotate(-2.000000) translate(-448.789899, -590.301537) " font-size="16" font-weight="400" fill="#484848">
                                 <tspan x="425.677899" y="662.301537">Measure</tspan>
                             </text>
                             <path d="M301,577.920253 C363.706173,593.450573 408.530382,601.724263 435.472627,602.741324 C554.715566,607.242705 635.558024,552.995597 678,440" id="Path-3"></path>
-                            <text id="Optimize" opacity="0.35" transform="translate(457.738320, 618.506852) rotate(-3.000000) translate(-457.738320, -618.506852)" font-family="Avenir-Medium, Avenir" font-size="16" font-weight="400" fill="#484848">
+                            <text id="Optimize" opacity="0.35" transform="translate(457.738320, 618.506852) rotate(-3.000000) translate(-457.738320, -618.506852)" font-size="16" font-weight="400" fill="#484848">
                                 <tspan x="424.42632" y="600.006852">Optimize</tspan>
                             </text>
                             <path ref="bottom-path" class="bottom-path" d="M322.591194,618.506852 C435.133976,681.925151 518.804912,658.652605 591.69187,603" id="Path-5"></path>
@@ -260,6 +260,10 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+    font-family: "Inter Bold";
+}
+
 .menu-link:hover img {
   transform: translate(10px, 0%);
   transition: .3s all;

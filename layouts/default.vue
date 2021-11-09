@@ -33,7 +33,64 @@ export default {
 .page-leave-to {
   opacity: 0;
 }
+
 @font-face {
+  font-family: 'Inter Black';
+  src: url("/fonts/Inter-Black.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter ExtraBold';
+  src: url("/fonts/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter ExtraLight';
+  src: url("/fonts/Inter-ExtraLight.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter Light';
+  src: url("/fonts/Inter-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter Bold';
+  src: url("/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter Thin';
+  src: url("/fonts/Inter-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter Medium';
+  src: url("/fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter SemiBold';
+  src: url("/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter Regular';
+  src: url("/fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/* @font-face {
   font-family: "Nunito";
   src: url("/fonts/nunito-regular.woff") format("woff"),
     url("/fonts/nunito-regular.woff2") format("woff2"),
@@ -58,13 +115,13 @@ export default {
   src: url("//db.onlinewebfonts.com/t/901497541657a2f24e42848bcf7fad52.eot");
   font-weight: 900;
   font-style: bold;
-}
+} */
 ::selection {
   background-color: rgb(242, 242, 242);
 }
 body {
   /* @apply bg-gray-100; */
-  font-family: "Avenir";
+  font-family: "Inter Regular";
   height: 100%;
 }
 </style>

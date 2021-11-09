@@ -13,7 +13,7 @@
             </g>
         </svg>
 
-    <div class="flex">
+    <div class="flex xl:mx-16">
         <div class="md:mx-20 lg:ml-20 lg:mt-6 xl:mt-0 xl:ml-40 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5">
             <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Search Behavior Analysis</h1>
             <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by delivering targeted products, content and/or technology at micro-moments that make all the difference.</p>
@@ -30,7 +30,7 @@
                 </svg>
             </button>
         </div>
-        <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:m-auto lg:mr-16" width="887px" height="559px" viewBox="0 0 887 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:m-auto lg:mr-16 lg:w-2/5" width="887px" height="559px" viewBox="0 0 887 559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Diagram</title>
             <defs>
                 <filter x="-1.5%" y="-5.6%" width="103.0%" height="111.3%" filterUnits="objectBoundingBox" id="filter-1">
@@ -846,6 +846,10 @@ export default {
 </script>
 
 <style scoped>
+h1, h4 {
+  font-family: "Inter SemiBold";
+}
+
 .filter-light {
     filter: opacity(.3);
 }

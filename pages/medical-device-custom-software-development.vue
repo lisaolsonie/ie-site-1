@@ -124,7 +124,7 @@
             </button>
           </div>
           <svg
-            class="hidden  lg:block z-2 lg:h-100 lg:pr-16 xl:w-3/5 xl:m-auto lg:mr-16 large-icon"
+            class="hidden lg:block z-2 lg:h-100 lg:pr-16 xl:m-auto lg:mr-16 large-icon lg:w-2/5"
             width="924px"
             height="584px"
             viewBox="0 0 924 584"
@@ -1279,6 +1279,10 @@ export default {
 </script>
 
 <style scoped>
+h1, h4 {
+  font-family: "Inter SemiBold";
+}
+
 .filter-light {
   filter: opacity(0.3);
 }
