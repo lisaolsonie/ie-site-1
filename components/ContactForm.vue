@@ -43,11 +43,11 @@
         id="companyName"
         type="text"
         placeholder="Eg. Google"
-        class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full error" 
+        class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="companyName"
-        v-model="companyName"
+        v-model="form.companyName"
+        required
       />
-      <span class="text-red-700">Company name is required</span>
     </div>
     <!-- name -->
     <div class="field mb-2">
@@ -57,20 +57,22 @@
           id="firstName"
           type="text"
           placeholder="Eg. Anne"
-          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4 mr-2 error" 
+          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4 mr-2" 
           name="firstName"
-          v-model="firstName"
+          v-model="form.firstName"
+          required
         />
         <input
           id="lastName"
           type="text"
           placeholder="Eg. Smith"
-          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4 error" 
+          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4" 
           name="lastName"
-          v-model="lastName"
+          v-model="form.lastName"
+          required
         />
       </div>
-        <span class="text-red-700">First and last name is required</span>
+        <!-- <span class="text-red-700">First and last name is required</span> -->
     </div>
     <!-- title -->
     <div class="field mb-2 w-full">
@@ -79,11 +81,12 @@
         id="title"
         type="text"
         placeholder="Eg. Brand Manager"
-        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full error" 
+        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="title"
-        v-model="title"
+        v-model="form.title"
+        required
       />
-      <span class="text-red-700">Title is required</span>
+      <!-- <span class="text-red-700">Title is required</span> -->
     </div>
     <!-- Email -->
     <div class="field mb-2">
@@ -92,11 +95,12 @@
         id="email"
         type="email"
         placeholder="Eg. email123@gmail.com"
-        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full error" 
+        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="email"
-        v-model="email"
+        v-model="form.email"
+        required
       />
-      <span class="text-red-700">Email is required</span>
+      <span class="text-red-700" v-if="msg.email">{{msg.email}}</span>
     </div>
     <!-- Phone -->
     <div class="field mb-2">
@@ -106,7 +110,7 @@
         placeholder="Eg. 800-000-0000"
         class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="phone"
-        v-model="phone"
+        v-model="form.phone"
       />
     </div>
     <!-- Preferred contact -->
@@ -119,7 +123,7 @@
             class="input shadow"
             checked="checked"
             name="prefPhone"
-            v-model="prefPhone"
+            v-model="form.prefPhone"
           />
           <span class="checkmark"></span>
         </label>
@@ -129,7 +133,7 @@
             class="input shadow"
             checked="checked"
             name="prefEmail"
-            v-model="prefEmail"
+            v-model="form.prefEmail"
           />
           <span class="checkmark"></span>
         </label>
@@ -142,11 +146,12 @@
         id="industry"
         type="text"
         placeholder="Eg. Healthcare"
-        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full error" 
+        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="industry"
-        v-model="industry"
+        v-model="form.industry"
+        required
       />
-      <span class="text-red-700">Industry is required</span>
+      <!-- <span class="text-red-700">Industry is required</span> -->
     </div>
     <div class="field mb-2 w-full">
     <!-- Description -->
@@ -155,7 +160,7 @@
         name="description"
         rows="4"
         cols="50"
-        v-model="description"
+        v-model="form.description"
         placeholder="Eg. Looking to build out an application for a medical device..."
         class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
       />
@@ -165,7 +170,7 @@
     <div class="field flex justify-center">
       <button
         type="submit"
-        class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-ie-blue hover:bg-ie-dark-blue focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:ring-opacity-50 disabled"
+        class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-ie-blue hover:bg-ie-dark-blue focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:ring-opacity-50"
         :disabled='isDisabled'
       >
         Submit
@@ -176,7 +181,7 @@
 </template>
 
 <script>
-
+// import { required, email } from '@vuelidate/validators'
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -184,61 +189,81 @@ import emailjs from 'emailjs-com';
 
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
+// export function validName(name) {
+//   let validNamePattern = new RegExp("^[a-zA-Z]+(?:[-'\\s][a-zA-Z]+)*$");
+//   if (validNamePattern.test(name)){
+//     return true;
+//   }
+//   return false;
+// }
+
 export default {
   name: 'ContactForm',
   data() {
     return {
-      companyName: '',
-      firstName: '',
-      lastName: '',
-      title: '',
-      email: '',
-      phone: '',
-      prefPhone: '',
-      prefEmail: '',
-      industry: '',
-      description: '',
-      errors: [],
+      form: {
+        companyName: '',
+        firstName: '',
+        lastName: '',
+        title: '',
+        email: '',
+        phone: '',
+        prefPhone: '',
+        prefEmail: '',
+        industry: '',
+        description: '',
+      },
+      msg: [],
     }
   },
+  watch: {
+    email(value){
+      this.email = value;
+      this.validateEmail(value);
+    },
+  },
+  // validations: {
+    // form: {
+    //   companyName: { required },
+    //   firstName: { 
+    //     required, name_validation: {
+    //       $validator: validName,
+    //       $message: 'Invalid Name. Valid name only contain letters, dashes (-) and spaces'
+    //     } 
+    //   },
+    //   lastName: { 
+    //     required, name_validation: {
+    //       $validator: validName,
+    //       $message: 'Invalid Name. Valid name only contain letters, dashes (-) and spaces'
+    //     } 
+    //   },
+    //   email: { required, email },
+    //   password: { required },
+    //   confirmPassword: { required }
+    // },
+  // },
   computed: {
   	isDisabled() {
       if (
-        !this.companyName ||
-        !this.firstName ||
-        !this.lastName ||
-        !this.email ||
-        !this.title ||
-        !this.industry
+        !this.form.companyName ||
+        !this.form.firstName ||
+        !this.form.lastName ||
+        !this.form.email ||
+        !this.form.title ||
+        !this.form.industry
       ) return true;
     }
   },
   methods: {
-    validateForm() {
-      let companyNameInput = document.getElementById("companyName");
-      let firstNameInput = document.getElementById("firstName");
-      let lastNameInput = document.getElementById("lastName");
-      let emailInput = document.getElementById("email");
-      let titleInput = document.getElementById("title");
-      let industryInput = document.getElementById("industry");
+    validateEmail(value){
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value))
+      {
+        this.msg['email'] = '';
+      } else {
+        this.msg['email'] = 'Invalid Email Address';
+      }
     },
     sendEmail() {
-      this.errors = [];
-
-      if (!this.name) {
-        this.errors.push('Name required.');
-      }
-      if (!this.age) {
-        this.errors.push('Age required.');
-      }
-      if (
-        this.companyName &&
-        this.firstName &&
-        this.lastName &&
-        this.email &&
-        this.title &&
-        this.industry
-      ) {
       emailjs.sendForm(
         'service_4abj34h',
         'template_hmv49er',
@@ -249,23 +274,22 @@ export default {
           console.log('SUCCESS!', result.text);
           let thanksMessage = document.getElementById("submitMessage");
           thanksMessage.classList.remove('hidden');
-          this.companyName = '';
-          this.firstName = '';
-          this.lastName = '';
-          this.title = '';
-          this.email = '';
-          this.phone = '';
-          this.prefPhone = '';
-          this.prefEmail = '';
-          this.industry = '';
-          this.description = '';
+          this.form.companyName = '';
+          this.form.firstName = '';
+          this.form.lastName = '';
+          this.form.title = '';
+          this.form.email = '';
+          this.form.phone = '';
+          this.form.prefPhone = '';
+          this.form.prefEmail = '';
+          this.form.industry = '';
+          this.form.description = '';
       }, (error) => {
           console.log('FAILED...', error.text);
       });
       }
     }
-  }
-};
+  };
 </script>
 
 <style scoped>
