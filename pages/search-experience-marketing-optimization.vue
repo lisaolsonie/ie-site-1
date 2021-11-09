@@ -14,7 +14,7 @@
             </g>
         </svg>
         <div class="flex xl:mx-16">
-            <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
+            <div class="md:ml-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
                 <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600">Search Experience Marketing</h1>
                 <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">Whether you are looking to increase awareness of a product or service, maximize conversions, or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC) services help you achieve the right outcome with the right audiences.</p>
                 <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
@@ -30,7 +30,7 @@
                     </svg>
                 </button>
             </div>
-            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-32 xl:m-auto lg:w-2/5" width="776px" height="" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-32 lg:ml-4 lg:w-2/5" width="776px" height="" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>SEM graphic</title>
                 <defs>
                     <polygon id="path-1" points="0 0 327 0 327 290.082031 0 290.082031"></polygon>

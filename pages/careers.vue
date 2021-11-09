@@ -13,7 +13,7 @@
               </g>
           </g>
       </svg>
-      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-12 md:pb-0">
+      <div class="ml-12 md:ml-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-12 md:pb-0">
         <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8 font-black text-gray-600">Careers</h1>
         <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.</p>
         <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or

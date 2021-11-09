@@ -100,6 +100,7 @@
         v-model="form.email"
         required
       />
+      <!-- <span v-if="msg.email">{{msg.email}}</span> -->
       <span class="text-red-700" v-if="msg.email">{{msg.email}}</span>
     </div>
     <!-- Phone -->
@@ -199,6 +200,9 @@ gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
   name: 'ContactForm',
+  // props: {
+  //   msg: String
+  // },
   data() {
     return {
       form: {
