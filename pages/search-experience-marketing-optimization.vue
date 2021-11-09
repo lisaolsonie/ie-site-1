@@ -15,7 +15,7 @@
         </svg>
         <div class="flex xl:mx-16 lg:justify-center lg:items-center">
             <div class="flex flex-col md:ml-32 lg:ml-32 lg:mt-6 xl:mt-0 xl:ml-60 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5 lg:h-100 lg:justify-center">
-                <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Search Experience Marketing</h1>
+                <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600">Search Experience Marketing</h1>
                 <p class="mx-12 mr-10 lg:text-lg lg:mx-0 text-gray-600 pb-6 lg:w-11/12">Whether you are looking to increase awareness of a product or service, maximize conversions, or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC) services help you achieve the right outcome with the right audiences.</p>
                 <button ref="scrollArrow" class="scrollArrow w-full lg:w-10" id="scrollArrow">
                     <svg class="filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
