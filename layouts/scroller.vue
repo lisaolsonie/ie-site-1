@@ -4,12 +4,6 @@
     <Header ref="header" />
     <Nuxt class="flex-1" />
     <Menu />
-    <!-- <div ref="cookieNotice" class="flex flex-1 h-16 bg-gray-200 w-full fixed bottom-0 z-2 items-center px-2 text-xs lg:text-sm lg:px-36 cookieNotice">
-       <p class="flex-grow">This website uses cookies to ensure you get the best experience on our website.</p>
-        <button id="cookieBtn" ref="cookieBtn" class="border-2 border-gray-400 py-1 px-3 rounded bg-gray-300 hover:bg-gray-500 hover:border-gray-500 hover:text-white transition-colors cookieBtn">
-          Got it!
-        </button>
-    </div> -->
   </div>
 </template>
 
@@ -18,16 +12,6 @@
 
 
 export default {
-  // mounted() {
-  //   let cookieBtn = document.getElementById("cookieBtn");
-
-  //   gsap.from('.cookieNotice', { opacity: 0, height: 0, ease: 'ease', duration: 1 })
-
-  //   function cookieGoAway() {
-  //     gsap.to('.cookieNotice', { height: 0, opacity: 0, ease: 'ease', duration: 1 })
-  //   }
-  //   cookieBtn.addEventListener("click", cookieGoAway);
-  // }
 }
 </script>
 

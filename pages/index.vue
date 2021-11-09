@@ -1,8 +1,8 @@
 <template>
 <div class="fade-in h-full screenHeight xl:pt-6 content">
-    <div class="lg:flex">
-        <div class="flex-grow px-6 lg:ml-16 xl:ml-32">
-            <h1 class="mt-2 text-2xl leading-normal tracking-wide text-ie-purple text-center md:text-4xl md:px-12 md:my-8 md:text-3xl lg:px-0 lg:text-4xl lg:w-6/7 lg:text-left lg:leading-tight lg:mb-20 xl:text-4xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight">Audience marketing and software solutions that transform engagement to bring brands into digital harmony.</h1>
+    <div class="lg:flex lg:h-4/5 lg:items-center lg:justify-center lg:mx-16">
+        <div class="flex-grow px-6 lg:pl-6 lg:ml-16 xl:ml-32 phone-content">
+            <h1 class="mt-2 text-2xl leading-7 md:leading-normal tracking-wide text-center md:text-left md:text-4xl md:px-12 md:my-8 lg:px-0 lg:text-5xl lg:w-6/7 lg:leading-tight lg:mb-12 xl:text-5xl xl:leading-tight 2xl:text-6xl 2xl:leading-tight font-headers font-black text-gray-600">An audience - first software and digital marketing company.</h1>
             <h4 class="hidden lg:block text-xl leading-normal tracking-wide text-ie-purple text-center lg:text-left lg:text-2xl">Evolve Responsively.</h4>
         </div>
         <div class="relative">
@@ -150,7 +150,7 @@
                 </g>
             </svg>
         </div>
-        <h1 class="block lg:hidden text-xl leading-normal tracking-wide text-ie-purple text-center md:text-2xl">Evolve Responsively.</h1>
+        <h4 class="block lg:hidden pb-12 md:pb-0 text-xl leading-normal tracking-wide text-center md:text-2xl text-gray-600">Evolve Responsively.</h4>
         <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </div>
 </div>
@@ -279,7 +279,29 @@ export default {
 @media (max-width: 420px) and (max-height: 825px) {
     svg {
       height: 300px;
-      margin: 1rem 0;
+      margin: 2.5rem 0;
+    }
+    h1 {
+        font-size: 28px;
+        padding-bottom: 1rem 0;
+        padding-top: .5rem 0;
+    }
+    h4 {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 420px) and (max-height: 740px) {
+    svg {
+      height: 280px;
+      margin: 2rem 0;
+    }
+    h1 {
+        font-size: 28px;
+        padding: 0;
+    }
+    h4 {
+        font-size: 20px;
     }
 }
 @media (max-width: 361px) and (max-height: 825px) {
@@ -287,9 +309,24 @@ export default {
       height: 270px;
     }
 }
+@media (max-width: 380px) and (max-height: 670px) {
+    svg {
+      height: 250px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+}
 @media (max-width: 321px) and (max-height: 825px) {
     svg {
       height: 200px;
+    }
+    h1 {
+        font-size: 18px;
+         padding: 0;
     }
 }
 
@@ -306,14 +343,19 @@ export default {
 }
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    svg {
+      height:350px;
+      margin-bottom: 2rem;
+    }
+
   .content {
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 14rem);
   }
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .content {
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 14rem);
   }
 }
 

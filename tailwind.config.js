@@ -28,8 +28,10 @@ module.exports = {
         'autorows': 'repeat(auto-fill, minmax(250px, 1fr))'
       },
       colors: {
-        'ie-purple': '##262626'
-      }
+        'ie-purple': '##262626',
+        'ie-blue': '#4BBFE1',
+        'ie-dark-blue': '#23A9D1',
+      },
     },
     screens: {
       sm: '640px',
@@ -220,6 +222,8 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      headers: ['Inter'],
+      body: ['Inter'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],

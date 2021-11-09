@@ -2,7 +2,7 @@
 <div class="fade-in">
   <div class="relative w-screen screenHeightCalc">
     <div class="relative justify-items-center z-1 xl:pt-6" style="mix-blend-mode: multiply;">
-        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
                     <g id="Icon-3" transform="translate(140.000000, 116.000000)">
@@ -13,16 +13,10 @@
                 </g>
             </g>
         </svg>
-        <div class="flex mb-8">
+        <div class="flex">
             <div class="md:mx-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-                <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl">
-                Search Experience Marketing
-                </h1>
-                <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">
-                Whether you are looking to increase awareness of a product or service, maximize conversions,
-                or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC)
-                services help you achieve the right outcome with the right audiences.
-                </p>
+                <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600">Search Experience Marketing</h1>
+                <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">Whether you are looking to increase awareness of a product or service, maximize conversions, or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC) services help you achieve the right outcome with the right audiences.</p>
                 <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
                     <svg class="filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -392,9 +386,7 @@
                     </g>
                 </g>
             </svg>
-            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
-                Content + SEO
-            </h4>
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Content + SEO</h4>
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
@@ -406,12 +398,7 @@
                     </g>
                 </g>
             </svg>
-            <p class="pt-4 lg:text-lg">
-                Websites are architected for SEO performance, optimized for natural language, and configured for Page Experience.
-                Key pages are assigned commonly returned digital assets to increase the likelihood of being featured in universal
-                search and returned by virtual assistances. All pages and digital assets are optimized for the most relevant and
-                productive search behavior to drive the most valuable interactions.
-            </p>
+            <p class="pt-4 lg:text-lg">Websites are architected for SEO performance, optimized for natural language, and configured for Page Experience. Key pages are assigned commonly returned digital assets to increase the likelihood of being featured in universal search and returned by virtual assistances. All pages and digital assets are optimized for the most relevant and productive search behavior to drive the most valuable interactions.</p>
 
         <svg class="hidden lg:block absolute z-behind right-10 -bottom-4 anime" width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -468,9 +455,7 @@
                     </g>
                 </g>
             </svg>
-            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
-                Paid Search
-            </h4>
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Paid Search</h4>
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
@@ -482,11 +467,7 @@
                     </g>
                 </g>
             </svg>
-            <p class="pt-4 lg:text-lg">
-                We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings. Advertising
-                strategy, keywords and creative are informed by natural language search behavior and desired high value actions. Messaging
-                heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and guide on-site behavior.
-                By focusing on what really matters to your audience, we redefine customer journeys at decision making moments.
+            <p class="pt-4 lg:text-lg">We identify value in every click by organizing PPC accounts and assets to create efficiency and pinpoint learnings. Advertising strategy, keywords and creative are informed by natural language search behavior and desired high value actions. Messaging heavily impacts CTR, so specific calls-to-action are incorporated into ads to maximize clicks and guide on-site behavior. By focusing on what really matters to your audience, we redefine customer journeys at decision making moments.
             </p>
 
             <svg class="hidden lg:block absolute z-behind -bottom-24 left-12 anime" width="104px" height="101px" viewBox="0 0 104 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -702,12 +683,17 @@ export default {
 .filter-light {
     filter: opacity(.3);
 }
-/* 
+
 @media (min-width: 640px) {
     .screenHeightCalc {
-        height: calc(100vh - 1rem);
+        height: 50%;
     }
-} */
+}
+@media (max-width: 380px) and (max-height: 670px) {
+    .svg-small {
+       margin: 2rem 0;
+    }
+}
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .screenHeightCalc {

@@ -22,7 +22,7 @@
         </g>
     </svg>
     <div class="relative justify-items-center z-1">
-        <svg class="w-screen my-8 md:h-48 lg:h-56 xl:hidden" width="100%" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+        <svg class="w-screen my-8 md:h-48 lg:h-56 xl:hidden svg-small" width="100%" height="105px" viewBox="0 0 100 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_About" transform="translate(-138.000000, -116.000000)" fill="#4BBFE1">
                     <g id="Hero-Icon" transform="translate(138.000000, 116.000000)">
@@ -34,12 +34,8 @@
             </g>
         </svg>
         <div class="relative lg:ml-20 xl:ml-40 xl:py-32 xl:bg-transparent lg:w-4/5 xl:w-4/12 lg:mx-16 xl:mx-0">
-            <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose text-ie-purple mb-4 mx-12 lg:mx-0 ">
-            About
-            </h1>
-            <p class="mx-12 mr-10 text-base leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">
-                Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes
-                in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
+            <h1 class="text-3xl lg:text-4xl xl:text-5xl tracking-wide leading-normal lg:leading-loose mb-4 mx-12 lg:mx-0 font-black text-gray-600">About</h1>
+            <p class="mx-12 mr-10 text-base lg:text-lg leading-normal text-gray-600 pb-6 lg:mx-0 lg:leading-loose">Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software (SaMD) and digital marketing for food, healthcare, and biotech companies.
             </p>
             <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
                 <svg class="arrowdown xl:m-0 filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -103,9 +99,7 @@
             <img ref="anime" width="20px" height="18px" src="/images/blue-oval.svg" class="hidden xl:block absolute -top-3 right-32 z-behind anime" alt="Blue Oval" rel="preload">
             <img ref="anime" width="23px" height="23px" src="/images/cross_icon.png" class="hidden xl:block absolute -top-5 z-behind left-2/4 anime" alt="Blue Cross" rel="preload">
             <img ref="anime" src="/images/blue-rectangle.svg" class="hidden xl:block absolute top-32 -left-3 z-behind anime" alt="Blue Rectangle">
-            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
-                Healthcare
-            </h4>
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Healthcare</h4>
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
@@ -152,9 +146,7 @@
                 </g>
             </svg>
             <div ref="anime" class="xl:hidden absolute top-20 -left-2 h-4 w-4 rounded-full bg-blue-500 z-behind anime" style="mix-blend-mode: multiply"></div>
-            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">
-            Food & Retail
-            </h4>
+            <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Food & Retail</h4>
 
             <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -245,7 +237,6 @@ export default {
             scrollTrigger: {
             trigger: box,
             once: true,
-            // start: "center top",
             },
             duration: 1.3,
             delay: .2,
@@ -262,7 +253,7 @@ export default {
 
 <style scoped>
 .filter-dark {
-    filter: brightness(.5);
+    filter: brightness(.6);
 }
 
 .filter-light {
@@ -271,13 +262,38 @@ export default {
 
 @media (min-width: 1024px) {
     .screenHeightCalc {
-        height: calc(100vh - 20rem);
+        height: calc(100vh - 23.6rem);
     }
 }
 
 @media (min-width: 350px) and (max-width: 1023px) {
     .screenHeightCalc {
-        height: 50%;
+        height: 80%;
     }
+}
+@media (max-width: 380px) and (max-height: 670px) {
+    .svg-small {
+        margin: 2rem 0;
+    }
+}
+@media (min-width: 350px) and (max-height: 800px) {
+    .screenHeightCalc {
+        height: 80%;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+  .screenHeightCalc {
+    height: 50%;
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:landscape) {
+  .screenHeightCalc {
+    height: calc(100vh - 10rem);
+  }
+  svg.svg-small {
+    margin: 0;
+  }
 }
 </style>

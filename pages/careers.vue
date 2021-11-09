@@ -2,7 +2,7 @@
 <div class="fade-in h-full screenHeight overflow-hidden">
   <div class="md:flex">
     <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8 content" style="mix-blend-mode: multiply;">
-      <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
+      <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden svg-small" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="IE_mobile_Careers" transform="translate(-134.000000, -116.000000)">
                   <g id="Hero-icon" transform="translate(134.000000, 116.000000)">
@@ -13,16 +13,11 @@
               </g>
           </g>
       </svg>
-      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-24 md:pb-0">
-        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8">
-          Careers
-        </h1>
-        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
-          We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.
-        </p>
-        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">
-          View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or
-          <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">contact us</a>.
+      <div class="ml-12 md:mx-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-12 md:pb-0">
+        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8 font-black text-gray-600">Careers</h1>
+        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.</p>
+        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or
+        <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">contact us</a>.
         </p>
       </div>
       <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
@@ -114,20 +109,16 @@ export default {
       .from('.car1', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' }, '-=.4')
       .from('.car3', { opacity: 0, scale: 0, x: 0, duration: .5, y: 10, ease: 'ease' })
       .from('.car14', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-      .from('.car21', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car15', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-      .from('.car19', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car16', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car7', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
       .from('.car10', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
       .from('.car11', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
-      .from('.car20', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car6', { opacity: 0, scale: 0, x: 0, duration: .15, ease: 'ease' })
       .from('.car5', { opacity: 0, scale: 0, x: 0, duration: .15, ease: 'ease' })
       .from('.car13', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car17', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car4', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
-      .from('.car18', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car8', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
       .from('.car12', { opacity: 0, scale: 0, duration: .15, ease: 'ease' })
       .from('.car9', { opacity: 0, scale: 0, x: 0, duration: .15, ease:'ease' })
@@ -158,6 +149,9 @@ export default {
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .content {
     height: calc(100vh - 10rem);
+  }
+  svg.svg-small {
+    margin: 0;
   }
 }
 </style>
