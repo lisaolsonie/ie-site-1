@@ -1,7 +1,7 @@
 <template>
 <div class="fade-in">
   <div class="relative w-screen screenHeightCalc">
-    <div class="relative justify-items-center z-1 xl:pt-6" style="mix-blend-mode: multiply;">
+    <div class="relative justify-items-center z-1" style="mix-blend-mode: multiply;">
         <svg class="w-screen my-8 md:h-48 lg:h-56 lg:hidden svg-small" width="100%" height="105px" viewBox="0 0 95 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-140.000000, -116.000000)">
@@ -13,11 +13,11 @@
                 </g>
             </g>
         </svg>
-        <div class="flex xl:mx-16">
-            <div class="md:ml-20 relative lg:ml-20 lg:mt-20 xl:mt-0 xl:py-20 xl:ml-40 xl:bg-transparent lg:w-2/4 xl:w-2/5">
-                <h1 class="mx-12 text-3xl tracking-wide leading-normal text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600">Search Experience Marketing</h1>
-                <p class="mx-12 mr-10 lg:text-lg leading-normal lg:mx-0 lg:leading-loose text-gray-600 pb-6">Whether you are looking to increase awareness of a product or service, maximize conversions, or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC) services help you achieve the right outcome with the right audiences.</p>
-                <button ref="scrollArrow" class="scrollArrow w-full m-auto lg:w-10" id="scrollArrow">
+        <div class="flex xl:mx-16 lg:justify-center lg:items-center">
+            <div class="flex flex-col md:ml-32 lg:ml-32 lg:mt-6 xl:mt-0 xl:ml-60 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5 lg:h-100 lg:justify-center">
+                <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Search Experience Marketing</h1>
+                <p class="mx-12 mr-10 lg:text-lg lg:mx-0 text-gray-600 pb-6 lg:w-11/12">Whether you are looking to increase awareness of a product or service, maximize conversions, or have your digital presence work harder for you, our Content, SEO and Paid Search (PPC) services help you achieve the right outcome with the right audiences.</p>
+                <button ref="scrollArrow" class="scrollArrow w-full lg:w-10" id="scrollArrow">
                     <svg class="filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                             <g id="IE_mobile_SEM" transform="translate(-176.000000, -544.000000)">
@@ -30,7 +30,7 @@
                     </svg>
                 </button>
             </div>
-            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-32 lg:ml-4 lg:w-2/5" width="776px" height="" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="hidden lg:block z-2 lg:h-100 lg:pr-16 lg:mr-32 lg:w-2/5 xl:mr-48" width="776px" height="" viewBox="0 0 776 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>SEM graphic</title>
                 <defs>
                     <polygon id="path-1" points="0 0 327 0 327 290.082031 0 290.082031"></polygon>

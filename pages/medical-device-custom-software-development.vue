@@ -2,7 +2,7 @@
   <div class="fade-in">
     <div class="relative w-screen screenHeightCalc">
       <div
-        class="relative justify-items-center z-1 xl:pt-6"
+        class="relative justify-items-center z-1"
         style="mix-blend-mode: multiply"
       >
         <svg
@@ -57,28 +57,26 @@
             </g>
           </g>
         </svg>
-        <div class="flex xl:mx-16">
+        <div class="flex xl:mx-16 lg:justify-center lg:items-center">
           <div
-            class="relative  md:ml-20 lg:ml-20 lg:mt-20 xl:ml-40 xl:mt-0 xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5"
+            class="flex flex-col md:ml-32 lg:ml-32 lg:mt-6 xl:mt-0 xl:ml-60 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5 lg:h-100 lg:justify-center"
           >
             <h1
-              class="mx-12 mb-4 text-3xl leading-normal tracking-wide text-ie-purple lg:mx-0 lg:text-4xl xl:text-5xl font-black text-gray-600"
+              class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600"
             >
               Custom Software Development
             </h1>
             <p
-              class="pb-6 mx-12 mr-10 leading-normal text-gray-600  lg:text-lg lg:mx-0 lg:leading-loose"
+              class="mx-12 mr-10 lg:text-lg lg:mx-0 text-gray-600 pb-6 lg:w-11/12"
             >
-              Building on our scalable Google Cloud infrastructure platform,
-              we design, develop, and launch medical device software products
-              that are reliable, fast, and intuitive. Specializing in Software
-              as a Medical Device (SaMD), our Quality Management System (QMS)
-              is ISO13485 certified, and we are compliant with IEC 62304 and
+              Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch software
+              products that are reliable, fast, and intuitive. Specializing in Software as a Medical Device (SaMD),
+              our Quality Management System (QMS) is ISO13485 certified, and we are compliant with IEC 62304 and
               ISO 14971 international standards.
             </p>
             <button
               ref="scrollArrow"
-              class="w-full m-auto scrollArrow lg:w-10"
+              class="w-full scrollArrow lg:w-10"
               id="scrollArrow"
             >
               <svg
@@ -124,7 +122,7 @@
             </button>
           </div>
           <svg
-            class="hidden lg:block z-2 lg:h-100 lg:ml-4 lg:pr-16 lg:mr-16 large-icon lg:w-2/5"
+            class="hidden lg:block z-2 lg:h-100 lg:pr-16 lg:mr-32 lg:w-2/5 xl:mr-48"
             width="924px"
             height="584px"
             viewBox="0 0 924 584"
