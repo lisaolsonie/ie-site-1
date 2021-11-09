@@ -1,6 +1,6 @@
 <template>
 <div class="fade-in h-full screenHeight overflow-hidden">
-  <div class="md:flex xl:mx-16">
+  <div class="md:flex xl:mx-16 lg:justify-center lg:items-center">
     <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8 content" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden svg-small" width="100%" height="106px" viewBox="0 0 108 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -13,10 +13,10 @@
               </g>
           </g>
       </svg>
-      <div class="ml-12 md:ml-20 relative xl:ml-32 xl:py-32 xl:bg-transparent pb-12 md:pb-0">
-        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8 font-black text-gray-600">Careers</h1>
-        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.</p>
-        <p class="mr-10 text-xl leading-normal text-gray-600 pb-6 lg:leading-loose">View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or
+      <div class="ml-12 md:ml-20 relative xl:ml-60 xl:py-32 xl:bg-transparent pb-12 md:pb-0 lg:justify-center lg:items-center">
+        <h1 class="text-3xl xl:text-5xl tracking-wide text-ie-purple mb-4 xl:mb-8 font-black text-gray-600">Careers</h1>
+        <p class="mr-10 text-xl text-gray-600 pb-6">We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists.</p>
+        <p class="mr-10 text-xl text-gray-600 pb-6">View open positions <a class="text-base text-gray-600 hover:text-gray-500 border-b-2 border-blue-300 text-xl" href="https://www.indeed.com/cmp/Idea-Evolver">here</a> or
         <a class="text-base text-gray-600 border-b-2 border-blue-300 hover:text-gray-500 text-xl" href="mailto:careers@ideaevolver.com">contact us</a>.
         </p>
       </div>

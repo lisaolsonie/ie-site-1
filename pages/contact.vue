@@ -1,6 +1,6 @@
 <template>
 <div class="fade-in h-full screenHeight overflow-hidden content">
-  <div class="md:flex xl:mx-16">
+  <div class="md:flex xl:mx-16 lg:justify-center lg:items-center">
     <div class="relative justify-items-center z-1 xl:w-2/4 xl:ml-8" style="mix-blend-mode: multiply;">
       <svg class="w-screen my-8 md:h-44 lg:h-50 xl:hidden svg-small" width="100%" height="105px" viewBox="0 0 139 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="mix-blend-mode: multiply;">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -13,9 +13,9 @@
               </g>
           </g>
       </svg>
-      <div class="ml-12 md:ml-20 relative xl:ml-32 xl:py-32 xl:bg-transparent">
-        <h1 class="text-3xl xl:text-5xl tracking-wide leading-normal text-ie-purple mb-4 xl:mb-8 font-black text-gray-600">Contact Us</h1>
-        <p class="mr-10 mb-4 text-xl leading-normal text-gray-600 pb-6 md:w-4/5">1315 Walnut Street <br />Suite 932 <br />Philadelphia, PA 19107</p>
+      <div class="ml-12 md:ml-20 relative xl:ml-60 xl:py-32 xl:bg-transparent pb-12 md:pb-0 lg:justify-center lg:items-center">
+        <h1 class="text-3xl xl:text-5xl tracking-wide text-ie-purple mb-4 xl:mb-8 font-black text-gray-600">Contact Us</h1>
+        <p class="mx-12 mr-10 text-base lg:text-lg text-gray-600 pb-6 lg:mx-0">1315 Walnut Street <br />Suite 932 <br />Philadelphia, PA 19107</p>
         <a class="text-xl text-gray-600" href="tel:215-420-9053">215-420-9053</a><br />
         <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
         <div class="flex mt-12 pb-5 md:pb-0">
@@ -27,8 +27,9 @@
       <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
-    <div class="hidden xl:block w-3/4 items-center md:pt-28 pr-48 relative">
-        <svg class="lg:mt-16" width="100%" height="310px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">
+    <!-- MAIN LOGO -->
+        <svg class="xl:w-4/5 items-center justify-center" width="100%" height="310px" viewBox="0 0 608 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>BigIcon </title>
           <defs>
               <path class="z-behind" d="M143.185102,318 L520.879895,318 C522.058457,318 523.210919,318.347095 524.193453,318.997967 L634.391714,391.997967 C637.154261,393.827995 637.910216,397.551012 636.080188,400.313558 C634.968849,401.991198 633.090505,403 631.078156,403 L21.6429025,403 C18.329194,403 15.6429025,400.313708 15.6429025,397 C15.6429025,394.893389 16.7476901,392.941096 18.5536044,391.856437 L140.095804,318.856437 C141.028832,318.296047 142.096718,318 143.185102,318 Z" id="path-1"></path>
@@ -55,18 +56,18 @@
           </g>
       </svg>
       <!-- LEFT SIDE OF LOGO -->
-      <img ref="con5" class="hidden xl:block absolute h-4 w-6 top-28 left-32 con5" src="images/email.png" alt="Email Logo">
-      <img ref="con6" class="hidden xl:block absolute h-10 w-10 top-60 left-20 con6" src="images/bubble.png" alt="Chat Bubble Logo">
-      <div ref="con7" class="hidden xl:block absolute h-2 w-2 top-72 left-36 rounded-full bg-blue-500 con7" style="mix-blend-mode: multiply" alt="Circle"></div>
-      <img ref="con8" class="hidden xl:block absolute h-8 w-12 top-96 left-20 con8" src="images/email.png" alt="Email Logo">
+      <img ref="con5" class="hidden xl:block absolute h-4 w-6 top-28 left-12 con5" src="images/email.png" alt="Email Logo">
+      <img ref="con6" class="hidden xl:block absolute h-10 w-10 top-60 left-4 con6" src="images/bubble.png" alt="Chat Bubble Logo">
+      <div ref="con7" class="hidden xl:block absolute h-2 w-2 top-72 left-12 rounded-full bg-blue-500 con7" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="con8" class="hidden xl:block absolute h-8 w-12 top-96 -left-12 con8" src="images/email.png" alt="Email Logo">
 
       <!-- RIGHT SIDE OF LOGO  -->
-      <img ref="con9" class="hidden xl:block absolute h-8 w-12 top-28 right-72 con9" src="images/email.png" alt="Email Logo">
-      <img ref="con10" class="hidden xl:block absolute h-8 w-8 top-60 right-60 con10" src="images/left-bubble.png" alt="Chat Bubble Logo">
-      <div ref="con11" class="hidden xl:block absolute h-2 w-2 top-72 right-72 rounded-full bg-blue-500 con11" style="mix-blend-mode: multiply" alt="Circle"></div>
-      <img ref="con12" class="hidden xl:block absolute h-4 w-6 right-72 con12" src="images/email.png" alt="Email Logo" style="top: 20rem">
-      <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-96 right-64 con13" src="images/left-bubble.png" alt="Chat Bubble Logo">
-      <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14" style="mix-blend-mode: multiply; top: 23.5rem; right: 17rem;" alt="Circle"></div>
+      <img ref="con9" class="hidden xl:block absolute h-8 w-12 top-20 right-72 con9" src="images/email.png" alt="Email Logo">
+      <img ref="con10" class="hidden xl:block absolute h-8 w-8 top-36 right-48 con10" src="images/left-bubble.png" alt="Chat Bubble Logo">
+      <div ref="con11" class="hidden xl:block absolute h-2 w-2 top-48 right-60 rounded-full bg-blue-500 con11" style="mix-blend-mode: multiply" alt="Circle"></div>
+      <img ref="con12" class="hidden xl:block absolute h-4 w-6 right-40 con12" src="images/email.png" alt="Email Logo" style="top: 20rem">
+      <img ref="con13" class="hidden xl:block absolute h-8 w-8 top-60 right-64 con13" src="images/left-bubble.png" alt="Chat Bubble Logo">
+      <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14 top-60 right-40" style="mix-blend-mode: multiply; top: 23.5rem; right: 17rem;" alt="Circle"></div>
     </div>
   </div>
 </div>
