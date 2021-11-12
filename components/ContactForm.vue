@@ -49,6 +49,7 @@
         v-model="form.companyName"
         required
       />
+      <p v-if="!this.companyNameValid" class="error-message">Your company name is required</p>
     </div>
     <!-- name -->
     <div class="field mb-2">
@@ -73,7 +74,7 @@
           required
         />
       </div>
-        <!-- <span class="text-red-700">First and last name is required</span> -->
+      <p v-if="!this.firstNameValid && !this.lastNameValid" class="error-message">Your first and last name is required</p>
     </div>
     <!-- title -->
     <div class="field mb-2 w-full">
@@ -87,7 +88,7 @@
         v-model="form.title"
         required
       />
-      <!-- <span class="text-red-700">Title is required</span> -->
+      <p v-if="!this.titleValid" class="error-message">Your title is required</p>
     </div>
     <!-- Email -->
     <div class="field mb-2">
@@ -101,8 +102,7 @@
         v-model="form.email"
         required
       />
-      <!-- <span v-if="msg.email">{{msg.email}}</span> -->
-      <span class="text-red-700" v-if="msg.email">{{msg.email}}</span>
+      <p v-if="!this.emailValid" class="error-message">Your email is required</p>
     </div>
     <!-- Phone -->
     <div class="field mb-2">
@@ -112,7 +112,7 @@
         placeholder="Eg. 800-000-0000"
         class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="phone"
-        v-model="form.phone"
+        v-model.number="form.phone"
       />
     </div>
     <!-- Preferred contact -->
@@ -153,7 +153,7 @@
         v-model="form.industry"
         required
       />
-      <!-- <span class="text-red-700">Industry is required</span> -->
+      <p v-if="!this.industryValid" class="error-message">Your industry is required</p>
     </div>
     <div class="field mb-2 w-full">
     <!-- Description -->
@@ -173,7 +173,7 @@
       <button
         type="submit"
         class="button p-3 rounded-lg text-white uppercase w-100 my-4 text-lg bg-ie-blue hover:bg-ie-dark-blue focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:ring-opacity-50"
-        :disabled='isDisabled'
+        :disabled="!formIsValid"
       >
         Submit
       </button>
@@ -201,9 +201,6 @@ gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
   name: 'ContactForm',
-  // props: {
-  //   msg: String
-  // },
   data() {
     return {
       form: {
@@ -218,15 +215,14 @@ export default {
         industry: '',
         description: '',
       },
-      msg: [],
     }
   },
-  watch: {
-    email(value){
-      this.email = value;
-      this.validateEmail(value);
-    },
-  },
+  // watch: {
+  //   email(value){
+  //     this.email = value;
+  //     this.validateEmail(value);
+  //   },
+  // },
   // validations: {
     // form: {
     //   companyName: { required },
@@ -248,50 +244,77 @@ export default {
     // },
   // },
   computed: {
-  	isDisabled() {
-      if (
-        !this.form.companyName ||
-        !this.form.firstName ||
-        !this.form.lastName ||
-        !this.form.email ||
-        !this.form.title ||
-        !this.form.industry
-      ) return true;
-    }
   },
+  // watch: {
+  //   email(value){
+  //     // binding this to the data value in the email input
+  //     this.email = value;
+  //     this.validateEmail(value);
+  //   },
+  //   password(value){
+  //     this.password = value;
+  //     this.validatePassword(value);
+  //   }
+  // },
   methods: {
-    validateEmail(value){
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value))
-      {
-        this.msg['email'] = '';
-      } else {
-        this.msg['email'] = 'Invalid Email Address';
-      }
+    companyNameValid() {
+      return !!this.form.companyName && this.inputTouched;
     },
+    firstNameValid() {
+      return !!this.form.firstName;
+    },
+    lastNameValid() {
+      return !!this.form.lastName;
+    },
+    emailValid() {
+      return !!this.form.email;
+    },
+    titleValid() {
+      return !!this.form.title;
+    },
+    industryValid() {
+      return !!this.form.industry;
+    },
+    formIsValid() {
+      return this.companyNameValid &&
+        this.firstNameValid &&
+        this.lastNameValid &&
+        this.emailValid &&
+        this.titleValid &&
+        this.industryValid
+    },
+    // inputTouched() {
+    //   const input = document.querySelector('input')
+    //     input.addEventListener('input', evt => {
+    //       console.log('heyyyy');
+    //   })
+    // },
     sendEmail() {
-      emailjs.sendForm(
-        'service_4abj34h',
-        'template_hmv49er',
-        this.$refs.form,
-        'user_XypTG85C21ZDwxNlgJIlj'
-      )
-      .then((result) => {
-          console.log('SUCCESS!', result.text);
-          let thanksMessage = document.getElementById("submitMessage");
-          thanksMessage.classList.remove('hidden');
-          this.form.companyName = '';
-          this.form.firstName = '';
-          this.form.lastName = '';
-          this.form.title = '';
-          this.form.email = '';
-          this.form.phone = '';
-          this.form.prefPhone = '';
-          this.form.prefEmail = '';
-          this.form.industry = '';
-          this.form.description = '';
-      }, (error) => {
-          console.log('FAILED...', error.text);
-      });
+        if (this.formIsValid) {
+          emailjs.sendForm(
+            'service_4abj34h',
+            'template_hmv49er',
+            this.$refs.form,
+            'user_XypTG85C21ZDwxNlgJIlj'
+          )
+          .then((result) => {
+              console.log('SUCCESS!', result.text);
+              let thanksMessage = document.getElementById("submitMessage");
+              thanksMessage.classList.remove('hidden');
+              this.form.companyName = '';
+              this.form.firstName = '';
+              this.form.lastName = '';
+              this.form.title = '';
+              this.form.email = '';
+              this.form.phone = '';
+              this.form.prefPhone = '';
+              this.form.prefEmail = '';
+              this.form.industry = '';
+              this.form.description = '';
+          }, (error) => {
+              console.log('FAILED...', error.text);
+          });
+        }
       }
     }
   };
@@ -300,6 +323,10 @@ export default {
 <style scoped>
 h4 {
   font-family: "Inter SemiBold";
+}
+
+.error-message {
+  color: #C03D37
 }
   .container {
   display: block;
