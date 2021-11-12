@@ -46,7 +46,7 @@
         </nuxt-link>
 
         <nuxt-link id="software-development" class="mb-8 sd" to="/medical-device-custom-software-development">
-          Medical Device Software
+          Software Development
         </nuxt-link>
 
         <nuxt-link id="search-experience-marketing" class="mb-8 sem" to="/search-experience-marketing-optimization">

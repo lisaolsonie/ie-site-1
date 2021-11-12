@@ -70,12 +70,19 @@
       <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14 top-60 right-40" style="mix-blend-mode: multiply; top: 23.5rem; right: 17rem;" alt="Circle"></div>
     </div>
   </div>
+  <div class="flex my-24 w-screen mx-auto justify-center">
+    <contact-form />
+  </div>
 </div>
 </template>
 
 <script>
 import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
-import { gsap, TimelineMax } from 'gsap';
+import gsap, { TimelineMax } from 'gsap';
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger, TimelineMax);
 
 export default {
     head: {
@@ -87,11 +94,13 @@ export default {
           }
         ],
     },
-  layout: "default",
+  layout: "scroller",
   mounted() {
     const targetElement = document.querySelector('body');
-    disableBodyScroll(targetElement);
+    clearAllBodyScrollLocks(targetElement);
+
     gsap.set('.wiggle', { transformOrigin: "top center"})
+
     let tl = new TimelineMax({
       repeat: 10,
     })
@@ -134,7 +143,7 @@ h1, h4 {
    opacity: 1,
 } */
 
-@media screen and (max-width: 420px) {
+/* @media screen and (max-width: 420px) {
     body {
       height: 100%;
       overflow: hidden;
@@ -160,6 +169,6 @@ h1, h4 {
   .screenHeight {
       height: calc(100vh - 12rem);
   }
-}
+} */
 
 </style>

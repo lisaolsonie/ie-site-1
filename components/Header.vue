@@ -24,7 +24,7 @@
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sd"
           >
             <nuxt-link to="/medical-device-custom-software-development">
-              Medical Device Software
+              Software Development
             </nuxt-link>
           </li>
           <li

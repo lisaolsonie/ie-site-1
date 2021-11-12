@@ -548,6 +548,9 @@
       </div>
     </div>
     </div>
+    <div class="flex my-24 w-screen mx-auto justify-center">
+        <contact-form />
+    </div>
     <footer class="w-screen">
       <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
     </footer>
