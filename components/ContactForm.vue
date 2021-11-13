@@ -1,5 +1,5 @@
 <template>
-  <form class="w-5/6 bg-white p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5 text-gray-700" id="contact-form" @submit.prevent="sendEmail" ref="form">
+  <form class="p-8 w-5/6 bg-white md:p-16 relative shadow-md md:w-4/5 lg:w-3/5 xl:w-2/5 text-gray-700" id="contact-form" @submit.prevent="sendEmail" ref="form">
     <h4 v-if="this.$route.name !== 'contact'" class="pb-2 text-xl md:text-2xl lg:text-3xl text-gray-600">Contact Us</h4>
     <svg
       v-if="this.$route.name !== 'contact'"

@@ -12,11 +12,11 @@
       <nav id="header-links" class="hidden xl:inline-block">
         <ul class="flex">
           <li
-            id="search-behavior-analysis"
+            id="consumer-insights"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 hover:border-b border-blue-500"
           >
-            <nuxt-link to="/search-behavior-analysis">
-              Behavior Analysis
+            <nuxt-link to="/consumer-insights">
+              Consumer Insights
             </nuxt-link>
           </li>
           <li
@@ -119,7 +119,7 @@ a.nuxt-link-active {
   border-radius: 2px;
 }
 
-#search-behavior-analysis a.nuxt-link-active {
+#consumer-insights a.nuxt-link-active {
   border-bottom: 5px solid #65D8B4;
 }
 
@@ -143,7 +143,7 @@ a.nuxt-link-active {
   border-bottom: 5px solid #EFCB57;
 }
 
-#search-behavior-analysis::after {
+#consumer-insights::after {
   background-color: #65D8B4;
 }
 

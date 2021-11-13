@@ -15,7 +15,7 @@
 
     <div class="flex xl:mx-16 lg:justify-center lg:items-center">
         <div class="flex flex-col md:ml-32 lg:ml-32 lg:mt-6 xl:mt-0 xl:ml-60 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5 lg:h-100 lg:justify-center">
-            <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Search Behavior Analysis</h1>
+            <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Consumer Insights Data</h1>
             <p class="mx-12 mr-10 lg:text-lg lg:mx-0 text-gray-600 pb-6 lg:w-11/12">Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by delivering targeted products, content and/or technology at micro-moments that make all the difference.</p>
             <button ref="scrollArrow" class="scrollArrow w-full  lg:w-10" id="scrollArrow">
                 <svg class="animate-bounceslow filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -463,7 +463,7 @@
                 </g>
             </g>
         </svg>
-        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Research & Analysis</h4>
+        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Search Behavior Analysis</h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
@@ -520,7 +520,7 @@
                 </g>
             </g>
         </svg>
-        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Insights & Imagination</h4>
+        <h4 class="text-xl md:text-2xl lg:text-3xl pb-2">Insights and Imagination</h4>
         <svg width="62px" height="3px" viewBox="0 0 62 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="IE_mobile_SEM" transform="translate(-62.000000, -1120.000000)" fill="#4BBFE1">
@@ -532,7 +532,7 @@
                 </g>
             </g>
         </svg>
-        <p class="pt-4 lg:text-lg">Based on the full analysis, we deliver a custom search audience strategy that advances your marketing and business goals. This includes content, innovation and optimization opportunities that are determined by aligning the unique needs of your audience to the unique features of your brand.</p>
+        <p class="pt-4 lg:text-lg">Based on the full analysis, we deliver a custom audience strategy that advances your marketing and business goals. This includes content, innovation and optimization opportunities that are determined by aligning the unique needs of your audience to the unique features of your brand.</p>
 
         <svg class="lg:hidden absolute -bottom-4 right-10 anime" width="38px" height="30px" viewBox="0 0 38 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="New-2021" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

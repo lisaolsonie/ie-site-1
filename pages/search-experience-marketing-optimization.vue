@@ -632,7 +632,6 @@ export default {
             scrollTrigger: {
             trigger: 'mfirst',
             once: true,
-            start: "center bottom",
             },
             duration: 1.3,
             delay: .2,
@@ -650,7 +649,6 @@ export default {
             scrollTrigger: {
             trigger: 'msecond',
             once: true,
-            start: "center bottom",
             },
             duration: 1.3,
             delay: .2,
@@ -668,7 +666,6 @@ export default {
             scrollTrigger: {
             trigger: '.mthird',
             once: true,
-            start: "center bottom",
             },
             duration: 1.3,
             delay: .2,

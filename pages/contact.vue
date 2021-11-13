@@ -15,7 +15,7 @@
       </svg>
       <div class="ml-12 md:ml-20 relative xl:ml-60 xl:py-32 xl:bg-transparent pb-12 md:pb-0 lg:justify-center lg:items-center">
         <h1 class="text-3xl xl:text-5xl tracking-wide text-ie-purple mb-4 xl:mb-8 font-black text-gray-600">Contact Us</h1>
-        <p class="mx-12 mr-10 text-base lg:text-lg text-gray-600 pb-6 lg:mx-0">1315 Walnut Street <br />Suite 932 <br />Philadelphia, PA 19107</p>
+        <p class="md:mx-12 mr-10 text-base lg:text-lg text-gray-600 pb-6 lg:mx-0">1315 Walnut Street <br />Suite 932 <br />Philadelphia, PA 19107</p>
         <a class="text-xl text-gray-600" href="tel:215-420-9053">215-420-9053</a><br />
         <a class="text-base text-gray-600 border-b-2 border-blue-300 text-xl" href="mailto:press1for@ideaevolver.com">press1for@ideaevolver.com</a>
         <div class="flex mt-12 pb-5 md:pb-0">
@@ -24,7 +24,6 @@
           <a href="https://www.instagram.com/idea_evolver/"><img class="xl:w-9 xl:h-9" src="/images/instagram.svg" alt="Idea Evolver Instagram Link" rel="preload"></a>
         </div>
       </div>
-      <p class="md:hidden text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 
     </div>
     <div class="hidden xl:block w-2/4 items-center py-28 pr-40 relative">
@@ -70,9 +69,10 @@
       <div ref="con14" class="hidden xl:block absolute h-4 w-4 rounded-full bg-blue-500 con14 top-60 right-40" style="mix-blend-mode: multiply; top: 23.5rem; right: 17rem;" alt="Circle"></div>
     </div>
   </div>
-  <div class="flex my-24 w-screen mx-auto justify-center">
+  <div class="flex my-4 lg:my-24 w-screen mx-auto justify-center">
     <contact-form />
   </div>
+  <p class="text-gray-600 text-xs text-center p-5 bg-transparent">&copy; 2021 IDEA EVOLVER. All rights reserved.</p>
 </div>
 </template>
 

@@ -41,8 +41,8 @@
     </div>
     <div class="flex-1" @click="toggleMenu">
       <nav id="menu-links" class="flex flex-col text-2xl text-gray-600 pt-32">
-        <nuxt-link class="mb-8 sba" to="/search-behavior-analysis">
-          Behavior Analysis
+        <nuxt-link class="mb-8 sba" to="/consumer-insights">
+          Consumer Insights
         </nuxt-link>
 
         <nuxt-link id="software-development" class="mb-8 sd" to="/medical-device-custom-software-development">
