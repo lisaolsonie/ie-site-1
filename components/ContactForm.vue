@@ -329,7 +329,7 @@ h4 {
   color: #C03D37
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1100px) {
   input[type="text"],
   input[type="email"],
   textarea { 
