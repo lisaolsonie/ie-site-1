@@ -44,7 +44,7 @@
         id="companyName"
         type="text"
         placeholder="Eg. Google"
-        class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
+        class="input px-2 py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent lg:focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="companyName"
         v-model="form.companyName"
         required
@@ -59,7 +59,7 @@
           id="firstName"
           type="text"
           placeholder="Eg. Anne"
-          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4 mr-2" 
+          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4 mr-2" 
           name="firstName"
           v-model="form.firstName"
           required
@@ -68,7 +68,7 @@
           id="lastName"
           type="text"
           placeholder="Eg. Smith"
-          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4" 
+          class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full md:w-2/4" 
           name="lastName"
           v-model="form.lastName"
           required
@@ -83,7 +83,7 @@
         id="title"
         type="text"
         placeholder="Eg. Brand Manager"
-        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
+        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="title"
         v-model="form.title"
         required
@@ -97,7 +97,7 @@
         id="email"
         type="email"
         placeholder="Eg. email123@gmail.com"
-        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
+        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="email"
         v-model="form.email"
         required
@@ -110,7 +110,7 @@
       <input
         type="text"
         placeholder="Eg. 800-000-0000"
-        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
+        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="phone"
         v-model.number="form.phone"
       />
@@ -148,7 +148,7 @@
         id="industry"
         type="text"
         placeholder="Eg. Healthcare"
-        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
+        class="input px-2 py-2 my-2 input py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
         name="industry"
         v-model="form.industry"
         required
@@ -164,7 +164,7 @@
         cols="50"
         v-model="form.description"
         placeholder="Eg. Looking to build out an application for a medical device..."
-        class="input px-2 py-2 my-2 rounded-sm border border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
+        class="input px-2 py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
       />
     </div>
 
