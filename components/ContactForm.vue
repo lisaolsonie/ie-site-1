@@ -44,7 +44,7 @@
         id="companyName"
         type="text"
         placeholder="Eg. Google"
-        class="input px-2 py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent lg:focus:outline-none focus:ring-2 focus:ring-ie-dark-blue focus:border-transparent shadow w-full" 
+        class="input px-2 py-2 my-2 rounded-sm border-gray-300 border lg:border-transparent lg:focus:outline-none focus:ring-2 focus:ring-ie-dark-blue lg:focus:border-transparent shadow w-full" 
         name="companyName"
         v-model="form.companyName"
         required
@@ -328,6 +328,15 @@ h4 {
 .error-message {
   color: #C03D37
 }
+
+@media screen and (max-width: 1080px) {
+  input[type="text"],
+  input[type="email"],
+  textarea { 
+      border: 1px solid #7E818B;
+  }
+}
+
   .container {
   display: block;
   position: relative;
