@@ -1077,13 +1077,13 @@ gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
   head: {
-    title: "Medical Device Software Development",
+    title: "Custom Software Development",
     meta: [
       {
         name: "Description",
         content:
-          "Specializing in Software as a Medical Device (SaMD), our Quality Management System (QMS)\
-          is ISO 13485 certified, and we are compliant with IEC 62304 and ISO 14971 international standards.",
+          "Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
+          software products that are reliable, fast, and intuitive.",
       },
     ],
   },

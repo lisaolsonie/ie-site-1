@@ -20,10 +20,10 @@
             </nuxt-link>
           </li>
           <li
-            id="medical-device-custom-software-development"
+            id="custom-software-development"
             class="mr-12 text-gray-700 text-md hover:text-gray-500 transition ease-in duration-150 sd"
           >
-            <nuxt-link to="/medical-device-custom-software-development">
+            <nuxt-link to="/custom-software-development">
               Software Development
             </nuxt-link>
           </li>
@@ -123,7 +123,7 @@ a.nuxt-link-active {
   border-bottom: 5px solid #65D8B4;
 }
 
-#medical-device-custom-software-development a.nuxt-link-active {
+#custom-software-development a.nuxt-link-active {
   border-bottom: 5px solid #966CE0;
 }
 
@@ -147,7 +147,7 @@ a.nuxt-link-active {
   background-color: #65D8B4;
 }
 
-#medical-device-custom-software-development::after {
+#custom-software-development::after {
   background-color: #966CE0;
 }
 

@@ -45,7 +45,7 @@
           Consumer Insights
         </nuxt-link>
 
-        <nuxt-link id="software-development" class="mb-8 sd" to="/medical-device-custom-software-development">
+        <nuxt-link id="software-development" class="mb-8 sd" to="/custom-software-development">
           Software Development
         </nuxt-link>
 

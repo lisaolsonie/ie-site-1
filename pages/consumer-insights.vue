@@ -15,7 +15,7 @@
 
     <div class="flex xl:mx-16 lg:justify-center lg:items-center">
         <div class="flex flex-col md:ml-32 lg:ml-32 lg:mt-6 xl:mt-0 xl:ml-60 relative xl:py-20 xl:bg-transparent lg:w-2/4 xl:w-2/5 lg:h-100 lg:justify-center">
-            <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Consumer Insights Data</h1>
+            <h1 class="mx-12 text-3xl tracking-wide text-ie-purple mb-4 lg:mx-0 lg:text-4xl xl:text-5xl lg:w-4/5 font-black text-gray-600">Consumer & Audience Insights</h1>
             <p class="mx-12 mr-10 lg:text-lg lg:mx-0 text-gray-600 pb-6 lg:w-11/12">Search behavior is personal, intentional, and precise. Analysis of this dataset provides a unique window into audience intent, core needs and their daily lives. Insights from the analysis helps you connect on a more meaningful level by delivering targeted products, content and/or technology at micro-moments that make all the difference.</p>
             <button ref="scrollArrow" class="scrollArrow w-full  lg:w-10" id="scrollArrow">
                 <svg class="animate-bounceslow filter-light" width="100%" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -570,12 +570,12 @@ gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
     head: {
-        title: 'Search Behavior Analysis',
+        title: 'Consumer & Audience Insights',
         meta: [
           {
             name: 'Description',
-            content: 'Search behavior is personal, intentional and precise. Analysis of this dataset provides a\
-            unique window into audience need-states, preferences, and interests.'
+            content: 'Insights from the analysis helps you connect on a more meaningful level by delivering\
+            targeted products, content and/or technology at micro-moments that make all the difference.'
           }
         ],
     },
