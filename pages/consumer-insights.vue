@@ -569,15 +569,22 @@ gsap.registerPlugin(ExpoScaleEase, RoughEase, SlowMo);
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
-    head: {
-        title: 'Consumer & Audience Insights',
-        meta: [
-          {
-            name: 'Description',
-            content: 'Insights from the analysis helps you connect on a more meaningful level by delivering\
-            targeted products, content and/or technology at micro-moments that make all the difference.'
-          }
-        ],
+    head() {
+        return {
+            title: 'Consumer & Audience Insights',
+            meta: [
+              {
+                hid: 'consumer',
+                name: 'consumer',
+                content: 'Insights from the analysis helps you connect on a more meaningful level by delivering\
+                targeted products, content and/or technology at micro-moments that make all the difference.'
+              },
+              {
+                property: 'og:url',
+                content: 'https://idea-evolver.com/consumer-insights'
+              }
+            ],
+        }
     },
   layout: "scroller",
   mounted() {

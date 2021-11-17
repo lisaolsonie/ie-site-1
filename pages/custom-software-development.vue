@@ -1076,17 +1076,24 @@ import emailjs from 'emailjs-com';
 gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
 export default {
-  head: {
-    title: "Custom Software Development",
-    meta: [
-      {
-        name: "Description",
-        content:
-          "Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
-          software products that are reliable, fast, and intuitive.",
-      },
-    ],
-  },
+    head() {
+        return {
+          title: "Custom Software Development",
+          meta: [
+            {
+              hid: 'software',
+              name: "software",
+              content:
+                "Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
+                software products that are reliable, fast, and intuitive.",
+            },
+            {
+              property: 'og:url',
+              content: 'https://idea-evolver.com/custom-software-development'
+            },
+          ],
+        }
+    },
   layout: "scroller",
   mounted() {
     const targetElement = document.querySelector("body");

@@ -165,15 +165,17 @@ import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 gsap.registerPlugin(MotionPathPlugin);
 
 export default {
-  head: {
-    title: 'Idea Evolver: Evolve Responsively',
-    meta: [
-      {
-        name: 'Description',
-        content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
-      }
-    ],
-  },
+    head() {
+        return {
+            title: 'Idea Evolver: Evolve Responsively',
+            meta: [
+              {
+                name: 'Description',
+                content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
+              }
+            ],
+        }
+    },
   layout: "default",
     mounted() {
         const targetElement = document.querySelector('body');

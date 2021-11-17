@@ -92,21 +92,21 @@ export default {
     border-bottom: 5px solid #65D8B4;
     content: '';
     border-radius: 2px;
-    width: 270px;
+    width: 220px;
     display: block;
   }
   .nuxt-link-active.sd::after {
     border-bottom: 5px solid #966CE0;
     content: '';
     border-radius: 2px;
-    width: 250px;
+    width: 265px;
     display: block;
   }
   .nuxt-link-active.sem::after {
     border-bottom: 5px solid #4F77FF;
     content: '';
     border-radius: 2px;
-    width: 320px;
+    width: 205px;
     display: block;
   }
   .nuxt-link-active.abo::after {
@@ -120,14 +120,14 @@ export default {
     border-bottom: 5px solid #DF5FBE;
     content: '';
     border-radius: 2px;
-    width: 85px;
+    width: 90px;
     display: block;
   }
   .nuxt-link-active.con::after {
     border-bottom: 5px solid #EFCB57;
     content: '';
     border-radius: 2px;
-    width: 125px;
+    width: 95px;
     display: block;
   }
 </style>

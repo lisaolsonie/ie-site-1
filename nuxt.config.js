@@ -11,27 +11,23 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
-      },
+      // {
+      //   hid: 'description',
+      //   name: 'description',
+      //   content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
+      // },
       // open graph tags
-      {
-        property: 'og:title',
-        content: 'Idea Evolver'
-      },
-      {
-        property: 'og:description',
-        content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech. Evolve responsively.'
-      },
+      // {
+      //   property: 'og:title',
+      //   content: 'Idea Evolver'
+      // },
+      // {
+      //   property: 'og:description',
+      //   content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech. Evolve responsively.'
+      // },
       {
         property: 'og:image',
         content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
-      },
-      {
-        property: 'og:url',
-        content: 'https://idea-evolver.com'
       },
       {
         property: 'og:type',

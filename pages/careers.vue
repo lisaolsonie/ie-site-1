@@ -78,14 +78,21 @@ import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'bo
 import gsap from 'gsap';
 
 export default {
-    head: {
-        title: 'Careers at Idea Evolver',
-        meta: [
-          {
-            name: 'Description',
-            content: 'We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists. Learn more about current open positions.'
-          }
-        ],
+    head() {
+        return {
+          title: 'Careers at Idea Evolver',
+          meta: [
+            {
+              hid: 'career',
+              name: 'career',
+              content: 'We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists. Learn more about current open positions.'
+            },
+            {
+              property: 'og:url',
+              content: 'https://idea-evolver.com/careers'
+            },
+          ],
+        }
     },
   layout: "default",
 
