@@ -582,15 +582,18 @@ export default {
                     targeted products, content and/or technology at micro-moments that make all the difference.'
                 },
                 {
+                    hid: 'consumer',
                     property: 'og:title',
-                    content: 'Careers at Idea Evolver'
+                    content: 'Consumer & Audience Insights'
                 },
                 {
+                    hid: 'consumer',
                     property: 'og:description',
                     content: 'Insights from the analysis helps you connect on a more meaningful level by delivering\
                     targeted products, content and/or technology at micro-moments that make all the difference.'
                 },
                 {
+                    hid: 'consumer',
                     property: 'og:url',
                     content: 'https://idea-evolver.com/consumer-insights'
                 },

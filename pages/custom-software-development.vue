@@ -1089,15 +1089,18 @@ export default {
                 software products that are reliable, fast, and intuitive.'
             },
             {
+                hid: 'software',
                 property: 'og:title',
                 content: 'Contact Us'
             },
             {
+                hid: 'software',
                 property: 'og:description',
                 content: 'Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
                 software products that are reliable, fast, and intuitive.'
             },
             {
+                hid: 'software',
                 property: 'og:url',
                 content: 'https://idea-evolver.com/custom-software-development'
             },

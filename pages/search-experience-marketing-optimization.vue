@@ -543,14 +543,17 @@ export default {
                     content: 'Learn more about our Content, SEO, and Paid Search (PPC) services that help you achieve the right outcome with the right audiences.'
                 },
                 {
+                    hid: 'search',
                     property: 'og:title',
                     content: 'Search Experience Marketing: Content, SEO, & PPC Services'
                 },
                 {
+                    hid: 'search',
                     property: 'og:description',
                     content: 'Learn more about our Content, SEO, and Paid Search (PPC) services that help you achieve the right outcome with the right audiences.'
                 },
                 {
+                    hid: 'search',
                     property: 'og:url',
                     content: 'https://idea-evolver.com/search-experience-marketing-optimization'
                 },

@@ -90,14 +90,17 @@ export default {
                 content: 'We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists. Learn more about current open positions.'
             },
             {
+                hid: 'career',
                 property: 'og:title',
                 content: 'Careers at Idea Evolver'
             },
             {
+                hid: 'career',
                 property: 'og:description',
                 content: 'We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists. Learn more about current open positions.'
             },
             {
+                hid: 'career',
                 property: 'og:url',
                 content: 'https://idea-evolver.com/careers'
             },
