@@ -576,25 +576,28 @@ export default {
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {
-                    hid: 'description',
-                    name: 'description',
+                    hid: 'consumer',
+                    name: 'consumer',
                     content: 'Insights from the analysis helps you connect on a more meaningful level by delivering\
                     targeted products, content and/or technology at micro-moments that make all the difference.'
                 },
                 {
-                    hid: 'description',
-                    property: 'og:title',
+                    hid: 'title',
+                    name: 'title',
+                    // property: 'og:title',
                     content: 'Consumer & Audience Insights'
                 },
                 {
                     hid: 'description',
-                    property: 'og:description',
+                    name: 'description',
+                    // property: 'og:description',
                     content: 'Insights from the analysis helps you connect on a more meaningful level by delivering\
                     targeted products, content and/or technology at micro-moments that make all the difference.'
                 },
                 {
-                    hid: 'description',
-                    property: 'og:url',
+                    hid: 'url',
+                    name: 'url',
+                    // property: 'og:url',
                     content: 'https://idea-evolver.com/consumer-insights'
                 },
                 {
