@@ -16,6 +16,16 @@
 <script>
   import gsap from 'gsap';
 export default {
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://ideaevolver.com/'
+        }
+      ]
+    }
+  }
 }
 </script>
 

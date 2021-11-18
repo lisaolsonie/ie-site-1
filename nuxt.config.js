@@ -113,8 +113,6 @@ export default {
       'vuelidate'
     ]
   },
-  
-
   serverMiddleware: [
 ],
 }
