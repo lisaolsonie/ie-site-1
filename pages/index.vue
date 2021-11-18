@@ -172,22 +172,22 @@ export default {
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {
-                    hid: 'home',
-                    name: 'home',
+                    hid: 'description',
+                    name: 'description',
                     content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
                 },
                 {
-                    hid: 'home',
+                    hid: 'description',
                     property: 'og:title',
                     content: 'Idea Evolver: Evolve Responsively'
                 },
                 {
-                    hid: 'home',
+                    hid: 'description',
                     property: 'og:description',
                     content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
                 },
                 {
-                    hid: 'home',
+                    hid: 'description',
                     property: 'og:url',
                     content: 'https://idea-evolver.com/'
                 },

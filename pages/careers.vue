@@ -85,22 +85,22 @@ export default {
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             {
-                hid: 'career',
-                name: 'career',
+                hid: 'description',
+                name: 'description',
                 content: 'We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists. Learn more about current open positions.'
             },
             {
-                hid: 'career',
+                hid: 'description',
                 property: 'og:title',
                 content: 'Careers at Idea Evolver'
             },
             {
-                hid: 'career',
+                hid: 'description',
                 property: 'og:description',
                 content: 'We are always on the lookout for talented marketers, software engineers, designers and regulatory specialists. Learn more about current open positions.'
             },
             {
-                hid: 'career',
+                hid: 'description',
                 property: 'og:url',
                 content: 'https://idea-evolver.com/careers'
             },

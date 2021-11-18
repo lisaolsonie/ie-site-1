@@ -207,24 +207,24 @@ export default {
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {
-                    hid: 'about',
-                    name: 'about',
+                    hid: 'description',
+                    name: 'description',
                     content: 'Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software\
                     (SaMD) and digital marketing for food, healthcare, and biotech companies.'
                 },
                 {
-                    hid: 'about',
+                    hid: 'description',
                     property: 'og:title',
                     content: 'About Us'
                 },
                 {
-                    hid: 'about',
+                    hid: 'description',
                     property: 'og:description',
                     content: 'Established in 2010, Idea Evolver is an audience marketing and custom software development company that specializes in medical device software\
                     (SaMD) and digital marketing for food, healthcare, and biotech companies.'
                 },
                 {
-                    hid: 'about',
+                    hid: 'description',
                     property: 'og:url',
                     content: 'https://idea-evolver.com/about-us'
                 },

@@ -1083,24 +1083,24 @@ export default {
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             {
-                hid: 'software',
-                name: 'software',
+                hid: 'description',
+                name: 'description',
                 content: 'Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
                 software products that are reliable, fast, and intuitive.'
             },
             {
-                hid: 'software',
+                hid: 'description',
                 property: 'og:title',
-                content: 'Contact Us'
+                content: 'Custom Software Development'
             },
             {
-                hid: 'software',
+                hid: 'description',
                 property: 'og:description',
                 content: 'Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
                 software products that are reliable, fast, and intuitive.'
             },
             {
-                hid: 'software',
+                hid: 'description',
                 property: 'og:url',
                 content: 'https://idea-evolver.com/custom-software-development'
             },

@@ -92,22 +92,22 @@ export default {
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             {
-                hid: 'contact',
-                name: 'contact',
+                hid: 'description',
+                name: 'description',
                 content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
             },
             {
-                hid: 'contact',
+                hid: 'description',
                 property: 'og:title',
                 content: 'Contact Us'
             },
             {
-                hid: 'contact',
+                hid: 'description',
                 property: 'og:description',
                 content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
             },
             {
-                hid: 'contact',
+                hid: 'description',
                 property: 'og:url',
                 content: 'https://idea-evolver.com/contact'
             },
