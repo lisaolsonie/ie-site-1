@@ -82,6 +82,8 @@ export default {
         return {
           title: 'Careers at Idea Evolver',
           meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             {
                 hid: 'career',
                 name: 'career',
@@ -99,6 +101,14 @@ export default {
                 property: 'og:url',
                 content: 'https://idea-evolver.com/careers'
             },
+            {
+                property: 'og:image',
+                content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+            },
+            {
+                property: 'og:type',
+                content: 'website'
+            }
           ],
         }
     },

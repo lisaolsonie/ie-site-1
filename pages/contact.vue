@@ -89,6 +89,8 @@ export default {
         return {
           title: 'Contact Us',
           meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             {
                 hid: 'contact',
                 name: 'contact',
@@ -106,6 +108,14 @@ export default {
                 property: 'og:url',
                 content: 'https://idea-evolver.com/contact'
             },
+            {
+                property: 'og:image',
+                content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+            },
+            {
+                property: 'og:type',
+                content: 'website'
+            }
           ],
         }
     },

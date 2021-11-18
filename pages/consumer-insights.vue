@@ -573,6 +573,8 @@ export default {
         return {
             title: 'Consumer & Audience Insights',
             meta: [
+                { charset: 'utf-8' },
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
                 {
                     hid: 'consumer',
                     name: 'consumer',
@@ -592,6 +594,14 @@ export default {
                     property: 'og:url',
                     content: 'https://idea-evolver.com/consumer-insights'
                 },
+                {
+                    property: 'og:image',
+                    content: 'https://storage.googleapis.com/idea-evolver.com/images/open_graph.jpg'
+                },
+                {
+                    property: 'og:type',
+                    content: 'website'
+                }
             ],
         }
     },
