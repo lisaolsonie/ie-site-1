@@ -169,10 +169,23 @@ export default {
         return {
             title: 'Idea Evolver: Evolve Responsively',
             meta: [
-              {
-                name: 'Description',
-                content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
-              }
+                {
+                    hid: 'home',
+                    name: 'home',
+                    content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
+                },
+                {
+                    property: 'og:title',
+                    content: 'Idea Evolver: Evolve Responsively'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
+                },
+                {
+                    property: 'og:url',
+                    content: 'https://idea-evolver.com/'
+                },
             ],
         }
     },

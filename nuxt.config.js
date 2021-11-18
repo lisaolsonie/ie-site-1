@@ -16,7 +16,7 @@ export default {
       //   name: 'description',
       //   content: 'Learn more about Idea Evolver, an audience marketing and custom software development company specializing in food, healthcare and biotech.'
       // },
-      // open graph tags
+      // // open graph tags
       // {
       //   property: 'og:title',
       //   content: 'Idea Evolver'

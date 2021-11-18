@@ -90,13 +90,21 @@ export default {
           title: 'Contact Us',
           meta: [
             {
-              hid: 'contact',
-              name: 'contact',
-              content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
+                hid: 'contact',
+                name: 'contact',
+                content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
             },
             {
-              property: 'og:url',
-              content: 'https://idea-evolver.com/contact'
+                property: 'og:title',
+                content: 'Contact Us'
+            },
+            {
+                property: 'og:description',
+                content: 'We are located at 1315 Walnut Street, Suite 932, Philadelphia, PA 19107. Give us a call at 215-420-9053 or shoot us an email at press1for@ideaevolver.com.'
+            },
+            {
+                property: 'og:url',
+                content: 'https://idea-evolver.com/contact'
             },
           ],
         }

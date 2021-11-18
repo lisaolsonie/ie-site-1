@@ -1081,15 +1081,23 @@ export default {
           title: "Custom Software Development",
           meta: [
             {
-              hid: 'software',
-              name: "software",
-              content:
-                "Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
-                software products that are reliable, fast, and intuitive.",
+                hid: 'software',
+                name: 'software',
+                content: 'Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
+                software products that are reliable, fast, and intuitive.'
             },
             {
-              property: 'og:url',
-              content: 'https://idea-evolver.com/custom-software-development'
+                property: 'og:title',
+                content: 'Contact Us'
+            },
+            {
+                property: 'og:description',
+                content: 'Building on our scalable Google Cloud infrastructure platform, we design, develop, and launch\
+                software products that are reliable, fast, and intuitive.'
+            },
+            {
+                property: 'og:url',
+                content: 'https://idea-evolver.com/custom-software-development'
             },
           ],
         }
